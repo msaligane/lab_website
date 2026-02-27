@@ -17,15 +17,16 @@ items:
     link:
       label: "Event page"
       href: "https://www.ssc.p.isct.ac.jp/en/news/2025-12-16-05-48-51/"
-  - title: "AI for Chips and Chips for AI | CEMSE Graduate Seminar"
+  - title: "AI for Chips and Chips for AI Talk at KAUST Future of Semiconductors Forum"
     date: "May 4, 2025"
     category: "Seminar"
     summary: >
-      A graduate seminar at KAUST CEMSE featuring Prof. Mehdi Saligane on the
-      "AI for Chips & Chips for AI" theme. The session covered agentic layout
-      automation, open-source infrastructure, and co-designed accelerators for
-      efficient edge AI.
-    location: "KAUST CEMSE"
+      The KAUST Future of Semiconductors Forum highlighted the "AI for Chips &
+      Chips for AI" theme, focusing on automation and open infrastructure for
+      mixed-signal and AI-accelerator development. A concurrent CEMSE graduate
+      seminar deepened the technical discussion with agentic layout automation
+      and hardware-software co-design for efficient edge AI.
+    location: "KAUST"
     imagesDir: "kaust-seminar"
     link:
       label: "Event page"
