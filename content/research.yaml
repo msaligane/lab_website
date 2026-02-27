@@ -1,0 +1,36 @@
+eyebrow: "Research Areas"
+title: "Exploring the Frontiers of Technology"
+areas:
+  - icon: "Cpu"
+    title: "Edge AI/LLM Systems Co-Design"
+    catchPhrase: "Circuits for AI"
+    description: "Energy-efficient accelerators and HW/SW co-design for edge AI and LLM inference under tight power, latency, and area constraints."
+    tags: ["Accelerators", "Co-Design", "LLM Inference"]
+  - icon: "Sparkles"
+    title: "AI-Powered EDA & Circuit Exploration"
+    catchPhrase: "AI for Circuits"
+    description: "LLM-assisted analog layout and self-exploration methods to discover and optimize novel circuit topologies automatically."
+    tags: ["LLM", "Analog Layout", "GA", "RL"]
+  - icon: "Activity"
+    title: "Biomedical Sensing"
+    catchPhrase: "Signals for Health"
+    description: "Wearable sensors and signal processing for robust biomedical monitoring and diagnostics."
+    tags: ["Biosignals", "Wearables", "DSP", "Health"]
+  - icon: "Dna"
+    title: "Molecular Synthesis, Sensing and Sequencing"
+    catchPhrase: "CMOS for Life Science"
+    description: "CMOS platforms for molecular synthesis, sensing, and sequencing, enabling scalable life-science assays and biointerfaces."
+    tags: ["Bioelectronics", "Biosensor", "Sequencing"]
+  - icon: "CircuitBoard"
+    title: "Quantum & Cryogenic Circuits"
+    catchPhrase: "Cryo-Ready"
+    description: "Cryogenic CMOS quantum error correction (QEC) co-processor for superconducting quantum chips."
+    tags: ["Cryogenic", "Qubit Control", "Readout"]
+  - icon: "Shield"
+    title: "Hardware Security"
+    catchPhrase: "Trust by Design"
+    description: "Root-of-trust, probing detection, and secure hardware design for trustworthy systems."
+    tags: ["RoT", "Probing", "Secure Boot", "PUF"]
+description: >
+  Our research spans multiple domains within electrical and computer engineering, with a focus
+  on practical applications and real-world impact.

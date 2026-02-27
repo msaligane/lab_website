@@ -1,0 +1,44 @@
+eyebrow: "News & Talks"
+title: "Updates from the Lab"
+description: >
+  Follow our latest milestones, awards, and invited talks. We share short updates
+  as soon as results are ready for the community.
+items:
+  - title: "Prof. Mehdi Saligane - Okada Laboratory Talk"
+    date: "Dec 16, 2025"
+    category: "Talk"
+    summary: >
+      Prof. Mehdi Saligane delivered the talk "AI for Chips & Chips for AI" at
+      Okada Laboratory, outlining an open and highly automated paradigm for
+      AI-enhanced chip design and efficient AI accelerators. The talk highlighted
+      open-source EDA workflows and hardware-software co-design to shorten tapeout
+      cycles.
+    location: "Okada Laboratory, Institute of Science Tokyo"
+    link:
+      label: "Event page"
+      href: "https://www.ssc.p.isct.ac.jp/en/news/2025-12-16-05-48-51/"
+  - title: "AI for Chips and Chips for AI | CEMSE Graduate Seminar"
+    date: "May 4, 2025"
+    category: "Seminar"
+    summary: >
+      A graduate seminar at KAUST CEMSE featuring Prof. Mehdi Saligane on the
+      "AI for Chips & Chips for AI" theme. The session covered agentic layout
+      automation, open-source infrastructure, and co-designed accelerators for
+      efficient edge AI.
+    location: "KAUST CEMSE"
+    imagesDir: "kaust-seminar"
+    link:
+      label: "Event page"
+      href: "https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/05/04/ai-chips-and-chips-ai"
+  - title: "Seminar by Dr. Mehdi Saligane - Integrated Systems Engineering Laboratory"
+    date: "Jan 6, 2025"
+    category: "Seminar"
+    summary: >
+      The Integrated Systems Engineering Laboratory at Kyoto University hosted
+      Dr. Mehdi Saligane for a seminar titled "What is Possible with Open Design"
+      (held Dec 27, 2024). The talk discussed open-source design flows and their
+      impact on practical chip development.
+    location: "Kyoto University, Integrated Systems Engineering Laboratory"
+    link:
+      label: "Event page"
+      href: "https://vlsi.cce.i.kyoto-u.ac.jp/archives/1168"

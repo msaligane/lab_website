@@ -1,0 +1,15 @@
+eyebrow: "About Us"
+title: "Pioneering the Future of ReaLLM of ASIC Lab"
+features:
+  - icon: "Target"
+    title: "Our Mission"
+    description: "To advance the frontiers of electrical and computer engineering through innovative research, exceptional education, and meaningful industry collaboration."
+  - icon: "Lightbulb"
+    title: "Our Vision"
+    description: "To be a world-leading research center that shapes the future of intelligent systems, sustainable electronics, and transformative computing technologies."
+  - icon: "Award"
+    title: "Our Impact"
+    description: "Our research has led to breakthrough technologies adopted by industry leaders, numerous patents, and graduates who are shaping the tech landscape globally."
+description: >
+  Established in 2005, the ReaLLM of ASIC Lab has been at the forefront of electrical and
+  computer engineering research, pushing boundaries and training the next generation of innovators.

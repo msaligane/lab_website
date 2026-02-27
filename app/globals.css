@@ -1,0 +1,244 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.26 0.03 60);
+  --card: oklch(0.99 0.015 90);
+  --card-foreground: oklch(0.26 0.03 60);
+  --popover: oklch(0.99 0.015 90);
+  --popover-foreground: oklch(0.26 0.03 60);
+  --primary: oklch(0.74 0.11 80);
+  --primary-foreground: oklch(0.18 0.02 60);
+  --secondary: oklch(0.94 0.025 90);
+  --secondary-foreground: oklch(0.32 0.03 60);
+  --muted: oklch(0.93 0.02 85);
+  --muted-foreground: oklch(0.48 0.03 70);
+  --accent: oklch(0.42 0.06 60);
+  --accent-foreground: oklch(0.98 0.01 90);
+  --destructive: oklch(0.6 0.2 30);
+  --destructive-foreground: oklch(0.98 0.01 90);
+  --border: oklch(0.88 0.02 85);
+  --input: oklch(0.92 0.02 85);
+  --ring: oklch(0.74 0.11 80);
+  --chart-1: oklch(0.72 0.14 180);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.96 0.02 90);
+  --sidebar-foreground: oklch(0.26 0.03 60);
+  --sidebar-primary: oklch(0.74 0.11 80);
+  --sidebar-primary-foreground: oklch(0.18 0.02 60);
+  --sidebar-accent: oklch(0.92 0.02 85);
+  --sidebar-accent-foreground: oklch(0.26 0.03 60);
+  --sidebar-border: oklch(0.88 0.02 85);
+  --sidebar-ring: oklch(0.74 0.11 80);
+}
+
+.dark {
+  --background: oklch(0.18 0.02 70);
+  --foreground: oklch(0.92 0.02 90);
+  --card: oklch(0.22 0.02 70);
+  --card-foreground: oklch(0.92 0.02 90);
+  --popover: oklch(0.22 0.02 70);
+  --popover-foreground: oklch(0.92 0.02 90);
+  --primary: oklch(0.76 0.1 80);
+  --primary-foreground: oklch(0.18 0.02 60);
+  --secondary: oklch(0.28 0.02 70);
+  --secondary-foreground: oklch(0.9 0.02 90);
+  --muted: oklch(0.28 0.02 70);
+  --muted-foreground: oklch(0.7 0.02 80);
+  --accent: oklch(0.5 0.08 65);
+  --accent-foreground: oklch(0.96 0.02 90);
+  --destructive: oklch(0.5 0.18 30);
+  --destructive-foreground: oklch(0.96 0.02 90);
+  --border: oklch(0.34 0.02 70);
+  --input: oklch(0.3 0.02 70);
+  --ring: oklch(0.76 0.1 80);
+  --chart-1: oklch(0.76 0.1 80);
+  --chart-2: oklch(0.7 0.08 85);
+  --chart-3: oklch(0.6 0.06 70);
+  --chart-4: oklch(0.82 0.12 95);
+  --chart-5: oklch(0.7 0.1 60);
+  --sidebar: oklch(0.2 0.02 70);
+  --sidebar-foreground: oklch(0.92 0.02 90);
+  --sidebar-primary: oklch(0.76 0.1 80);
+  --sidebar-primary-foreground: oklch(0.18 0.02 60);
+  --sidebar-accent: oklch(0.3 0.02 70);
+  --sidebar-accent-foreground: oklch(0.92 0.02 90);
+  --sidebar-border: oklch(0.34 0.02 70);
+  --sidebar-ring: oklch(0.76 0.1 80);
+}
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes gds-float {
+  0% {
+    transform: translate3d(0, 10px, 0) scale(0.98);
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.7;
+  }
+  50% {
+    transform: translate3d(0, -10px, 0) scale(1);
+    opacity: 0.95;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate3d(0, 10px, 0) scale(0.98);
+    opacity: 0.2;
+  }
+}
+
+.gds-float {
+  animation: gds-float 12s ease-in-out infinite;
+}
+
+.gds-float-delayed {
+  animation: gds-float 14s ease-in-out infinite;
+  animation-delay: -4s;
+}
+
+@keyframes gds-hero-fade {
+  0% {
+    opacity: 0.05;
+    transform: translate3d(0, 12px, 0) scale(0.98);
+  }
+  35% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.55;
+    transform: translate3d(0, -8px, 0) scale(1.02);
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.05;
+    transform: translate3d(0, 12px, 0) scale(0.98);
+  }
+}
+
+.gds-hero {
+  animation: gds-hero-fade 16s ease-in-out infinite;
+}
+
+.gds-hero-delayed {
+  animation: gds-hero-fade 18s ease-in-out infinite;
+  animation-delay: -6s;
+}
+
+@keyframes gds-hero-rise {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0) scale(0.75);
+  }
+  40% {
+    opacity: 0.35;
+    transform: translate3d(0, 2px, 0) scale(0.98);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translate3d(0, -8px, 0) scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -18px, 0) scale(1.12);
+  }
+}
+
+.gds-hero-layer {
+  animation: gds-hero-rise 20s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 240ms;
+  animation-timing-function: ease-out;
+}
+
+::view-transition-old(root) {
+  animation-name: fade-out;
+}
+
+::view-transition-new(root) {
+  animation-name: fade-in;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
