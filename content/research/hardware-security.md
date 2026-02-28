@@ -1,4 +1,4 @@
-## Open Socure Root of Trust System Hardware [1]
+## Open Socure Root of Trust System Hardware [[1]](#ref-1)
 
 Open Se Cura is built upon an open-source HRoT project called OpenTitan, and it offers several key_contributions:
 
@@ -10,6 +10,7 @@ Open Se Cura is built upon an open-source HRoT project called OpenTitan, and it 
 
 (a) Top view of OpenFASOC-generated Temperature Sensors array integrated with OpenTitan IPs (b) Testing Setup of the initial HRoT implementation.
 
+<a id="ref-1"></a>
 [1] G. Tao et al., "Open Se Cura: First silicon results of an auditable and transparent hardware root-of-trust system using open electronic design automation in 16 nm," in IEEE Solid-State Circuits Magazine, vol. 16, no. 2, pp. 58-66, Spring 2024, doi: 10.1109/MSSC.2024.3382071.
 
 
