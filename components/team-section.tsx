@@ -48,6 +48,13 @@ export function TeamSection({ content }: TeamSectionProps) {
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-6">
+          <div>
+            <img
+              src="/images/team/group_photo.png"
+              alt="Lab group photo"
+              className="w-[80%] mx-auto rounded-xl object-cover"
+            />
+          </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card className="group transition-all hover:border-primary/50 bg-card">
               <CardHeader className="text-center">
