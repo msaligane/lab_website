@@ -1,3 +1,5 @@
+<img src="/images/news/okada_talk.jpg" alt="Alt text" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
+
 This visit to the Okada Laboratory focused on the theme "AI for Chips and Chips for AI." The talk highlighted how open-source EDA and co-design practices can shorten tapeout cycles while enabling new AI-accelerated systems.
 
 Beyond the main lecture, we discussed how labs and industry partners can share reusable infrastructure to accelerate research translation. The conversation covered reproducible flows, data-driven layout, and how to bring agentic automation into practical chip design.

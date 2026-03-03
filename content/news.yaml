@@ -4,6 +4,18 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "IEEE SSCS Directions Series Workshop: Think & Impact with ICs"
+    date: "Sept 22, 2025"
+    category: "Workshop"
+    summary: >
+      Prof. Mehdi Saligane co-chaired the SSCS Directions Series workshop
+      "Think & Impact with ICs: From Words to Circuits - Agentic AI, Foundation
+      Models, and Open EDA" and presented on open, automated design flows for
+      efficient AI-centric systems.
+    location: "IEEE SSCS Directions Series"
+    link:
+      label: "Event page"
+      href: "https://sscs.ieee.org/event/ieee-solid-state-circuits-directions-series-think-impact-with-ics-from-words-to-circuits-agentic-ai-foundation-models-and-open-eda-workshop/"
   - title: "Prof. Mehdi Saligane - Okada Laboratory Talk"
     date: "Dec 16, 2025"
     category: "Talk"
