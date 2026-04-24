@@ -4,6 +4,34 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "Invited Talk at Latch-Up 2026"
+    date: "May 1, 2026"
+    category: "Invited Talk"
+    summary: >
+      Prof. Mehdi Saligane is invited to give a talk at Latch-Up 2026
+      (May 1-3, 2026), the FOSSi Foundation's weekend conference dedicated
+      to advancing free and open-source silicon. The event gathers the
+      open-source digital design community for presentations and networking
+      on topics spanning open EDA tools, verification frameworks, fabrication
+      access, and AI-assisted design workflows.
+    location: "Pearl Sullivan Engineering Building, University of Waterloo"
+    link:
+      label: "Event page"
+      href: "https://fossi-foundation.org/latch-up/2026"
+  - title: "IEEE SSCS Distinguished Lecture at University of Waterloo: Rethinking Chip Design in the Age of AI"
+    date: "Apr 30, 2026"
+    category: "Distinguished Lecture"
+    summary: >
+      The IEEE Solid-State Circuits Society K-W Section and the University of
+      Waterloo host Prof. Mehdi Saligane for a distinguished lecture on
+      "Rethinking Chip Design in the Age of AI." The talk covers Agentic-RL
+      gLayout for automated analog layout generation and a hardware-software
+      co-design stack for efficient edge AI inference that minimizes latency
+      and power consumption.
+    location: "University of Waterloo"
+    link:
+      label: "Event page"
+      href: "https://uwaterloo.ca/electrical-computer-engineering/events/ieee-solid-state-circuits-society-k-w-section-and-uwaterloo-0"
   - title: "IEEE SSCS Directions Series Workshop: Think & Impact with ICs"
     date: "Sept 22, 2025"
     category: "Workshop"

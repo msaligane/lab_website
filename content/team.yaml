@@ -69,6 +69,13 @@ groups:
         initials: "MC"
         email: "mingxin_chu@brown.edu"
         linkedin: "#"
+      - name: "Hua Xu"
+        role: "Master Student"
+        specialty: "AI for EDA"
+        image: ""
+        initials: "HX"
+        email: "erin_hua@umich.edu"
+        linkedin: "#"
   - title: "Visiting Scholars"
     members:
       - name: "Juan Sebastian Moya"
