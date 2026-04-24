@@ -4,6 +4,21 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "SSCS PICO Open-Source Chipathon 2026 Announced"
+    date: "May 1, 2026"
+    category: "Announcement"
+    summary: >
+      The IEEE Solid-State Circuits Society has announced the 2026 SSCS "PICO"
+      Open-Source Chipathon, with sign-ups and kickoff on May 1, 2026 and tapeout
+      submissions due September 2026. Teams worldwide design open-source ICs on
+      the GF180MCUD PDK across four tracks: foundational building blocks, sensor
+      circuits, MOSbius learning chips, and AI/LLM-assisted design. Prof. Mehdi
+      Saligane leads the AI/LLM-assisted Circuits track and serves on the
+      Tooling and Reference Flow Committee.
+    location: "IEEE SSCS"
+    link:
+      label: "Announcement"
+      href: "https://sscs.ieee.org/technical-committees/tc-ose/sscs-pico-design-contest/"
   - title: "Invited Talk at Latch-Up 2026"
     date: "May 1, 2026"
     category: "Invited Talk"
