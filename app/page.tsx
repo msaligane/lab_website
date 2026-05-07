@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { ResearchSection } from "@/components/research-section"
 import { TapeoutsSection } from "@/components/tapeouts-section"
+import { InTheNewsSection } from "@/components/in-the-news-section"
 import { Footer } from "@/components/footer"
 import { getPageContent } from "@/lib/content"
 
@@ -14,6 +15,7 @@ export default async function Home() {
       <HeroSection content={content.hero} />
       <ResearchSection content={content.research} />
       <TapeoutsSection />
+      <InTheNewsSection content={content.news} />
       <Footer content={content.footer.data} />
     </main>
   )
