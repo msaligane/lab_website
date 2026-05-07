@@ -14,18 +14,15 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
     .slice(0, 3)
 
   return (
-    <section id="in-the-news" className="py-24">
+    <section id="in-the-news" className="pt-4 pb-12">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
             In the News
-          </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
-            Latest Updates
           </h2>
         </div>
 
-        <ul className="mt-12 mx-auto max-w-3xl space-y-4">
+        <ul className="mt-8 mx-auto max-w-3xl space-y-3">
           {recentItems.map((item) => (
             <li
               key={`${item.title}-${item.date}`}
@@ -44,7 +41,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
           ))}
         </ul>
 
-        <div className="mt-10 flex justify-center">
+        <div className="mt-8 flex justify-center">
           <Link
             href="/news"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
