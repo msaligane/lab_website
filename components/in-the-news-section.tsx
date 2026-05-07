@@ -14,7 +14,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
     .slice(0, 3)
 
   return (
-    <section id="in-the-news" className="py-24 bg-secondary/20">
+    <section id="in-the-news" className="py-24">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-primary">
@@ -25,31 +25,26 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
           </h2>
         </div>
 
-        <ul className="mt-12 divide-y divide-border rounded-2xl border border-border bg-card/60">
+        <ul className="mt-12 mx-auto max-w-3xl space-y-4">
           {recentItems.map((item) => (
-            <li key={`${item.title}-${item.date}`} className="px-6 py-6 sm:px-8">
-              <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-wide text-muted-foreground">
-                <time className="font-semibold text-foreground/80">{item.date}</time>
-                <span className="inline-flex items-center rounded-full bg-primary/10 px-2 py-1 text-[11px] font-semibold text-primary">
-                  {item.category}
-                </span>
-              </div>
-              <h3 className="mt-3 text-lg font-semibold text-foreground sm:text-xl">
-                <Link
-                  href={`/news/${slugify(item.title)}`}
-                  className="transition-colors hover:text-primary"
-                >
-                  {item.title}
-                </Link>
-              </h3>
-              <p className="mt-3 text-base text-muted-foreground leading-relaxed">
-                {item.summary}
-              </p>
+            <li
+              key={`${item.title}-${item.date}`}
+              className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4"
+            >
+              <time className="shrink-0 text-sm font-semibold text-muted-foreground sm:w-32">
+                {item.date}
+              </time>
+              <Link
+                href={`/news/${slugify(item.title)}`}
+                className="text-base font-medium text-foreground transition-colors hover:text-primary sm:text-lg"
+              >
+                {item.title}
+              </Link>
             </li>
           ))}
         </ul>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-10 flex justify-center">
           <Link
             href="/news"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"

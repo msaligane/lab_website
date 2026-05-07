@@ -13,9 +13,9 @@ export default async function Home() {
     <main className="min-h-screen bg-background">
       <Header content={content.header.data} />
       <HeroSection content={content.hero} />
+      <InTheNewsSection content={content.news} />
       <ResearchSection content={content.research} />
       <TapeoutsSection />
-      <InTheNewsSection content={content.news} />
       <Footer content={content.footer.data} />
     </main>
   )
