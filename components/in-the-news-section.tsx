@@ -14,7 +14,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
     .slice(0, 3)
 
   return (
-    <section id="in-the-news" className="pt-4 pb-12">
+    <section id="in-the-news" className="pt-16 pb-16">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
