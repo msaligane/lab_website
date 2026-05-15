@@ -76,6 +76,14 @@ groups:
         initials: "HX"
         email: "erin_hua@umich.edu"
         linkedin: "#"
+  - title: "Postdoctoral Researchers"
+    members:
+      - name: "Quan Cheng"
+        role: "Postdoctoral Researcher"
+        specialty: "Trustworthy intelligent chip design, AI accelerator, SoCs for space computing, radiation-hardened systems, and CMOS sensor-based architectures"
+        image: ""
+        initials: "QC"
+        email: "quan_cheng1@brown.edu"
   - title: "Visiting Scholars"
     members:
       - name: "Juan Sebastian Moya"
