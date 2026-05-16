@@ -4,6 +4,20 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "Invited Talk at Apple"
+    date: "May 15, 2026"
+    category: "Invited Talk"
+    summary: >
+      Prof. Mehdi Saligane gave an invited talk at Apple on open, AI-driven
+      chip design. Thanks to Bharan Giridhar for hosting.
+    location: "Apple"
+  - title: "Invited Talk at Analog Devices"
+    date: "May 15, 2026"
+    category: "Invited Talk"
+    summary: >
+      Prof. Mehdi Saligane gave an invited talk at Analog Devices (ADI) on
+      open, AI-driven chip design. Thanks to Ash Aldujaili for hosting.
+    location: "Analog Devices (ADI)"
   - title: "SSCS PICO Open-Source Chipathon 2026 Announced"
     date: "May 1, 2026"
     category: "Announcement"
