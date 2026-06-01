@@ -4,19 +4,43 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Invited Talk at Apple"
+  - title: "Presented a paper at ISCAS 2026"
+    date: "May 25, 2026"
+    category: "Conference"
+    summary: >
+      Excited to present our paper "Toward Generative Silicon: The Next
+      Frontier in Open-Source and AI-Driven Analog Design" at ISCAS 2026 in
+      Shanghai. Great discussions with the community on where generative
+      analog design is heading next!
+    location: "ISCAS 2026, Shanghai, China"
+  - title: "Delighted to give a talk at CEA LETI"
+    date: "May 23, 2026"
+    category: "Invited Talk"
+    summary: >
+      Delighted to give a talk at CEA LETI on AI-driven chip design, and to
+      meet such a talented team. Big thanks to the hosts for the warm welcome!
+    location: "CEA LETI, Grenoble, France"
+  - title: "Honored to speak at the XIII Front-End Electronics Workshop in Paris"
+    date: "May 20, 2026"
+    category: "Invited Talk"
+    summary: >
+      Honored to give a talk at the XIII Front-End Electronics Workshop in
+      Paris, France, on AI-driven chip design. Many thanks to the organizers
+      for the kind invitation and host!
+    location: "Paris, France"
+  - title: "Excited to give a webinar at Apple"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
-      Prof. Mehdi Saligane gave an invited talk at Apple on open, AI-driven
-      chip design. Thanks to Bharan Giridhar for hosting.
+      Excited to give a webinar at Apple, sharing the latest from our work on
+      AI-driven chip design.
+      Huge thanks to Bharan Giridhar for the kind invitation and warm hosting!
     location: "Apple"
-  - title: "Invited Talk at Analog Devices"
+  - title: "Thrilled to give a webinar at Analog Devices"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
-      Prof. Mehdi Saligane gave an invited talk at Analog Devices (ADI) on
-      open, AI-driven chip design. Thanks to Ash Aldujaili for hosting.
+      Thrilled to give a webinar at Analog Devices (ADI) on AI-driven chip design. Big thanks to Ash Aldujaili for hosting!
     location: "Analog Devices (ADI)"
   - title: "SSCS PICO Open-Source Chipathon 2026 Announced"
     date: "May 1, 2026"
