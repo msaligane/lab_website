@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Button } from "@/components/ui/button"
@@ -14,6 +15,29 @@ export async function generateStaticParams() {
 
 type NewsDetailPageProps = {
   params: Promise<{ slug: string }>
+}
+
+export async function generateMetadata({
+  params,
+}: NewsDetailPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const detail = await getNewsDetail(slug)
+  if (!detail) return {}
+  const { item } = detail
+  const description =
+    item.summary?.replace(/\s+/g, " ").trim().slice(0, 200) ??
+    `${item.title} — Prof. Mehdi Saligane, ReaLLMASIC Lab.`
+  return {
+    title: item.title,
+    description,
+    alternates: { canonical: `/news/${slug}` },
+    openGraph: {
+      type: "article",
+      title: item.title,
+      description,
+      url: `/news/${slug}`,
+    },
+  }
 }
 
 export default async function NewsDetailPage({ params }: NewsDetailPageProps) {

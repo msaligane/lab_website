@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Badge } from "@/components/ui/badge"
@@ -14,6 +15,29 @@ export async function generateStaticParams() {
 
 type ResearchDetailPageProps = {
   params: Promise<{ slug: string }>
+}
+
+export async function generateMetadata({
+  params,
+}: ResearchDetailPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const detail = await getResearchDetail(slug)
+  if (!detail) return {}
+  const { area } = detail
+  const description =
+    area.description?.replace(/\s+/g, " ").trim().slice(0, 200) ??
+    `${area.title} — research from the ReaLLMASIC Lab.`
+  return {
+    title: area.title,
+    description,
+    alternates: { canonical: `/research/${slug}` },
+    openGraph: {
+      type: "article",
+      title: area.title,
+      description,
+      url: `/research/${slug}`,
+    },
+  }
 }
 
 export default async function ResearchDetailPage({ params }: ResearchDetailPageProps) {

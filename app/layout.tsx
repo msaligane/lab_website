@@ -8,10 +8,55 @@ import { ThemeProvider } from '@/components/theme-provider'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://reallmasic.com'
+
+const siteDescription =
+  'ReaLLMASIC Lab, led by Prof. Mehdi Saligane at Brown University, advances open-source and AI-driven chip design — agentic analog layout (GLayout), efficient AI accelerators, and open EDA flows (OpenROAD, OpenFASOC).'
+
 export const metadata: Metadata = {
-  title: 'ReaLLMASIC_Lab',
-  description: 'Cutting-edge research in electrical and computer engineering. Explore our research areas, team, publications, and news & talks.',
-  generator: 'v0.app',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'ReaLLMASIC Lab — Prof. Mehdi Saligane (Brown University)',
+    template: '%s · ReaLLMASIC Lab — Prof. Mehdi Saligane',
+  },
+  description: siteDescription,
+  applicationName: 'ReaLLMASIC Lab',
+  keywords: [
+    'Mehdi Saligane',
+    'ReaLLMASIC',
+    'ReaLLMASIC Lab',
+    'Brown University',
+    'open-source silicon',
+    'analog layout automation',
+    'GLayout',
+    'OpenROAD',
+    'OpenFASOC',
+    'AI accelerator',
+    'edge AI',
+    'chip design',
+    'EDA',
+  ],
+  authors: [
+    { name: 'Mehdi Saligane', url: 'https://vivo.brown.edu/display/msaligan' },
+  ],
+  creator: 'Mehdi Saligane',
+  publisher: 'ReaLLMASIC Lab',
+  alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    url: siteUrl,
+    siteName: 'ReaLLMASIC Lab',
+    title: 'ReaLLMASIC Lab — Prof. Mehdi Saligane (Brown University)',
+    description: siteDescription,
+    images: ['/reallmasic_icon.png'],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'ReaLLMASIC Lab — Prof. Mehdi Saligane (Brown University)',
+    description: siteDescription,
+    images: ['/reallmasic_icon.png'],
+  },
+  robots: { index: true, follow: true },
   icons: {
     icon: '/reallmasic_icon.png',
     apple: '/reallmasic_icon.png',

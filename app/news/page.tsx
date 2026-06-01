@@ -1,7 +1,21 @@
+import type { Metadata } from "next"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { NewsSection } from "@/components/news-section"
 import { getPageContent } from "@/lib/content"
+
+export const metadata: Metadata = {
+  title: "News & Talks — Prof. Mehdi Saligane",
+  description:
+    "Latest talks, invited lectures, and milestones from Prof. Mehdi Saligane and the ReaLLMASIC Lab at Brown University.",
+  alternates: { canonical: "/news" },
+  openGraph: {
+    title: "News & Talks — Prof. Mehdi Saligane",
+    description:
+      "Latest talks and milestones from Prof. Mehdi Saligane and the ReaLLMASIC Lab.",
+    url: "/news",
+  },
+}
 
 export default async function NewsPage() {
   const content = await getPageContent()
