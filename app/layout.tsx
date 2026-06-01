@@ -8,7 +8,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://saliganelab.com'
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.saliganelab.com'
 
 const siteDescription =
   'ReaLLMASIC Lab, led by Prof. Mehdi Saligane at Brown University, advances open-source and AI-driven chip design — agentic analog layout (GLayout), efficient AI accelerators, and open EDA flows (OpenROAD, OpenFASOC).'
