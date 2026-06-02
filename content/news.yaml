@@ -4,21 +4,21 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Presented a paper at ISCAS 2026"
+  - title: "Check out our work at ISCAS 2026: Toward Generative Silicon"
     date: "May 25, 2026"
     category: "Conference"
     summary: >
-      Excited to present our paper "Toward Generative Silicon: The Next
-      Frontier in Open-Source and AI-Driven Analog Design" at ISCAS 2026 in
-      Shanghai. Great discussions with the community on where generative
-      analog design is heading next!
+      Check out our work at ISCAS 2026 in Shanghai - "Toward Generative
+      Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."
+      Great discussions with the community on where generative analog design
+      is heading next!
     location: "ISCAS 2026, Shanghai, China"
-  - title: "Delighted to give a talk at CEA LETI"
+  - title: "Very interactive session at CEA LETI"
     date: "May 23, 2026"
     category: "Invited Talk"
     summary: >
-      Delighted to give a talk at CEA LETI on AI-driven chip design, and to
-      meet such a talented team. Big thanks to the hosts for the warm welcome!
+      Very interactive session and presentation at CEA LETI. Thanks Youcef
+      for hosting me!
     location: "CEA LETI, Grenoble, France"
   - title: "Honored to speak at the XIII Front-End Electronics Workshop in Paris"
     date: "May 20, 2026"
