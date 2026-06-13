@@ -4,6 +4,16 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "Honored to be selected for AWS Build on Trainium"
+    date: "Jun 13, 2026"
+    category: "Research Award"
+    summary: >
+      Thrilled to be part of AWS's Build on Trainium program! Our project
+      "Onboarding and Optimizing Google Gemma on Trainium" has been supported
+      with a $360,000 AWS Credits gift to push open-source LLM optimization
+      on AWS Trainium. Huge thanks to the AWS team for the partnership and
+      the trust!
+    location: "AWS Build on Trainium"
   - title: 'Check out our work at ISCAS 2026: "Toward Generative Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."'
     date: "May 25, 2026"
     category: "Conference"
