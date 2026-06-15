@@ -4,12 +4,13 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Thanks AWS for supporting our Build on Trainium research"
+  - title: "Thanks AWS for the $360K cloud credit supporting our Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
     summary: >
-      Thanks to AWS for supporting our project "Onboarding and Optimizing
-      Google Gemma on Trainium" through the Build on Trainium program.
+      Thanks to AWS for the generous $360K cloud credit supporting our
+      Build on Trainium research project "Onboarding and Optimizing Google
+      Gemma on Trainium."
     location: "AWS Build on Trainium"
   - title: 'Check out our work at ISCAS 2026: "Toward Generative Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."'
     date: "May 25, 2026"
