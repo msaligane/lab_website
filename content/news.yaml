@@ -4,11 +4,11 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Thanks AWS for the $360K cloud credit supporting our Build on Trainium research"
+  - title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
     summary: >
-      Thanks to AWS for the generous $360K cloud credit supporting our
+      Thanks to AWS for the generous $360K cloud credit supporting the
       Build on Trainium research project "Onboarding and Optimizing Google
       Gemma on Trainium."
     location: "AWS Build on Trainium"
