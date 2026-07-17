@@ -4,6 +4,19 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI"
+    date: "Jul 13, 2026"
+    category: "Distinguished Lecture"
+    summary: >
+      Prof. Mehdi Saligane delivered the IEEE SSCS distinguished lecture
+      "Rethinking Chip Design in the Age of AI" at KAIST, exploring how AI is
+      reshaping chip design from two complementary directions: using AI to
+      automate and improve chip design, and building specialized chips that make
+      AI dramatically more efficient. The talk presented Agentic-RL gLayout for
+      analog layout generation and a hardware-software co-design stack for
+      efficient edge AI inference.
+    location: "KAIST, Daejeon, South Korea"
+    imagesDir: "kaist-dl-2026"
   - title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
