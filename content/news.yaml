@@ -17,6 +17,22 @@ items:
       efficient edge AI inference.
     location: "KAIST, Daejeon, South Korea"
     imagesDir: "kaist-dl-2026"
+  - title: "Xinting Jiang heads to Google as a Student Researcher"
+    date: "Jun 15, 2026"
+    category: "Internship"
+    summary: >
+      Congratulations to Xinting Jiang, who is joining Google as a Student
+      Researcher this summer! We can't wait to see the ideas Xinting brings back
+      to the lab. Go make some magic happen!
+    location: "Google"
+  - title: "Minxing Chu lands a summer internship at Analog Devices"
+    date: "Jun 15, 2026"
+    category: "Internship"
+    summary: >
+      Warm congratulations to Minxing Chu on joining Analog Devices (ADI) for a
+      summer internship! A fantastic opportunity to build cool computing systems
+      in industry - go get 'em, Minxing!
+    location: "Analog Devices (ADI)"
   - title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
