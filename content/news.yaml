@@ -4,7 +4,8 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI"
+  - title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI. Thanks to Prof. Wanyeong Jung and his students for hosting and for the wonderful discussions on AI for chip
+      design!"
     date: "Jul 13, 2026"
     category: "Distinguished Lecture"
     summary: >
@@ -14,7 +15,9 @@ items:
       automate and improve chip design, and building specialized chips that make
       AI dramatically more efficient. The talk presented Agentic-RL gLayout for
       analog layout generation and a hardware-software co-design stack for
-      efficient edge AI inference.
+      efficient edge AI inference. Many thanks to Prof. Wanyeong Jung and his
+      students for hosting and for the wonderful discussions on AI for chip
+      design!
     location: "KAIST, Daejeon, South Korea"
     imagesDir: "kaist-dl-2026"
   - title: "Congratulations to Xinting Jiang, who is joining Google Research as a Student Researcher!"

@@ -5,3 +5,5 @@ AI is changing not only the applications we build, but also the way we design th
 On the design side, we present **Agentic-RL gLayout**, a reinforcement-learning framework for analog layout generation that replaces manual heuristics with goal-driven planning and self-correction. Built on open-source tools such as OpenROAD, gLayout, and OpenFASOC, it enables cleaner, more compact, and rule-compliant layouts with far less manual effort. On the architecture side, we present a **hardware-software co-design stack for efficient edge AI**, reducing latency and energy in LLM inference. By co-optimizing models, precision, and accelerator design, this approach supports fast, privacy-preserving inference under tight power constraints.
 
 Taken together, these efforts illustrate a broader shift toward open, AI-enabled chip design flows and domain-specific AI hardware. The result is a faster, more automated, and more accessible path to silicon in the age of AI.
+
+Many thanks to Prof. Wanyeong Jung and his students for hosting and for sharing their research thoughts on AI for chip design.
