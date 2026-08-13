@@ -12,6 +12,19 @@ items:
       mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many thanks to
       Prof. Vishal Saxena for hosting the session!
     location: "MWSCAS 2026, Cincinnati, OH, USA"
+  - title: "Ruichen Qi presents digest at TMRC 2026"
+    date: "Aug 5, 2026"
+    category: "Conference"
+    summary: >
+      Ruichen Qi presented the digest "An AI-Driven Co-Design Framework for CMOS
+      and Emerging Memory Devices" at the 37th Magnetic Recording Conference
+      (TMRC 2026) at UC San Diego. The presentation was well received by the
+      community, sparking great discussions on AI-driven co-design for emerging
+      memory devices.
+    location: "TMRC 2026, UC San Diego, CA, USA"
+    link:
+      label: "Conference"
+      href: "https://tmrc2026.ucsd.edu/"
   - title: "Junyi Luo releases new preprint on efficient low-bit LLM inference"
     date: "Aug 4, 2026"
     category: "Preprint"
