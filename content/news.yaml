@@ -4,6 +4,36 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "Talk on AI-Assisted AMS Design at MWSCAS 2026"
+    date: "Aug 11, 2026"
+    category: "Conference"
+    summary: >
+      Prof. Mehdi Saligane gave a well-received talk on AI-assisted analog and
+      mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many thanks to
+      Prof. Vishal Saxena for hosting the session!
+    location: "MWSCAS 2026, Cincinnati, OH, USA"
+  - title: "Junyi Luo releases new preprint on efficient low-bit LLM inference"
+    date: "Aug 4, 2026"
+    category: "Preprint"
+    summary: >
+      Junyi Luo released a new preprint, "Heterogeneity-Aware Microscaling for
+      Efficient Low-Bit LLM Inference." Congratulations, Junyi, and the whole
+      team on the release!
+    link:
+      label: "Paper (arXiv)"
+      href: "https://arxiv.org/abs/2608.03867"
+  - title: "Guanchen Tao presents CryoZip at DAC 2026"
+    date: "Jul 28, 2026"
+    category: "Conference"
+    summary: >
+      Guanchen Tao presented his work, CryoZip, at the 63rd Design Automation
+      Conference (DAC 2026) in Long Beach. Congratulations, Guanchen, on sharing
+      the work with the community!
+    location: "DAC 2026, Long Beach, CA, USA"
+    imagesDir: "dac-2026-cryozip"
+    link:
+      label: "Paper (arXiv)"
+      href: "https://arxiv.org/abs/2606.30805"
   - title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI. Thanks to Prof. Wanyeong Jung and his students for hosting and for the wonderful discussions on AI for chip
       design!"
     date: "Jul 13, 2026"
