@@ -4,13 +4,13 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Talk on AI-Assisted AMS Design at MWSCAS 2026"
+  - title: "Tutorial on AI-Assisted AMS Design at MWSCAS 2026. Thanks to Prof. Vishal Saxena for hosting the session!"
     date: "Aug 11, 2026"
     category: "Conference"
     summary: >
-      Prof. Mehdi Saligane gave a well-received talk on AI-assisted analog and
-      mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many thanks to
-      Prof. Vishal Saxena for hosting the session!
+      Prof. Mehdi Saligane delivered a well-received tutorial on AI-assisted
+      analog and mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many
+      thanks to Prof. Vishal Saxena for hosting the session!
     location: "MWSCAS 2026, Cincinnati, OH, USA"
   - title: "Ruichen Qi presents digest at TMRC 2026"
     date: "Aug 5, 2026"
@@ -22,6 +22,7 @@ items:
       community, sparking great discussions on AI-driven co-design for emerging
       memory devices.
     location: "TMRC 2026, UC San Diego, CA, USA"
+    imagesDir: "tmrc-2026-ruichen"
     link:
       label: "Conference"
       href: "https://tmrc2026.ucsd.edu/"
