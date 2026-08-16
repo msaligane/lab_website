@@ -26,16 +26,6 @@ items:
     link:
       label: "Conference"
       href: "https://tmrc2026.ucsd.edu/"
-  - title: "Junyi Luo releases new preprint on efficient low-bit LLM inference"
-    date: "Aug 4, 2026"
-    category: "Preprint"
-    summary: >
-      Junyi Luo released a new preprint, "Heterogeneity-Aware Microscaling for
-      Efficient Low-Bit LLM Inference." Congratulations, Junyi, and the whole
-      team on the release!
-    link:
-      label: "Paper (arXiv)"
-      href: "https://arxiv.org/abs/2608.03867"
   - title: "Guanchen Tao presents CryoZip at DAC 2026"
     date: "Jul 28, 2026"
     category: "Conference"
