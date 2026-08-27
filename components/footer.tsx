@@ -22,7 +22,7 @@ export function Footer({ content }: FooterProps) {
             {content.logoPath ? (
               <img
                 src={content.logoPath}
-                alt="ReaLLMASIC Lab logo"
+                alt="ReaLLM of ASIC Lab logo"
                 className="h-12 w-auto object-contain"
               />
             ) : null}

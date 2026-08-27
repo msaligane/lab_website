@@ -2,11 +2,11 @@
 
 ### Background
 
-<img src="/images/research/quantum/background.png" alt="Cryogenic control and readout stack for quantum computing" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
+<img src="/images/research/quantum/background.png" alt="Alt text" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
 ### Cryo-CMOS QEC Pre-Decoding
 
-<img src="/images/research/quantum/pre_decoding.png" alt="Cryogenic CMOS pre-decoding flow for quantum error correction" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
+<img src="/images/research/quantum/pre_decoding.png" alt="Alt text" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
 <a id="ref-1"></a>
 [1] G. Tao et al., "CryoZip: An Efficient Cryogenic Compressor for Quantum Error Correction Syndromes", in Proceedings of the 62nd Annual ACM/IEEE Design Automation Conference (DAC) 2026.

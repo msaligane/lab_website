@@ -116,7 +116,6 @@ export type ContactContent = {
   eyebrow: string
   title: string
   description: string
-  recipientEmail: string
   formTitle: string
   formDescription: string
   labels: {
@@ -154,15 +153,13 @@ export type SectionContent<T> = {
 
 const contentDir = path.join(process.cwd(), "content")
 
-async function readYaml<T extends object>(
+async function readYaml<T extends { description?: string }>(
   slug: string,
 ): Promise<SectionContent<T>> {
   const filePath = path.join(contentDir, `${slug}.yaml`)
   const raw = await fs.readFile(filePath, "utf8")
   const data = YAML.parse(raw) as T
-  const descriptionValue = (data as { description?: unknown }).description
-  const description =
-    typeof descriptionValue === "string" ? descriptionValue.trim() : ""
+  const description = data.description?.trim() ?? ""
   const html = description ? await marked.parse(description) : ""
   return { data, html }
 }

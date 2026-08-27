@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { ChevronDown, Menu, Moon, Sun, X } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
@@ -13,14 +13,21 @@ type HeaderProps = {
 
 export function Header({ content }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const { resolvedTheme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+  const { theme, resolvedTheme, setTheme } = useTheme()
   const showAccent = content.brand.includes(content.brandAccent)
   const brandRemainder = showAccent
     ? content.brand.replace(content.brandAccent, "").trim()
     : content.brand
-  const isDark = resolvedTheme === "dark"
+  const isDark =
+    mounted && (theme === "dark" || (theme === "system" && resolvedTheme === "dark"))
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const toggleTheme = () => {
+    if (!mounted) return
     setTheme(isDark ? "light" : "dark")
   }
 
@@ -31,7 +38,7 @@ export function Header({ content }: HeaderProps) {
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <img
               src="/images/lab_logo.png"
-              alt="ReaLLMASIC Lab logo"
+              alt="ReaLLM of ASIC Lab logo"
               className="h-10 w-auto"
             />
             <span className="text-xl font-bold tracking-tight text-foreground">
@@ -51,8 +58,6 @@ export function Header({ content }: HeaderProps) {
             variant="ghost"
             size="icon"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-expanded={mobileMenuOpen}
-            aria-controls="mobile-navigation"
           >
             <span className="sr-only">Open main menu</span>
             {mobileMenuOpen ? (
@@ -69,12 +74,11 @@ export function Header({ content }: HeaderProps) {
                 <Link
                   href={link.href}
                   className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-                  aria-haspopup="true"
                 >
                   {link.name}
                   <ChevronDown className="h-4 w-4" />
                 </Link>
-                <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-all duration-200 absolute left-0 top-full mt-3 min-w-[16rem] rounded-lg border border-border bg-background/95 shadow-lg backdrop-blur">
+                <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute left-0 top-full mt-3 min-w-[16rem] rounded-lg border border-border bg-background/95 shadow-lg backdrop-blur">
                   <div className="py-2">
                     {link.children.map((child) => (
                       <Link
@@ -117,7 +121,7 @@ export function Header({ content }: HeaderProps) {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div id="mobile-navigation" className="lg:hidden">
+        <div className="lg:hidden">
           <div className="space-y-1 px-6 pb-4">
             {content.links.map((link) => (
               <div key={link.name}>

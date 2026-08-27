@@ -60,9 +60,9 @@ export function PublicationsSection({ content }: PublicationsSectionProps) {
                     </div>
                     <p className="text-lg font-semibold text-foreground">{pub.title}</p>
                     <p className="text-sm text-muted-foreground">{pub.authors}</p>
-                    {pub.links?.some((link) => link.href && link.href !== "#") && (
+                    {pub.links && pub.links.length > 0 && (
                       <div className="flex flex-wrap gap-3 text-sm">
-                        {pub.links.filter((link) => link.href && link.href !== "#").map((link) => (
+                        {pub.links.map((link) => (
                           <Link
                             key={link.label}
                             href={link.href}

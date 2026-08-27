@@ -1,6 +1,5 @@
 "use client"
 
-import type { FormEvent } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -17,21 +16,6 @@ type ContactSectionProps = {
 
 export function ContactSection({ content }: ContactSectionProps) {
   const { data, html } = content
-
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-
-    const formData = new FormData(event.currentTarget)
-    const firstName = String(formData.get("firstName") ?? "").trim()
-    const lastName = String(formData.get("lastName") ?? "").trim()
-    const senderEmail = String(formData.get("email") ?? "").trim()
-    const subject = String(formData.get("subject") ?? "Research inquiry").trim()
-    const message = String(formData.get("message") ?? "").trim()
-    const name = [firstName, lastName].filter(Boolean).join(" ")
-    const body = [`Name: ${name}`, `Reply-to: ${senderEmail}`, "", message].join("\n")
-
-    window.location.href = `mailto:${data.recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-  }
 
   return (
     <section id="contact" className="py-24">
@@ -59,57 +43,31 @@ export function ContactSection({ content }: ContactSectionProps) {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <form className="space-y-6" onSubmit={handleSubmit}>
+              <form className="space-y-6">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">{data.labels.firstName}</Label>
-                    <Input
-                      id="firstName"
-                      name="firstName"
-                      autoComplete="given-name"
-                      placeholder="John"
-                      required
-                    />
+                    <Input id="firstName" placeholder="John" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="lastName">{data.labels.lastName}</Label>
-                    <Input
-                      id="lastName"
-                      name="lastName"
-                      autoComplete="family-name"
-                      placeholder="Doe"
-                      required
-                    />
+                    <Input id="lastName" placeholder="Doe" />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="email">{data.labels.email}</Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    placeholder="john.doe@example.com"
-                    required
-                  />
+                  <Input id="email" type="email" placeholder="john.doe@example.com" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="subject">{data.labels.subject}</Label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    placeholder="Research collaboration"
-                    required
-                  />
+                  <Input id="subject" placeholder="Research Collaboration" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message">{data.labels.message}</Label>
                   <Textarea
                     id="message"
-                    name="message"
                     placeholder="Tell us about your interest in our research..."
                     rows={4}
-                    required
                   />
                 </div>
                 <Button type="submit" className="w-full">
@@ -132,21 +90,11 @@ export function ContactSection({ content }: ContactSectionProps) {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">{info.title}</h3>
-                      {info.details.map((detail, index) =>
-                        info.icon === "Mail" ? (
-                          <a
-                            key={index}
-                            href={`mailto:${detail}`}
-                            className="block text-sm text-muted-foreground hover:text-primary"
-                          >
-                            {detail}
-                          </a>
-                        ) : (
-                          <p key={index} className="text-sm text-muted-foreground">
-                            {detail}
-                          </p>
-                        ),
-                      )}
+                      {info.details.map((detail, index) => (
+                        <p key={index} className="text-sm text-muted-foreground">
+                          {detail}
+                        </p>
+                      ))}
                     </div>
                   </CardContent>
                 </Card>

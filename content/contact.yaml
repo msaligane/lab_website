@@ -1,15 +1,14 @@
 eyebrow: "Contact"
 title: "Get in Touch"
-recipientEmail: "mehdi_saligane@brown.edu"
 formTitle: "Send us a Message"
-formDescription: "Complete the form to open a pre-addressed draft in your email application."
+formDescription: "Fill out the form below and we will get back to you as soon as possible."
 labels:
   firstName: "First Name"
   lastName: "Last Name"
   email: "Email"
   subject: "Subject"
   message: "Message"
-  submit: "Open Email Draft"
+  submit: "Send Message"
 info:
   - icon: "MapPin"
     title: "Address"
