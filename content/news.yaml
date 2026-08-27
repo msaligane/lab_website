@@ -26,6 +26,17 @@ items:
     link:
       label: "Conference"
       href: "https://tmrc2026.ucsd.edu/"
+  - title: "CHIPS Alliance Developer Spotlight: Mehdi Saligane on Rethinking Chip Design in the AI Era"
+    date: "Aug 3, 2026"
+    category: "Spotlight"
+    summary: >
+      CHIPS Alliance featured Prof. Mehdi Saligane and his work on AI-assisted
+      chip design, open-source EDA, efficient AI hardware, analog automation,
+      reproducible design infrastructure, and expanding access to custom silicon.
+    location: "CHIPS Alliance"
+    link:
+      label: "Read the CHIPS Alliance spotlight"
+      href: "https://www.chipsalliance.org/news/mehdi-saligane-spotlight/"
   - title: "Guanchen Tao presents CryoZip at DAC 2026"
     date: "Jul 28, 2026"
     category: "Conference"
@@ -61,11 +72,11 @@ items:
       Congratulations to Xinting Jiang, who is joining Google as a Student
       Researcher this summer! 
     location: "Google"
-  - title: "Congratulations to Minxing Chu, who has landed a summer internship at Analog Devices, where he will work on AI for analog design!"
+  - title: "Congratulations to Mingxin Chu, who has landed a summer internship at Analog Devices, where he will work on AI for analog design!"
     date: "Jun 15, 2026"
     category: "Internship"
     summary: >
-      Warm congratulations to Minxing Chu on joining Analog Devices (ADI) for a
+      Warm congratulations to Mingxin Chu on joining Analog Devices (ADI) for a
       summer internship! 
     location: "Analog Devices (ADI)"
   - title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
@@ -158,7 +169,7 @@ items:
       label: "Event page"
       href: "https://uwaterloo.ca/electrical-computer-engineering/events/ieee-solid-state-circuits-society-k-w-section-and-uwaterloo-0"
   - title: "IEEE SSCS Directions Series Workshop: Think & Impact with ICs"
-    date: "Sept 22, 2025"
+    date: "Sep 22, 2025"
     category: "Workshop"
     summary: >
       Prof. Mehdi Saligane co-chaired the SSCS Directions Series workshop

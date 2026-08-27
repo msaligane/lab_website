@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Markdown } from "@/components/markdown"
 import { ArrowRight, Github } from "lucide-react"
@@ -11,54 +10,17 @@ type HeroSectionProps = {
   content: SectionContent<HeroContent>
 }
 
+const gdsLayers = [
+  { src: "/images/gds/sscl2024.png", width: "38%", left: "2%", top: "6%", delay: "-2s", duration: "18s" },
+  { src: "/images/gds/probe_attack_detector.png", width: "42%", left: "55%", top: "8%", delay: "-6s", duration: "21s" },
+  { src: "/images/gds/edgellm.png", width: "36%", left: "5%", top: "50%", delay: "-10s", duration: "17s" },
+  { src: "/images/gds/sscm2024.png", width: "40%", left: "58%", top: "54%", delay: "-14s", duration: "22s" },
+  { src: "/images/gds/sscm24.png", width: "34%", left: "27%", top: "19%", delay: "-18s", duration: "19s" },
+  { src: "/images/gds/bcc.png", width: "39%", left: "31%", top: "60%", delay: "-22s", duration: "20s" },
+]
+
 export function HeroSection({ content }: HeroSectionProps) {
   const { data, html } = content
-  const [mounted, setMounted] = useState(false)
-  const gdsSources = [
-    "/images/gds/sscl2024.png",
-    "/images/gds/probe_attack_detector.png",
-    "/images/gds/edgellm.png",
-    "/images/gds/sscm2024.png",
-    "/images/gds/sscm24.png",
-    "/images/gds/bcc.png",
-  ]
-  const gdsLayers = useMemo(
-    () =>
-      mounted
-        ? gdsSources.map((src, index) => {
-        const anchors = [
-          { left: 4, top: 8 },
-          { left: 52, top: 10 },
-          { left: 8, top: 48 },
-          { left: 56, top: 52 },
-          { left: 28, top: 20 },
-          { left: 32, top: 58 },
-        ]
-        const anchor = anchors[index % anchors.length]
-        const size = randomBetween(32, 48)
-        const left = anchor.left + randomBetween(-10, 10)
-        const top = anchor.top + randomBetween(-8, 10)
-        const duration = randomBetween(16, 22)
-        const delay = -2 - index * 4
-
-        return {
-          src,
-          style: {
-            width: `${size}%`,
-            left: `${clamp(left, -6, 62)}%`,
-            top: `${clamp(top, -2, 66)}%`,
-            animationDelay: `${delay}s`,
-            animationDuration: `${duration}s`,
-          },
-        }
-        })
-        : [],
-    [mounted],
-  )
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
 
   return (
     <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden pt-20 pb-4">
@@ -73,7 +35,13 @@ export function HeroSection({ content }: HeroSectionProps) {
             src={layer.src}
             alt=""
             className="gds-hero-layer absolute max-w-3xl rounded-3xl border border-border/40 shadow-2xl"
-            style={layer.style}
+            style={{
+              width: layer.width,
+              left: layer.left,
+              top: layer.top,
+              animationDelay: layer.delay,
+              animationDuration: layer.duration,
+            }}
           />
         ))}
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/75 to-background" />
@@ -117,12 +85,4 @@ export function HeroSection({ content }: HeroSectionProps) {
       </div>
     </section>
   )
-}
-
-function randomBetween(min: number, max: number) {
-  return Math.random() * (max - min) + min
-}
-
-function clamp(value: number, min: number, max: number) {
-  return Math.min(Math.max(value, min), max)
 }

@@ -15,7 +15,7 @@ type TeamSectionProps = {
 
 function normalizeEmailLink(email?: string) {
   if (!email || email === "#") {
-    return "#"
+    return null
   }
   if (email.startsWith("mailto:") || email.startsWith("http")) {
     return email
@@ -23,9 +23,16 @@ function normalizeEmailLink(email?: string) {
   return `mailto:${email}`
 }
 
+function normalizeExternalLink(href?: string) {
+  return href && href !== "#" ? href : null
+}
+
 export function TeamSection({ content }: TeamSectionProps) {
   const { data, html } = content
   const [openAlumni, setOpenAlumni] = useState<Record<string, boolean>>({})
+  const piEmailHref = normalizeEmailLink(data.pi.email)
+  const piLinkedInHref = normalizeExternalLink(data.pi.linkedin)
+  const piMoreInfoHref = normalizeExternalLink(data.pi.moreInfoUrl)
 
   const toggleAlumni = (name: string) => {
     setOpenAlumni((current) => ({ ...current, [name]: !current[name] }))
@@ -72,9 +79,9 @@ export function TeamSection({ content }: TeamSectionProps) {
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-center">
-                {data.pi.moreInfoUrl ? (
+                {piMoreInfoHref ? (
                   <Link
-                    href={data.pi.moreInfoUrl}
+                    href={piMoreInfoHref}
                     target="_blank"
                     rel="noreferrer"
                     className="text-sm text-muted-foreground underline underline-offset-4 hover:text-primary"
@@ -87,20 +94,26 @@ export function TeamSection({ content }: TeamSectionProps) {
                   </p>
                 )}
                 <div className="flex justify-center gap-3">
-                  <Link
-                    href={normalizeEmailLink(data.pi.email)}
-                    className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
-                  >
-                    <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
-                    <span className="sr-only">Email {data.pi.name}</span>
-                  </Link>
-                  <Link
-                    href={data.pi.linkedin || "#"}
-                    className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
-                  >
-                    <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
-                    <span className="sr-only">{data.pi.name} on LinkedIn</span>
-                  </Link>
+                  {piEmailHref ? (
+                    <Link
+                      href={piEmailHref}
+                      className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
+                    >
+                      <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                      <span className="sr-only">Email {data.pi.name}</span>
+                    </Link>
+                  ) : null}
+                  {piLinkedInHref ? (
+                    <Link
+                      href={piLinkedInHref}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
+                    >
+                      <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                      <span className="sr-only">{data.pi.name} on LinkedIn</span>
+                    </Link>
+                  ) : null}
                 </div>
               </CardContent>
             </Card>
@@ -160,11 +173,15 @@ export function TeamSection({ content }: TeamSectionProps) {
                   </div>
                 ) : (
                   <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {group.members.map((member) => (
-                      <Card
-                        key={member.name}
-                        className="group transition-all hover:border-primary/50 bg-card"
-                      >
+                    {group.members.map((member) => {
+                      const emailHref = normalizeEmailLink(member.email)
+                      const linkedInHref = normalizeExternalLink(member.linkedin)
+
+                      return (
+                        <Card
+                          key={member.name}
+                          className="group transition-all hover:border-primary/50 bg-card"
+                        >
                         <CardHeader className="text-center">
                           <Avatar className="h-24 w-24 mx-auto mb-4">
                             {member.image ? (
@@ -191,24 +208,31 @@ export function TeamSection({ content }: TeamSectionProps) {
                             </p>
                           )}
                           <div className="flex justify-center gap-3">
-                            <Link
-                              href={normalizeEmailLink(member.email)}
-                              className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
-                            >
-                              <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
-                              <span className="sr-only">Email {member.name}</span>
-                            </Link>
-                            <Link
-                              href={member.linkedin || "#"}
-                              className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
-                            >
-                              <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
-                              <span className="sr-only">{member.name} on LinkedIn</span>
-                            </Link>
+                            {emailHref ? (
+                              <Link
+                                href={emailHref}
+                                className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
+                              >
+                                <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                                <span className="sr-only">Email {member.name}</span>
+                              </Link>
+                            ) : null}
+                            {linkedInHref ? (
+                              <Link
+                                href={linkedInHref}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
+                              >
+                                <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                                <span className="sr-only">{member.name} on LinkedIn</span>
+                              </Link>
+                            ) : null}
                           </div>
                         </CardContent>
-                      </Card>
-                    ))}
+                        </Card>
+                      )
+                    })}
                   </div>
                 )}
               </div>
