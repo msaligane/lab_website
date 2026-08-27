@@ -19,12 +19,9 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
         <div className="lg:sticky lg:top-28 lg:self-start">
           <p className="section-eyebrow">Latest</p>
           <h2 className="section-title">In the News</h2>
-          <p className="section-copy max-w-sm">
-            Talks, milestones, and new work from the ReaLLMASIC community.
-          </p>
           <Link
             href="/news"
-            className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+            className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-foreground transition-colors hover:text-primary"
           >
             See all news
             <ArrowRight className="h-4 w-4" />

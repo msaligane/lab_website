@@ -38,10 +38,7 @@ export function Footer({ content }: FooterProps) {
               )}
             </span>
           </Link>
-          <p className="mt-5 max-w-sm text-sm leading-7 text-muted-foreground">
-            Research at the intersection of integrated circuits, intelligent systems, and AI.
-          </p>
-          <div className="mt-6 flex gap-2">
+          <div className="mt-7 flex gap-2">
             {content.social.map((link) => {
               const Icon = iconMap[link.icon as keyof typeof iconMap] ?? Mail
 
@@ -81,11 +78,10 @@ export function Footer({ content }: FooterProps) {
         </div>
 
         <div className="mt-12 border-t border-border/70 pt-7">
-          <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
+          <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <p className="text-center text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} {content.brand}. All rights reserved.
             </p>
-            <p className="text-sm text-muted-foreground">Open research. Practical impact.</p>
           </div>
         </div>
       </div>

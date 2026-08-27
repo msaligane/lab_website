@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Markdown } from "@/components/markdown"
-import { ArrowRight, Github, Sparkles } from "lucide-react"
+import { ArrowRight, Github } from "lucide-react"
 import type { HeroContent, SectionContent } from "@/lib/content"
 import Link from "next/link"
 
@@ -28,11 +28,7 @@ export function HeroSection({ content }: HeroSectionProps) {
 
       <div className="site-container relative z-10 grid min-h-[calc(100svh-4rem)] items-center gap-14 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20 lg:py-20">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-foreground">
-            <Sparkles className="h-3.5 w-3.5 text-primary" />
-            Integrated circuits · Systems · AI
-          </div>
-          <h1 className="mt-7 text-5xl font-semibold tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[0.95]">
+          <h1 className="text-5xl font-semibold tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[0.95]">
             <span className="text-primary">{data.titleHighlight}</span>{" "}
             <span>{data.titleLineOne}</span>
             {data.titleLineTwo ? <span className="block">{data.titleLineTwo}</span> : null}
@@ -83,10 +79,6 @@ export function HeroSection({ content }: HeroSectionProps) {
                 </span>
               </div>
             ))}
-          </div>
-          <div className="absolute -bottom-5 right-5 rounded-xl border border-border/70 bg-card/95 px-4 py-3 shadow-xl backdrop-blur sm:right-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">From ideas</p>
-            <p className="mt-1 text-sm font-semibold text-foreground">to working silicon</p>
           </div>
         </div>
       </div>
