@@ -39,33 +39,34 @@ export function TeamSection({ content }: TeamSectionProps) {
   }
 
   return (
-    <section id="team" className="py-24 bg-secondary/30">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+    <section id="team" className="section-shell bg-secondary/35">
+      <div className="site-container">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="section-eyebrow">
             {data.eyebrow}
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+          <p className="section-title text-balance">
             {data.title}
           </p>
           <Markdown
             html={html}
-            className="mt-4 text-lg text-muted-foreground text-pretty"
+            className="section-copy text-pretty"
           />
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-6">
-          <div>
+        <div className="mt-14 space-y-16">
+          <div className="surface-card overflow-hidden p-2 sm:p-3">
             <img
               src="/images/team/group_photo.png"
               alt="Lab group photo"
-              className="w-[80%] mx-auto rounded-xl object-cover"
+              className="aspect-[16/7] w-full rounded-xl object-cover"
             />
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <Card className="group transition-all hover:border-primary/50 bg-card">
+          <div>
+            <h3 className="mb-7 text-center text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">Principal investigator</h3>
+            <Card className="surface-card group mx-auto max-w-xl border-border/70 transition-all hover:border-primary/45">
               <CardHeader className="text-center">
-                <Avatar className="h-24 w-24 mx-auto mb-4">
+                <Avatar className="mx-auto mb-4 h-28 w-28 ring-4 ring-primary/10">
                   {data.pi.image ? (
                     <AvatarImage src={data.pi.image} alt={data.pi.name} />
                   ) : null}
@@ -73,7 +74,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                     {data.pi.initials}
                   </AvatarFallback>
                 </Avatar>
-                <CardTitle className="text-foreground">{data.pi.name}</CardTitle>
+                <CardTitle className="text-2xl text-foreground">{data.pi.name}</CardTitle>
                 <CardDescription className="text-primary font-medium">
                   {data.pi.role}
                 </CardDescription>
@@ -93,7 +94,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                     {data.pi.specialty}
                   </p>
                 )}
-                <div className="flex justify-center gap-3">
+                <div className="mt-5 flex justify-center gap-3">
                   {piEmailHref ? (
                     <Link
                       href={piEmailHref}
@@ -127,16 +128,20 @@ export function TeamSection({ content }: TeamSectionProps) {
             const isAlumni = group.title.toLowerCase().includes("alumni")
 
             return (
-              <div key={group.title} className="space-y-6">
-                <h3 className="text-lg font-semibold text-foreground text-center">
+              <div key={group.title} className="space-y-7">
+                <div className="flex items-center gap-5">
+                  <div className="h-px flex-1 bg-border" />
+                <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground text-center">
                   {group.title}
                 </h3>
+                  <div className="h-px flex-1 bg-border" />
+                </div>
                 {isAlumni ? (
                   <div className="space-y-3">
                     {group.members.map((member) => (
                       <div
                         key={member.name}
-                        className="rounded-md border border-border bg-card/60 px-4 py-3"
+                        className="surface-card rounded-xl px-5 py-4"
                       >
                         <div className="flex items-start justify-between gap-4">
                           <div>
@@ -172,7 +177,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                     ))}
                   </div>
                 ) : (
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                     {group.members.map((member) => {
                       const emailHref = normalizeEmailLink(member.email)
                       const linkedInHref = normalizeExternalLink(member.linkedin)
@@ -180,10 +185,10 @@ export function TeamSection({ content }: TeamSectionProps) {
                       return (
                         <Card
                           key={member.name}
-                          className="group transition-all hover:border-primary/50 bg-card"
+                          className="surface-card group h-full border-border/70 transition-all duration-300 hover:-translate-y-1 hover:border-primary/45"
                         >
                         <CardHeader className="text-center">
-                          <Avatar className="h-24 w-24 mx-auto mb-4">
+                          <Avatar className="mx-auto mb-4 h-28 w-28 ring-4 ring-primary/10">
                             {member.image ? (
                               <AvatarImage src={member.image} alt={member.name} />
                             ) : null}
@@ -191,7 +196,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                               {member.initials}
                             </AvatarFallback>
                           </Avatar>
-                          <CardTitle className="text-foreground">{member.name}</CardTitle>
+                          <CardTitle className="text-xl text-foreground">{member.name}</CardTitle>
                           <CardDescription className="text-primary font-medium">
                             {member.role}
                             {member.started ? (

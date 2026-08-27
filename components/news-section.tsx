@@ -15,31 +15,31 @@ export function NewsSection({ content }: NewsSectionProps) {
   )
 
   return (
-    <section id="news" className="py-24 bg-secondary/20">
-      <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+    <section id="news" className="section-shell bg-secondary/30">
+      <div className="site-container max-w-6xl">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="section-eyebrow">
             {data.eyebrow}
           </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+          <h2 className="section-title text-balance">
             {data.title}
           </h2>
           <Markdown
             html={html}
-            className="mt-4 text-lg text-muted-foreground text-pretty"
+            className="section-copy text-pretty"
           />
         </div>
 
-        <ul className="mt-12 divide-y divide-border rounded-2xl border border-border bg-card/60">
+        <ul className="surface-card mt-12 divide-y divide-border/70 overflow-hidden">
           {sortedItems.map((item) => (
-            <li key={`${item.title}-${item.date}`} className="px-6 py-6 sm:px-8">
+            <li key={`${item.title}-${item.date}`} className="group px-5 py-6 transition-colors hover:bg-secondary/55 sm:px-8 sm:py-8">
               <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-wide text-muted-foreground">
                 <time className="font-semibold text-foreground/80">{item.date}</time>
                 <span className="inline-flex items-center rounded-full bg-primary/10 px-2 py-1 text-[11px] font-semibold text-primary">
                   {item.category}
                 </span>
               </div>
-              <h3 className="mt-3 text-xl font-semibold text-foreground sm:text-2xl">
+              <h3 className="mt-3 text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
                 <Link
                   href={`/news/${slugify(item.title)}`}
                   className="transition-colors hover:text-primary"
