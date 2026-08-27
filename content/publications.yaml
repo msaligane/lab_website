@@ -74,11 +74,11 @@ items:
     venue: "Design, Automation and Test in Europe (DATE)"
     year: "2026"
     type: "Conference"
-    url: "https://past.date-conference.com/proceedings-archive/2026/DATA/912.pdf"
+    url: "https://ieeexplore.ieee.org/document/11539302"
     summary: "FLARE is a novel approach to efficiently finetune ReLU activation functions in long-context LLM inference using FIRE (Fast ReLU Inference with Efficient Resizing)."
     links:
       - label: "Paper"
-        href: "https://past.date-conference.com/proceedings-archive/2026/DATA/912.pdf"
+        href: "https://ieeexplore.ieee.org/document/11539302"
   - title: "LIG-OSS: Integrated Laser-Induced-Graphene Sensor and Open-Source Silicon Chip for an Affordable and Robust Wearable Sensing System with Precise Temperature, Humidity, and Strain Sensing Capability"
     authors: "H. Wu, A. Li, G. Kielian, M. Saligane"
     venue: "IEEE 19th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)"
