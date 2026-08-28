@@ -11,76 +11,75 @@ type HeroSectionProps = {
 }
 
 const gdsLayers = [
-  { src: "/images/gds/sscl2024.png", width: "38%", left: "2%", top: "6%", delay: "-2s", duration: "18s" },
-  { src: "/images/gds/probe_attack_detector.png", width: "42%", left: "55%", top: "8%", delay: "-6s", duration: "21s" },
-  { src: "/images/gds/edgellm.png", width: "36%", left: "5%", top: "50%", delay: "-10s", duration: "17s" },
-  { src: "/images/gds/sscm2024.png", width: "40%", left: "58%", top: "54%", delay: "-14s", duration: "22s" },
-  { src: "/images/gds/sscm24.png", width: "34%", left: "27%", top: "19%", delay: "-18s", duration: "19s" },
-  { src: "/images/gds/bcc.png", width: "39%", left: "31%", top: "60%", delay: "-22s", duration: "20s" },
+  "/images/gds/sscl2024.png",
+  "/images/gds/probe_attack_detector.png",
+  "/images/gds/edgellm.png",
+  "/images/gds/sscm2024.png",
 ]
 
 export function HeroSection({ content }: HeroSectionProps) {
   const { data, html } = content
 
   return (
-    <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden pt-20 pb-4">
-      {/* Background pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#1a1a2e_1px,transparent_1px),linear-gradient(to_bottom,#1a1a2e_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.25)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.25)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+    <section className="relative overflow-hidden border-b border-border/60">
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,color-mix(in_oklab,var(--border)_55%,transparent)_1px,transparent_1px),linear-gradient(to_bottom,color-mix(in_oklab,var(--border)_55%,transparent)_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:linear-gradient(to_bottom,#000,transparent_90%)] opacity-45" />
+      <div className="absolute -left-32 top-10 h-80 w-80 rounded-full bg-primary/15 blur-3xl" />
+      <div className="absolute -right-28 bottom-0 h-96 w-96 rounded-full bg-accent/10 blur-3xl" />
 
-      {/* Fading GDS background */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
-        {gdsLayers.map((layer) => (
-          <img
-            key={layer.src}
-            src={layer.src}
-            alt=""
-            className="gds-hero-layer absolute max-w-3xl rounded-3xl border border-border/40 shadow-2xl"
-            style={{
-              width: layer.width,
-              left: layer.left,
-              top: layer.top,
-              animationDelay: layer.delay,
-              animationDuration: layer.duration,
-            }}
+      <div className="site-container relative z-10 grid min-h-[calc(100svh-4rem)] items-center gap-14 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20 lg:py-20">
+        <div className="max-w-3xl">
+          <h1 className="text-5xl font-semibold tracking-[-0.055em] text-foreground sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[0.95]">
+            <span className="text-primary">{data.titleHighlight}</span>{" "}
+            <span>{data.titleLineOne}</span>
+            {data.titleLineTwo ? <span className="block">{data.titleLineTwo}</span> : null}
+          </h1>
+
+          <Markdown
+            html={html}
+            className="mt-7 max-w-2xl text-lg leading-8 text-muted-foreground text-pretty sm:text-xl"
           />
-        ))}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/75 to-background" />
-      </div>
-      
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 text-center">
-        <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl text-balance">
-          <span className="text-primary">{data.titleHighlight}</span> {data.titleLineOne}
-          <br />
-          {data.titleLineTwo}
-        </h1>
 
-        <Markdown
-          html={html}
-          className="mt-6 text-lg leading-relaxed text-muted-foreground max-w-2xl mx-auto text-pretty"
-        />
-        
-        <div className="mt-10 flex items-center justify-center gap-4 flex-wrap">
-          <Button size="lg" className="gap-2" asChild>
+          <div className="mt-9 flex flex-wrap items-center gap-3">
+          <Button size="lg" className="h-12 rounded-full px-6 shadow-md shadow-primary/15" asChild>
             <Link href="#research">
               {data.primaryButton}
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>
-          <Button variant="outline" size="lg" asChild>
+          <Button variant="outline" size="lg" className="h-12 rounded-full bg-background/70 px-6" asChild>
             <Link href="/publications">{data.secondaryButton}</Link>
           </Button>
-        </div>
-        <div className="mt-4 flex items-center justify-center">
           <Button
+            variant="ghost"
             size="lg"
-            className="gap-2 bg-[#24292f] text-white hover:bg-[#1f2328]"
+            className="h-12 rounded-full px-5 text-muted-foreground hover:text-foreground"
             asChild
           >
             <Link href="https://github.com/ReaLLMASIC" target="_blank" rel="noreferrer">
               <Github className="h-4 w-4" />
-              Check Our Group Repo
+              GitHub
             </Link>
           </Button>
+        </div>
+        </div>
+
+        <div className="relative mx-auto w-full max-w-xl lg:mx-0">
+          <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-primary/25 via-transparent to-accent/15 blur-2xl" />
+          <div className="surface-card relative grid aspect-[5/4] grid-cols-2 gap-3 overflow-hidden p-3 sm:gap-4 sm:p-4">
+            {gdsLayers.map((src, index) => (
+              <div key={src} className="relative overflow-hidden rounded-xl border border-border/70 bg-secondary">
+                <img
+                  src={src}
+                  alt=""
+                  className="h-full w-full object-cover opacity-85 transition duration-500 hover:scale-105 hover:opacity-100"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />
+                <span className="absolute bottom-2 left-2 rounded-full border border-white/20 bg-black/35 px-2 py-1 text-[10px] font-medium uppercase tracking-wider text-white backdrop-blur-sm">
+                  Silicon {String(index + 1).padStart(2, "0")}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

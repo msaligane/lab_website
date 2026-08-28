@@ -34,24 +34,24 @@ export function ContactSection({ content }: ContactSectionProps) {
   }
 
   return (
-    <section id="contact" className="py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+    <section id="contact" className="section-shell">
+      <div className="site-container">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="section-eyebrow">
             {data.eyebrow}
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+          <p className="section-title text-balance">
             {data.title}
           </p>
           <div
-            className="mt-4 text-lg text-muted-foreground text-pretty"
+            className="section-copy text-pretty"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-8 lg:grid-cols-[1.15fr_0.85fr]">
           {/* Contact Form */}
-          <Card className="bg-card">
+          <Card className="surface-card border-border/70">
             <CardHeader>
               <CardTitle className="text-foreground">{data.formTitle}</CardTitle>
               <CardDescription className="text-muted-foreground">
@@ -112,7 +112,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                     required
                   />
                 </div>
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="h-11 w-full rounded-full">
                   {data.labels.submit}
                 </Button>
               </form>
@@ -125,7 +125,7 @@ export function ContactSection({ content }: ContactSectionProps) {
               const Icon = iconMap[info.icon as keyof typeof iconMap] ?? MapPin
 
               return (
-                <Card key={info.title} className="bg-card">
+                <Card key={info.title} className="surface-card border-border/70 transition-colors hover:border-primary/35">
                   <CardContent className="flex items-start gap-4 pt-6">
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 shrink-0">
                       <Icon className="h-5 w-5 text-primary" />
