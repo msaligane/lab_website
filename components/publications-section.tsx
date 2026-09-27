@@ -23,7 +23,7 @@ export function PublicationsSection({ content }: PublicationsSectionProps) {
     <section id="publications" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
@@ -66,7 +66,7 @@ export function PublicationsSection({ content }: PublicationsSectionProps) {
                           <Link
                             key={link.label}
                             href={link.href}
-                            className="inline-flex items-center gap-1 text-primary hover:text-primary/80"
+                            className="inline-flex items-center gap-1 text-primary-text hover:text-primary-text-hover"
                           >
                             {link.label}
                             <ExternalLink className="h-4 w-4" />

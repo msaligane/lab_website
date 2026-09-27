@@ -42,7 +42,7 @@ export function TeamSection({ content }: TeamSectionProps) {
     <section id="team" className="py-24 bg-secondary/30">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
@@ -69,12 +69,12 @@ export function TeamSection({ content }: TeamSectionProps) {
                   {data.pi.image ? (
                     <AvatarImage src={data.pi.image} alt={data.pi.name} />
                   ) : null}
-                  <AvatarFallback className="bg-primary/10 text-primary text-lg">
+                  <AvatarFallback className="bg-primary/10 text-primary-text text-lg">
                     {data.pi.initials}
                   </AvatarFallback>
                 </Avatar>
                 <CardTitle className="text-foreground">{data.pi.name}</CardTitle>
-                <CardDescription className="text-primary font-medium">
+                <CardDescription className="text-primary-text font-medium">
                   {data.pi.role}
                 </CardDescription>
               </CardHeader>
@@ -84,7 +84,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                     href={piMoreInfoHref}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-sm text-muted-foreground underline underline-offset-4 hover:text-primary"
+                    className="text-sm text-muted-foreground underline underline-offset-4 hover:text-primary-text"
                   >
                     More Info
                   </Link>
@@ -99,7 +99,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                       href={piEmailHref}
                       className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
                     >
-                      <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                      <Mail className="h-4 w-4 text-muted-foreground hover:text-primary-text" />
                       <span className="sr-only">Email {data.pi.name}</span>
                     </Link>
                   ) : null}
@@ -110,7 +110,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                       rel="noreferrer"
                       className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
                     >
-                      <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                      <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary-text" />
                       <span className="sr-only">{data.pi.name} on LinkedIn</span>
                     </Link>
                   ) : null}
@@ -187,12 +187,12 @@ export function TeamSection({ content }: TeamSectionProps) {
                             {member.image ? (
                               <AvatarImage src={member.image} alt={member.name} />
                             ) : null}
-                            <AvatarFallback className="bg-primary/10 text-primary text-lg">
+                            <AvatarFallback className="bg-primary/10 text-primary-text text-lg">
                               {member.initials}
                             </AvatarFallback>
                           </Avatar>
                           <CardTitle className="text-foreground">{member.name}</CardTitle>
-                          <CardDescription className="text-primary font-medium">
+                          <CardDescription className="text-primary-text font-medium">
                             {member.role}
                             {member.started ? (
                               <span className="block text-xs text-muted-foreground mt-1">
@@ -213,7 +213,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                                 href={emailHref}
                                 className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
                               >
-                                <Mail className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                                <Mail className="h-4 w-4 text-muted-foreground hover:text-primary-text" />
                                 <span className="sr-only">Email {member.name}</span>
                               </Link>
                             ) : null}
@@ -224,7 +224,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                                 rel="noreferrer"
                                 className="p-2 rounded-full bg-secondary hover:bg-primary/20 transition-colors"
                               >
-                                <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary" />
+                                <Linkedin className="h-4 w-4 text-muted-foreground hover:text-primary-text" />
                                 <span className="sr-only">{member.name} on LinkedIn</span>
                               </Link>
                             ) : null}

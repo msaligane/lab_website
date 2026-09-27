@@ -55,7 +55,7 @@ export function ResearchSection({ content }: ResearchSectionProps) {
     <section id="research" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
@@ -82,10 +82,10 @@ export function ResearchSection({ content }: ResearchSectionProps) {
                   <CardHeader className="flex h-full flex-col">
                     <div className="flex items-center gap-3 mb-4">
                       <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                        <Icon className="h-6 w-6 text-primary" />
+                        <Icon className="h-6 w-6 text-primary-text" />
                       </div>
                       {area.catchPhrase ? (
-                        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary bg-primary/10 px-3 py-1 rounded-full">
+                        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-primary-text bg-primary/10 px-3 py-1 rounded-full">
                           {area.catchPhrase}
                         </span>
                       ) : null}
