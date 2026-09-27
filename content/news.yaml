@@ -4,6 +4,49 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
+  - title: "Seminar at the University of Rhode Island"
+    date: "Sep 25, 2026"
+    category: "Seminar"
+    summary: >
+      Prof. Mehdi Saligane gave a seminar at the University of Rhode Island.
+      Many thanks to Prof. Kaushallya (Kay) Adhikari for hosting the visit and
+      the engaging discussions.
+    location: "University of Rhode Island, Kingston, RI, USA"
+    link:
+      label: "Host profile"
+      href: "https://web.uri.edu/ece/meet/kaushallya-kay-adhikari/"
+  - title: "Mehdi Saligane receives 2026 DARPA Young Faculty Award"
+    date: "Sep 23, 2026"
+    category: "Award"
+    summary: >
+      DARPA awarded Prof. Mehdi Saligane a 2026 Young Faculty Award to develop
+      CMOS-Addressable DNA Random Access Memory, combining molecular data
+      storage with silicon-chip control for writing, accessing, modifying, and
+      erasing information stored in DNA.
+    location: "Brown University"
+    link:
+      label: "Brown Engineering announcement"
+      href: "https://engineering.brown.edu/news/2026-09-23/mehdi-saligane-darpa-young-faculty-award"
+  - title: "AMD visit: AI for chip design and verification"
+    date: "Sep 23, 2026"
+    category: "Seminar"
+    summary: >
+      We hosted Oleg Petlin and Oleg Raikhman from AMD for a seminar and
+      research discussions on AI for chip design and verification. Oleg Petlin
+      presented "Digital Design Verification: Foundations and AI," and our
+      students shared projects and explored potential collaboration areas.
+    location: "Brown University, Providence, RI, USA"
+  - title: "SIMFONY presented at ESSERC 2026"
+    date: "Sep 9, 2026"
+    category: "Conference"
+    summary: >
+      Our paper "SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW
+      Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference" was
+      presented at ESSERC 2026 in Palma de Mallorca, Spain.
+    location: "ESSERC 2026, Palma de Mallorca, Spain"
+    link:
+      label: "Conference program"
+      href: "https://epapers2.org/esserc2026/ESR/session_view.php?print=1&session_id=29"
   - title: "Tutorial on AI-Assisted AMS Design at MWSCAS 2026. Thanks to Prof. Vishal Saxena for hosting the session!"
     date: "Aug 11, 2026"
     category: "Conference"
