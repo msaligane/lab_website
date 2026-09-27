@@ -29,7 +29,7 @@ export function Footer({ content }: FooterProps) {
             <span className="text-xl font-bold tracking-tight text-foreground">
               {showAccent ? (
                 <>
-                  <span className="text-primary">{content.brandAccent}</span>{" "}
+                  <span className="text-primary-text">{content.brandAccent}</span>{" "}
                   {brandRemainder}
                 </>
               ) : (
@@ -41,7 +41,7 @@ export function Footer({ content }: FooterProps) {
 
         {content.fundingTitle && content.fundingNote ? (
           <div className="mt-10">
-            <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
               {content.fundingTitle}
             </p>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
@@ -67,7 +67,7 @@ export function Footer({ content }: FooterProps) {
                   <Link
                     key={link.name}
                     href={link.href}
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground hover:text-primary-text transition-colors"
                   >
                     <Icon className="h-5 w-5" />
                     <span className="sr-only">{link.name}</span>

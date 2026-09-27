@@ -15,7 +15,7 @@ export function AboutSection({ content }: AboutSectionProps) {
     <section id="about" className="py-24 bg-secondary/30">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
@@ -37,7 +37,7 @@ export function AboutSection({ content }: AboutSectionProps) {
               className="relative rounded-lg border border-border bg-card p-8 transition-all hover:border-primary/50"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 mb-6">
-                <Icon className="h-6 w-6 text-primary" />
+                <Icon className="h-6 w-6 text-primary-text" />
               </div>
               <h3 className="text-xl font-semibold text-foreground">
                 {feature.title}

@@ -37,7 +37,7 @@ export function ContactSection({ content }: ContactSectionProps) {
     <section id="contact" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
@@ -128,7 +128,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                 <Card key={info.title} className="bg-card">
                   <CardContent className="flex items-start gap-4 pt-6">
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 shrink-0">
-                      <Icon className="h-5 w-5 text-primary" />
+                      <Icon className="h-5 w-5 text-primary-text" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">{info.title}</h3>
@@ -137,7 +137,7 @@ export function ContactSection({ content }: ContactSectionProps) {
                           <a
                             key={index}
                             href={`mailto:${detail}`}
-                            className="block text-sm text-muted-foreground hover:text-primary"
+                            className="block text-sm text-muted-foreground hover:text-primary-text"
                           >
                             {detail}
                           </a>

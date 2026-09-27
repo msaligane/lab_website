@@ -37,7 +37,7 @@ export function Header({ content }: HeaderProps) {
             <span className="text-xl font-bold tracking-tight text-foreground">
               {showAccent ? (
                 <>
-                  <span className="text-primary">{content.brandAccent}</span>{" "}
+                  <span className="text-primary-text">{content.brandAccent}</span>{" "}
                   {brandRemainder}
                 </>
               ) : (
@@ -68,7 +68,7 @@ export function Header({ content }: HeaderProps) {
               <div key={link.name} className="relative group">
                 <Link
                   href={link.href}
-                  className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                  className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-primary-text"
                   aria-haspopup="true"
                 >
                   {link.name}
@@ -80,7 +80,7 @@ export function Header({ content }: HeaderProps) {
                       <Link
                         key={child.name}
                         href={child.href}
-                        className="block px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-primary hover:bg-accent/60"
+                        className="block px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-primary-text hover:bg-accent/60"
                       >
                         {child.name}
                       </Link>
@@ -92,7 +92,7 @@ export function Header({ content }: HeaderProps) {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary-text"
               >
                 {link.name}
               </Link>
@@ -123,7 +123,7 @@ export function Header({ content }: HeaderProps) {
               <div key={link.name}>
                 <Link
                   href={link.href}
-                  className="block py-2 text-base font-medium text-muted-foreground transition-colors hover:text-primary"
+                  className="block py-2 text-base font-medium text-muted-foreground transition-colors hover:text-primary-text"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.name}
@@ -134,7 +134,7 @@ export function Header({ content }: HeaderProps) {
                       <Link
                         key={child.name}
                         href={child.href}
-                        className="block py-1.5 text-sm text-muted-foreground transition-colors hover:text-primary"
+                        className="block py-1.5 text-sm text-muted-foreground transition-colors hover:text-primary-text"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {child.name}

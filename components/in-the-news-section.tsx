@@ -16,7 +16,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
     <section id="in-the-news" className="pt-16 pb-16">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             Latest
           </p>
           <h2 className="mt-2 text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
@@ -35,7 +35,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
               </time>
               <Link
                 href={`/news/${item.slug}`}
-                className="text-sm font-medium text-foreground transition-colors hover:text-primary"
+                className="text-sm font-medium text-foreground transition-colors hover:text-primary-text"
               >
                 {item.title}
               </Link>
@@ -46,7 +46,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
         <div className="mt-10 flex justify-center">
           <Link
             href="/news"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-primary-text hover:text-primary-text-hover"
           >
             See all news
             <ArrowRight className="h-4 w-4" />

@@ -58,7 +58,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-primary">
+              <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
                 {item.category}
               </p>
               <h1 className="mt-3 text-4xl font-bold tracking-tight text-foreground sm:text-5xl text-balance">
@@ -80,7 +80,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
 
           <Markdown
             html={html}
-            className="mt-10 text-base leading-relaxed text-foreground/90 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:mt-8 [&_h3]:text-xl [&_h3]:font-semibold [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_a]:text-primary [&_a]:underline [&_img]:mt-6 [&_img]:rounded-xl [&_img]:border [&_img]:border-border"
+            className="mt-10 text-base leading-relaxed text-foreground/90 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:mt-8 [&_h3]:text-xl [&_h3]:font-semibold [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_a]:text-primary-text [&_a]:underline [&_img]:mt-6 [&_img]:rounded-xl [&_img]:border [&_img]:border-border"
           />
 
           {item.link ? (
@@ -89,7 +89,7 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
                 href={item.link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="font-semibold text-primary underline"
+                className="font-semibold text-primary-text underline"
               >
                 {item.link.label}
               </a>

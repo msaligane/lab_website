@@ -49,7 +49,7 @@ export function HeroSection({ content }: HeroSectionProps) {
       
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl text-balance">
-          <span className="text-primary">{data.titleHighlight}</span> {data.titleLineOne}
+          <span className="text-primary-text">{data.titleHighlight}</span> {data.titleLineOne}
           <br />
           {data.titleLineTwo}
         </h1>
