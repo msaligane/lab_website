@@ -8,12 +8,12 @@ import { siteUrl } from "@/app/layout"
 export const metadata: Metadata = {
   title: "Team — Prof. Mehdi Saligane & ReaLLMASIC Lab",
   description:
-    "Meet Prof. Mehdi Saligane (Brown University) and the ReaLLMASIC Lab researchers working on open-source and AI-driven chip design, analog layout automation (GLayout), and efficient AI accelerators.",
+    "Meet our team at the ReaLLMASIC Lab at Brown University, where we work on open-source and AI-driven chip design, analog layout automation (GLayout), and efficient AI accelerators.",
   alternates: { canonical: "/team" },
   openGraph: {
     title: "Team — Prof. Mehdi Saligane & ReaLLMASIC Lab",
     description:
-      "Prof. Mehdi Saligane and the ReaLLMASIC Lab at Brown University.",
+      "Meet our team at the ReaLLMASIC Lab at Brown University.",
     url: "/team",
   },
 }

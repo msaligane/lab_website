@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono"
 export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.saliganelab.com'
 
 const siteDescription =
-  'ReaLLMASIC Lab, led by Prof. Mehdi Saligane at Brown University, advances open-source and AI-driven chip design — agentic analog layout (GLayout), efficient AI accelerators, and open EDA flows (OpenROAD, OpenFASOC).'
+  'At the ReaLLMASIC Lab at Brown University, we advance open-source and AI-driven chip design — agentic analog layout (GLayout), efficient AI accelerators, and open EDA flows (OpenROAD, OpenFASOC).'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

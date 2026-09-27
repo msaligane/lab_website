@@ -7,12 +7,12 @@ import { getPageContent } from "@/lib/content"
 export const metadata: Metadata = {
   title: "Publications — Prof. Mehdi Saligane",
   description:
-    "Publications from Prof. Mehdi Saligane and the ReaLLMASIC Lab at Brown University: open-source silicon, agentic analog layout (GLayout), edge AI accelerators, and cryogenic circuits.",
+    "Our publications at the ReaLLMASIC Lab at Brown University: open-source silicon, agentic analog layout (GLayout), edge AI accelerators, and cryogenic circuits.",
   alternates: { canonical: "/publications" },
   openGraph: {
     title: "Publications — Prof. Mehdi Saligane",
     description:
-      "Selected papers from Prof. Mehdi Saligane and the ReaLLMASIC Lab.",
+      "Selected papers from our ReaLLMASIC Lab.",
     url: "/publications",
   },
 }

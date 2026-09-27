@@ -1,8 +1,7 @@
 eyebrow: "News & Talks"
 title: "Updates from the Lab"
 description: >
-  Follow our latest milestones, awards, and invited talks. We share short updates
-  as soon as results are ready for the community.
+  A few updates from our lab: the research we’re sharing, the people we’re celebrating, and the conversations along the way.
 items:
   - slug: "seminar-at-the-university-of-rhode-island"
     body: "seminar-at-the-university-of-rhode-island.md"
@@ -10,37 +9,29 @@ items:
     date: "Sep 25, 2026"
     category: "Seminar"
     summary: >
-      Prof. Mehdi Saligane gave a seminar at the University of Rhode Island.
-      Many thanks to Prof. Kaushallya (Kay) Adhikari for hosting the visit and
-      the engaging discussions.
+      I visited the University of Rhode Island to give a seminar. Thank you to Prof. Kaushallya (Kay) Adhikari for hosting me and for the engaging discussions.
     location: "University of Rhode Island, Kingston, RI, USA"
     link:
       label: "Host profile"
       href: "https://web.uri.edu/ece/meet/kaushallya-kay-adhikari/"
   - slug: "mehdi-saligane-receives-2026-darpa-young-faculty-award"
     body: "mehdi-saligane-receives-2026-darpa-young-faculty-award.md"
-    title: "Mehdi Saligane receives 2026 DARPA Young Faculty Award"
+    title: "I received a 2026 DARPA Young Faculty Award"
     date: "Sep 23, 2026"
     category: "Award"
     summary: >
-      DARPA awarded Prof. Mehdi Saligane a 2026 Young Faculty Award to develop
-      CMOS-Addressable DNA Random Access Memory, combining molecular data
-      storage with silicon-chip control for writing, accessing, modifying, and
-      erasing information stored in DNA.
+      I’m happy to share that I received a 2026 DARPA Young Faculty Award for our work on CMOS-Addressable DNA Random Access Memory. Our goal is to bring molecular data storage together with silicon-chip control so we can write, access, modify, and erase information stored in DNA.
     location: "Brown University"
     link:
       label: "Brown Engineering announcement"
       href: "https://engineering.brown.edu/news/2026-09-23/mehdi-saligane-darpa-young-faculty-award"
   - slug: "amd-visit-ai-for-chip-design-and-verification"
     body: "amd-visit-ai-for-chip-design-and-verification.md"
-    title: "AMD visit: AI for chip design and verification"
+    title: "Welcoming AMD to the lab: AI for chip design and verification"
     date: "Sep 23, 2026"
     category: "Seminar"
     summary: >
-      We hosted Oleg Petlin and Oleg Raikhman from AMD for a seminar and
-      research discussions on AI for chip design and verification. Oleg Petlin
-      presented "Digital Design Verification: Foundations and AI," and our
-      students shared projects and explored potential collaboration areas.
+      We welcomed Oleg Petlin and Oleg Raikhman from AMD for a seminar and conversations about AI for chip design and verification. Oleg Petlin presented "Digital Design Verification: Foundations and AI," and our students shared their projects and explored possible collaborations. Thank you both for spending time with us!
     location: "Brown University, Providence, RI, USA"
   - slug: "simfony-presented-at-esserc-2026"
     body: "simfony-presented-at-esserc-2026.md"
@@ -48,21 +39,17 @@ items:
     date: "Sep 9, 2026"
     category: "Conference"
     summary: >
-      Our paper "SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW
-      Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference" was
-      presented at ESSERC 2026 in Palma de Mallorca, Spain.
+      Happy to share our SIMFONY paper, presented at ESSERC 2026 in Palma de Mallorca, Spain: "SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference."
     location: "ESSERC 2026, Palma de Mallorca, Spain"
     link:
       label: "Conference program"
       href: "https://epapers2.org/esserc2026/ESR/session_view.php?print=1&session_id=29"
   - slug: "tutorial-on-ai-assisted-ams-design-at-mwscas-2026-thanks-to-prof-vishal-saxena-for-hosting-the-session"
-    title: "Tutorial on AI-Assisted AMS Design at MWSCAS 2026. Thanks to Prof. Vishal Saxena for hosting the session!"
+    title: "Sharing AI-assisted AMS design at MWSCAS 2026"
     date: "Aug 11, 2026"
     category: "Conference"
     summary: >
-      Prof. Mehdi Saligane delivered a well-received tutorial on AI-assisted
-      analog and mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many
-      thanks to Prof. Vishal Saxena for hosting the session!
+      I gave a tutorial on AI-assisted analog and mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Thank you to Prof. Vishal Saxena for hosting the session!
     location: "MWSCAS 2026, Cincinnati, OH, USA"
   - slug: "ruichen-qi-presents-digest-at-tmrc-2026"
     body: "ruichen-qi-presents-digest-at-tmrc-2026.md"
@@ -70,11 +57,7 @@ items:
     date: "Aug 5, 2026"
     category: "Conference"
     summary: >
-      Ruichen Qi presented the digest "An AI-Driven Co-Design Framework for CMOS
-      and Emerging Memory Devices" at the 37th Magnetic Recording Conference
-      (TMRC 2026) at UC San Diego. The presentation was well received by the
-      community, sparking great discussions on AI-driven co-design for emerging
-      memory devices.
+      Congratulations, Ruichen! Ruichen Qi presented the digest "An AI-Driven Co-Design Framework for CMOS and Emerging Memory Devices" at the 37th Magnetic Recording Conference (TMRC 2026) at UC San Diego. The presentation sparked great discussions on AI-driven co-design for emerging memory devices.
     location: "TMRC 2026, UC San Diego, CA, USA"
     imagesDir: "tmrc-2026-ruichen"
     link:
@@ -82,13 +65,11 @@ items:
       href: "https://tmrc2026.ucsd.edu/"
   - slug: "chips-alliance-developer-spotlight-mehdi-saligane-on-rethinking-chip-design-in-the-ai-era"
     body: "chips-alliance-developer-spotlight-mehdi-saligane-on-rethinking-chip-design-in-the-ai-era.md"
-    title: "CHIPS Alliance Developer Spotlight: Mehdi Saligane on Rethinking Chip Design in the AI Era"
+    title: "My CHIPS Alliance Developer Spotlight: Rethinking Chip Design in the AI Era"
     date: "Aug 3, 2026"
     category: "Spotlight"
     summary: >
-      CHIPS Alliance featured Prof. Mehdi Saligane and his work on AI-assisted
-      chip design, open-source EDA, efficient AI hardware, analog automation,
-      reproducible design infrastructure, and expanding access to custom silicon.
+      Thank you to CHIPS Alliance for featuring me and our work in its Developer Spotlight. The conversation covers AI-assisted chip design, open-source EDA, efficient AI hardware, analog automation, reproducible design infrastructure, and making custom silicon more accessible.
     location: "CHIPS Alliance"
     link:
       label: "Read the CHIPS Alliance spotlight"
@@ -109,46 +90,33 @@ items:
       href: "https://arxiv.org/abs/2606.30805"
   - slug: "ieee-sscs-distinguished-lecture-at-kaist-rethinking-chip-design-in-the-age-of-ai-thanks-to-prof-wanyeong-jung-and-his-students-for-hosting-and-for-the-wonderful-discussions-on-ai-for-chip-design"
     body: "ieee-sscs-distinguished-lecture-at-kaist-rethinking-chip-design-in-the-age-of-ai.md"
-    title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI. Thanks to Prof. Wanyeong Jung and his students for hosting and for the wonderful discussions on AI for chip
-      design!"
+    title: "My KAIST lecture: Rethinking Chip Design in the Age of AI"
     date: "Jul 13, 2026"
     category: "Distinguished Lecture"
     summary: >
-      Prof. Mehdi Saligane delivered the IEEE SSCS distinguished lecture
-      "Rethinking Chip Design in the Age of AI" at KAIST, exploring how AI is
-      reshaping chip design from two complementary directions: using AI to
-      automate and improve chip design, and building specialized chips that make
-      AI dramatically more efficient. The talk presented Agentic-RL gLayout for
-      analog layout generation and a hardware-software co-design stack for
-      efficient edge AI inference. Many thanks to Prof. Wanyeong Jung and his
-      students for hosting and for the wonderful discussions on AI for chip
-      design!
+      I visited KAIST to give the IEEE SSCS distinguished lecture "Rethinking Chip Design in the Age of AI." I shared our work on Agentic-RL gLayout for analog layout generation and hardware-software co-design for efficient edge AI inference. Thank you to Prof. Wanyeong Jung and his students for hosting me and for the thoughtful discussions about AI for chip design.
     location: "KAIST, Daejeon, South Korea"
     imagesDir: "kaist-dl-2026"
   - slug: "congratulations-to-xinting-jiang-who-is-joining-google-research-as-a-student-researcher"
-    title: "Congratulations to Xinting Jiang, who is joining Google Research as a Student Researcher!"
+    title: "Congratulations, Xinting, on joining Google Research!"
     date: "Jun 15, 2026"
     category: "Internship"
     summary: >
-      Congratulations to Xinting Jiang, who is joining Google as a Student
-      Researcher this summer! 
+      Congratulations to Xinting Jiang on joining Google Research as a Student Researcher this summer! Wishing you a great summer of research.
     location: "Google"
   - slug: "congratulations-to-mingxin-chu-who-has-landed-a-summer-internship-at-analog-devices-where-he-will-work-on-ai-for-analog-design"
-    title: "Congratulations to Mingxin Chu, who has landed a summer internship at Analog Devices, where he will work on AI for analog design!"
+    title: "Congratulations, Mingxin, on your Analog Devices internship!"
     date: "Jun 15, 2026"
     category: "Internship"
     summary: >
-      Warm congratulations to Mingxin Chu on joining Analog Devices (ADI) for a
-      summer internship! 
+      Congratulations to Mingxin Chu on joining Analog Devices (ADI) for a summer internship working on AI for analog design! Wishing you a great experience.
     location: "Analog Devices (ADI)"
   - slug: "thanks-aws-for-the-360k-cloud-credit-supporting-the-build-on-trainium-research"
-    title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
+    title: "Thank you, AWS, for supporting our Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
     summary: >
-      Thanks to AWS for the generous $360K cloud credit supporting the
-      Build on Trainium research project "Onboarding and Optimizing Google
-      Gemma on Trainium."
+      We’re grateful to AWS for $360K in cloud credits supporting our Build on Trainium research project, "Onboarding and Optimizing Google Gemma on Trainium."
     location: "AWS Build on Trainium"
   - slug: "check-out-our-work-at-iscas-2026-toward-generative-silicon-the-next-frontier-in-open-source-and-ai-driven-analog-design"
     title: 'Check out our work at ISCAS 2026: "Toward Generative Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."'
@@ -165,33 +133,28 @@ items:
     date: "May 23, 2026"
     category: "Invited Talk"
     summary: >
-      Very interactive session and presentation at CEA LETI. Thanks Youcef
-      for hosting me!
+      I had a very interactive session sharing our work at CEA LETI. Thank you, Youcef, for hosting me!
     location: "CEA LETI, Grenoble, France"
   - slug: "honored-to-speak-at-the-xiii-front-end-electronics-workshop-in-paris"
     title: "Honored to speak at the XIII Front-End Electronics Workshop in Paris"
     date: "May 20, 2026"
     category: "Invited Talk"
     summary: >
-      Honored to give a talk at the XIII Front-End Electronics Workshop in
-      Paris, France, on AI-driven chip design. Many thanks to the organizers
-      for the kind invitation and host!
+      I was honored to speak about AI-driven chip design at the XIII Front-End Electronics Workshop in Paris. Thank you to the organizers for the invitation and warm welcome.
     location: "Paris, France"
   - slug: "excited-to-give-a-webinar-at-apple"
     title: "Excited to give a webinar at Apple"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
-      Excited to give a webinar at Apple, sharing the latest from our work on
-      AI-driven chip design.
-      Huge thanks to Bharan Giridhar for the kind invitation and warm hosting!
+      I’m excited to share our latest work on AI-driven chip design in a webinar at Apple. Thank you, Bharan Giridhar, for the invitation and for hosting me!
     location: "Apple"
   - slug: "thrilled-to-give-a-webinar-at-analog-devices"
     title: "Thrilled to give a webinar at Analog Devices"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
-      Thrilled to give a webinar at Analog Devices (ADI) on AI-driven chip design. Big thanks to Ash Aldujaili for hosting!
+      I’m looking forward to sharing our work on AI-driven chip design in a webinar at Analog Devices (ADI). Thank you, Ash Aldujaili, for hosting!
     location: "Analog Devices (ADI)"
   - slug: "sscs-pico-open-source-chipathon-2026-announced"
     body: "sscs-pico-open-source-chipathon-2026-announced.md"
@@ -203,8 +166,8 @@ items:
       Open-Source Chipathon, with sign-ups and kickoff on May 1, 2026 and tapeout
       submissions due September 2026. Teams worldwide design open-source ICs on
       the GF180MCUD PDK across four tracks: foundational building blocks, sensor
-      circuits, MOSbius learning chips, and AI/LLM-assisted design. Prof. Mehdi
-      Saligane leads the AI/LLM-assisted Circuits track and serves on the
+      circuits, MOSbius learning chips, and AI/LLM-assisted design. I
+      lead the AI/LLM-assisted Circuits track and serve on the
       Tooling and Reference Flow Committee.
     location: "IEEE SSCS"
     link:
@@ -216,12 +179,7 @@ items:
     date: "May 1, 2026"
     category: "Invited Talk"
     summary: >
-      Prof. Mehdi Saligane is invited to give a talk at Latch-Up 2026
-      (May 1-3, 2026), the FOSSi Foundation's weekend conference dedicated
-      to advancing free and open-source silicon. The event gathers the
-      open-source digital design community for presentations and networking
-      on topics spanning open EDA tools, verification frameworks, fabrication
-      access, and AI-assisted design workflows.
+      I’m looking forward to speaking at Latch-Up 2026 (May 1–3) at the University of Waterloo. The FOSSi Foundation’s weekend conference brings the open-source silicon community together to discuss EDA tools, verification, fabrication access, and AI-assisted design.
     location: "Pearl Sullivan Engineering Building, University of Waterloo"
     link:
       label: "Event page"
@@ -232,12 +190,7 @@ items:
     date: "Apr 30, 2026"
     category: "Distinguished Lecture"
     summary: >
-      The IEEE Solid-State Circuits Society K-W Section and the University of
-      Waterloo host Prof. Mehdi Saligane for a distinguished lecture on
-      "Rethinking Chip Design in the Age of AI." The talk covers Agentic-RL
-      gLayout for automated analog layout generation and a hardware-software
-      co-design stack for efficient edge AI inference that minimizes latency
-      and power consumption.
+      I’m joining the IEEE SSCS K-W Section and the University of Waterloo for a distinguished lecture on "Rethinking Chip Design in the Age of AI." I’ll share our work on Agentic-RL gLayout for automated analog layout generation and hardware-software co-design for efficient edge AI inference. Thank you to Prof. John Long for hosting me.
     location: "University of Waterloo"
     link:
       label: "Event page"
@@ -248,25 +201,18 @@ items:
     date: "Sep 22, 2025"
     category: "Workshop"
     summary: >
-      Prof. Mehdi Saligane co-chaired the SSCS Directions Series workshop
-      "Think & Impact with ICs: From Words to Circuits - Agentic AI, Foundation
-      Models, and Open EDA" and presented on open, automated design flows for
-      efficient AI-centric systems.
+      I co-chaired the SSCS Directions Series workshop "Think & Impact with ICs: From Words to Circuits - Agentic AI, Foundation Models, and Open EDA." I shared our work on open, automated design flows for efficient AI-centric systems.
     location: "IEEE SSCS Directions Series"
     link:
       label: "Event page"
       href: "https://sscs.ieee.org/event/ieee-solid-state-circuits-directions-series-think-impact-with-ics-from-words-to-circuits-agentic-ai-foundation-models-and-open-eda-workshop/"
   - slug: "prof-mehdi-saligane-okada-laboratory-talk"
     body: "prof-mehdi-saligane-okada-laboratory-talk.md"
-    title: "Prof. Mehdi Saligane - Okada Laboratory Talk"
+    title: "My Talk at Okada Laboratory"
     date: "Dec 16, 2025"
     category: "Talk"
     summary: >
-      Prof. Mehdi Saligane delivered the talk "AI for Chips & Chips for AI" at
-      Okada Laboratory, outlining an open and highly automated paradigm for
-      AI-enhanced chip design and efficient AI accelerators. The talk highlighted
-      open-source EDA workflows and hardware-software co-design to shorten tapeout
-      cycles.
+      I visited Okada Laboratory to share "AI for Chips & Chips for AI." We discussed how open-source EDA and hardware-software co-design can shorten tapeout cycles and support efficient AI accelerators.
     location: "Okada Laboratory, Institute of Science Tokyo"
     link:
       label: "Event page"
@@ -289,14 +235,11 @@ items:
       href: "https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/05/04/ai-chips-and-chips-ai"
   - slug: "seminar-by-dr-mehdi-saligane-integrated-systems-engineering-laboratory"
     body: "seminar-by-dr-mehdi-saligane-integrated-systems-engineering-laboratory.md"
-    title: "Seminar by Dr. Mehdi Saligane - Integrated Systems Engineering Laboratory"
+    title: "My Seminar at the Integrated Systems Engineering Laboratory"
     date: "Jan 6, 2025"
     category: "Seminar"
     summary: >
-      The Integrated Systems Engineering Laboratory at Kyoto University hosted
-      Dr. Mehdi Saligane for a seminar titled "What is Possible with Open Design"
-      (held Dec 27, 2024). The talk discussed open-source design flows and their
-      impact on practical chip development.
+      I visited the Integrated Systems Engineering Laboratory at Kyoto University on December 27, 2024, to give a seminar titled "What is Possible with Open Design." We discussed open-source design flows and what they make possible for practical chip development.
     location: "Kyoto University, Integrated Systems Engineering Laboratory"
     link:
       label: "Event page"

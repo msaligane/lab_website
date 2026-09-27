@@ -1,4 +1,4 @@
-Prof. Mehdi Saligane delivered the IEEE SSCS distinguished lecture "Rethinking Chip Design in the Age of AI" at KAIST.
+I visited KAIST to give the IEEE SSCS distinguished lecture "Rethinking Chip Design in the Age of AI."
 
 AI is changing not only the applications we build, but also the way we design the chips that power them. This talk explores how we can rethink chip design in the age of AI from two complementary directions: using AI to automate and improve chip design, and building specialized chips that make AI dramatically more efficient.
 

@@ -1,4 +1,4 @@
-The IEEE Solid-State Circuits Society K-W Section and the University of Waterloo are hosting Prof. Mehdi Saligane for a distinguished lecture titled "Rethinking Chip Design in the Age of AI" on April 30, 2026.
+The IEEE Solid-State Circuits Society K-W Section and the University of Waterloo are hosting me for a distinguished lecture titled "Rethinking Chip Design in the Age of AI" on April 30, 2026.
 
 The lecture explores how artificial intelligence is reshaping chip design from two complementary directions: leveraging AI to enhance the design process itself, and crafting specialized hardware tailored for AI workloads.
 
@@ -8,7 +8,7 @@ The lecture explores how artificial intelligence is reshaping chip design from t
 - **Hardware-software co-design for edge AI** — a stack designed to minimize latency and power consumption for efficient on-device inference.
 - Discussion of open infrastructure (OpenROAD, OpenFASOC) and how community-driven flows accelerate chip development.
 
-Thanks Prof. John Long for hosting.
+Thank you, Prof. John Long, for hosting me.
 
 ## About the Speaker
 
