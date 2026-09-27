@@ -83,10 +83,17 @@ export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
             className="mt-10 text-base leading-relaxed text-foreground/90 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:mt-8 [&_h3]:text-xl [&_h3]:font-semibold [&_p]:mt-4 [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_a]:text-primary [&_a]:underline [&_img]:mt-6 [&_img]:rounded-xl [&_img]:border [&_img]:border-border"
           />
 
-          {!html ? (
-            <div className="mt-10 rounded-xl border border-dashed border-border bg-card p-6 text-sm text-muted-foreground">
-              Detailed content will be added here soon.
-            </div>
+          {item.link ? (
+            <p className="mt-6">
+              <a
+                href={item.link.href}
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold text-primary underline"
+              >
+                {item.link.label}
+              </a>
+            </p>
           ) : null}
         </div>
       </section>

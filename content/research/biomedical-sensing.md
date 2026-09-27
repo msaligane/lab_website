@@ -10,7 +10,7 @@ We present the integration of the Laser-Induced-Graphene (LIG) sensors and the A
 <a id="ref-2"></a>
 [2] A. Li et al., "Rapid Prototyping of Laser-Induced Graphene Sensors With Open-Source Silicon: Paving the Way for Low-Cost and Robust Flexible Wearable Sensing," in IEEE Solid-State Circuits Magazine, vol. 16, no. 2, pp. 49-57, Spring 2024, doi: 10.1109/MSSC.2024.3380586.
 
-## Human-Body Communication (HBC) [[3]](#ref-3)
+## Human-Body Communication (HBC) [[3]](#ref-3)[[4]](#ref-4)
 
 HBC systems use the human body as a conductive medium to transmit data between wearable or implantable devices, reducing radiated energy and improving privacy. A typical HBC link includes body-coupled transmitters and receivers that modulate signals through electrodes and measure the resulting potential differences across the body.
 
@@ -18,7 +18,12 @@ HBC systems use the human body as a conductive medium to transmit data between w
 
 We developed an inductive-resonance transceiver using pulse-position modulation and taped it out in 16 nm technology. The associated 2026 CICC paper reports 2.2 pJ/b operation for 15 Mb/s multi-source body-area communication.
 
+Our SIMFONY health-monitoring node further integrates HBC, single-inductor multiple-output (SIMO) power delivery, photoplethysmography (PPG), and on-node inference, while operating at 1.2 µW in standby mode.
+
 <img src="/images/research/biosensor/hbc_chip.png" alt="Die photograph of the 16 nm human-body communication transceiver" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
 <a id="ref-3"></a>
 [3] A. Li et al., "A 16nm 2.2pJ/b High Efficiency Pulse-Position Modulated Resonance Transceiver for 15Mbps Multi-Source High-Speed Body-Area Sensor Network," in IEEE Custom Integrated Circuits Conference (CICC) 2026.
+
+<a id="ref-4"></a>
+[4] A. Li, J. Luo, R. Qi, H. Wu, D. Sylvester and M. Saligane, "SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference," in 52nd IEEE European Solid-State Electronics Research Conference (ESSERC), Palma de Mallorca, Spain, 2026.
