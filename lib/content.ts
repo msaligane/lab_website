@@ -93,6 +93,8 @@ export type NewsContent = {
   title: string
   description: string
   items: {
+    slug: string
+    body?: string
     title: string
     date: string
     category: string
@@ -185,7 +187,7 @@ export async function getPageContent() {
     readYaml<ResearchContent>("research"),
     readYaml<TeamContent>("team"),
     readYaml<PublicationsContent>("publications"),
-    readYaml<NewsContent>("news"),
+    getNewsContent(),
     readYaml<ContactContent>("contact"),
     readYaml<FooterContent>("footer"),
   ])
@@ -238,32 +240,53 @@ export async function getResearchDetail(slug: string): Promise<ResearchDetail | 
   }
 }
 
-export async function getNewsSlugs() {
+async function getNewsContent(): Promise<SectionContent<NewsContent>> {
   const news = await readYaml<NewsContent>("news")
-  return news.data.items.map((item) => slugify(item.title))
+  const seen = new Set<string>()
+
+  for (const item of news.data.items) {
+    if (typeof item.slug !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug)) {
+      throw new Error(`News entry "${item.title}" needs a valid, stable slug.`)
+    }
+    if (seen.has(item.slug)) {
+      throw new Error(`Duplicate news slug: ${item.slug}`)
+    }
+    seen.add(item.slug)
+    if (typeof item.summary !== "string" || !item.summary.trim()) {
+      throw new Error(`News entry "${item.slug}" needs a nonempty summary.`)
+    }
+    if (item.body !== undefined &&
+        (typeof item.body !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*\.md$/.test(item.body))) {
+      throw new Error(`News entry "${item.slug}" has an invalid markdown filename.`)
+    }
+  }
+
+  return news
+}
+
+export async function getNewsSlugs() {
+  const news = await getNewsContent()
+  return news.data.items.map((item) => item.slug)
 }
 
 export async function getNewsDetail(slug: string): Promise<NewsDetail | null> {
-  const news = await readYaml<NewsContent>("news")
-  const item = news.data.items.find((entry) => slugify(entry.title) === slug)
+  const news = await getNewsContent()
+  const item = news.data.items.find((entry) => entry.slug === slug)
 
   if (!item) {
     return null
   }
 
-  const filePath = path.join(contentDir, "news", `${slug}.md`)
-  let raw = ""
-
-  try {
-    raw = await fs.readFile(filePath, "utf8")
-  } catch (error) {
-    const err = error as NodeJS.ErrnoException
-    if (err.code !== "ENOENT") {
-      throw error
-    }
+  // Short announcements use their existing summary. An explicitly mapped
+  // article must exist and contain text; never silently replace a lost story.
+  const raw = item.body
+    ? await fs.readFile(path.join(contentDir, "news", item.body), "utf8")
+    : item.summary
+  if (!raw.trim()) {
+    throw new Error(`News article "${slug}" is empty (${item.body}).`)
   }
 
-  const html = raw.trim() ? await marked.parse(raw) : ""
+  const html = await marked.parse(raw)
   const images = await getNewsImages(item.imagesDir)
 
   return {

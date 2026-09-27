@@ -4,7 +4,9 @@ description: >
   Follow our latest milestones, awards, and invited talks. We share short updates
   as soon as results are ready for the community.
 items:
-  - title: "Seminar at the University of Rhode Island"
+  - slug: "seminar-at-the-university-of-rhode-island"
+    body: "seminar-at-the-university-of-rhode-island.md"
+    title: "Seminar at the University of Rhode Island"
     date: "Sep 25, 2026"
     category: "Seminar"
     summary: >
@@ -15,7 +17,9 @@ items:
     link:
       label: "Host profile"
       href: "https://web.uri.edu/ece/meet/kaushallya-kay-adhikari/"
-  - title: "Mehdi Saligane receives 2026 DARPA Young Faculty Award"
+  - slug: "mehdi-saligane-receives-2026-darpa-young-faculty-award"
+    body: "mehdi-saligane-receives-2026-darpa-young-faculty-award.md"
+    title: "Mehdi Saligane receives 2026 DARPA Young Faculty Award"
     date: "Sep 23, 2026"
     category: "Award"
     summary: >
@@ -27,7 +31,9 @@ items:
     link:
       label: "Brown Engineering announcement"
       href: "https://engineering.brown.edu/news/2026-09-23/mehdi-saligane-darpa-young-faculty-award"
-  - title: "AMD visit: AI for chip design and verification"
+  - slug: "amd-visit-ai-for-chip-design-and-verification"
+    body: "amd-visit-ai-for-chip-design-and-verification.md"
+    title: "AMD visit: AI for chip design and verification"
     date: "Sep 23, 2026"
     category: "Seminar"
     summary: >
@@ -36,7 +42,9 @@ items:
       presented "Digital Design Verification: Foundations and AI," and our
       students shared projects and explored potential collaboration areas.
     location: "Brown University, Providence, RI, USA"
-  - title: "SIMFONY presented at ESSERC 2026"
+  - slug: "simfony-presented-at-esserc-2026"
+    body: "simfony-presented-at-esserc-2026.md"
+    title: "SIMFONY presented at ESSERC 2026"
     date: "Sep 9, 2026"
     category: "Conference"
     summary: >
@@ -47,7 +55,8 @@ items:
     link:
       label: "Conference program"
       href: "https://epapers2.org/esserc2026/ESR/session_view.php?print=1&session_id=29"
-  - title: "Tutorial on AI-Assisted AMS Design at MWSCAS 2026. Thanks to Prof. Vishal Saxena for hosting the session!"
+  - slug: "tutorial-on-ai-assisted-ams-design-at-mwscas-2026-thanks-to-prof-vishal-saxena-for-hosting-the-session"
+    title: "Tutorial on AI-Assisted AMS Design at MWSCAS 2026. Thanks to Prof. Vishal Saxena for hosting the session!"
     date: "Aug 11, 2026"
     category: "Conference"
     summary: >
@@ -55,7 +64,9 @@ items:
       analog and mixed-signal (AMS) design at MWSCAS 2026 in Cincinnati. Many
       thanks to Prof. Vishal Saxena for hosting the session!
     location: "MWSCAS 2026, Cincinnati, OH, USA"
-  - title: "Ruichen Qi presents digest at TMRC 2026"
+  - slug: "ruichen-qi-presents-digest-at-tmrc-2026"
+    body: "ruichen-qi-presents-digest-at-tmrc-2026.md"
+    title: "Ruichen Qi presents digest at TMRC 2026"
     date: "Aug 5, 2026"
     category: "Conference"
     summary: >
@@ -69,7 +80,9 @@ items:
     link:
       label: "Conference"
       href: "https://tmrc2026.ucsd.edu/"
-  - title: "CHIPS Alliance Developer Spotlight: Mehdi Saligane on Rethinking Chip Design in the AI Era"
+  - slug: "chips-alliance-developer-spotlight-mehdi-saligane-on-rethinking-chip-design-in-the-ai-era"
+    body: "chips-alliance-developer-spotlight-mehdi-saligane-on-rethinking-chip-design-in-the-ai-era.md"
+    title: "CHIPS Alliance Developer Spotlight: Mehdi Saligane on Rethinking Chip Design in the AI Era"
     date: "Aug 3, 2026"
     category: "Spotlight"
     summary: >
@@ -80,7 +93,9 @@ items:
     link:
       label: "Read the CHIPS Alliance spotlight"
       href: "https://www.chipsalliance.org/news/mehdi-saligane-spotlight/"
-  - title: "Guanchen Tao presents CryoZip at DAC 2026"
+  - slug: "guanchen-tao-presents-cryozip-at-dac-2026"
+    body: "guanchen-tao-presents-cryozip-at-dac-2026.md"
+    title: "Guanchen Tao presents CryoZip at DAC 2026"
     date: "Jul 28, 2026"
     category: "Conference"
     summary: >
@@ -92,7 +107,9 @@ items:
     link:
       label: "Paper (arXiv)"
       href: "https://arxiv.org/abs/2606.30805"
-  - title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI. Thanks to Prof. Wanyeong Jung and his students for hosting and for the wonderful discussions on AI for chip
+  - slug: "ieee-sscs-distinguished-lecture-at-kaist-rethinking-chip-design-in-the-age-of-ai-thanks-to-prof-wanyeong-jung-and-his-students-for-hosting-and-for-the-wonderful-discussions-on-ai-for-chip-design"
+    body: "ieee-sscs-distinguished-lecture-at-kaist-rethinking-chip-design-in-the-age-of-ai.md"
+    title: "IEEE SSCS Distinguished Lecture at KAIST: Rethinking Chip Design in the Age of AI. Thanks to Prof. Wanyeong Jung and his students for hosting and for the wonderful discussions on AI for chip
       design!"
     date: "Jul 13, 2026"
     category: "Distinguished Lecture"
@@ -108,21 +125,24 @@ items:
       design!
     location: "KAIST, Daejeon, South Korea"
     imagesDir: "kaist-dl-2026"
-  - title: "Congratulations to Xinting Jiang, who is joining Google Research as a Student Researcher!"
+  - slug: "congratulations-to-xinting-jiang-who-is-joining-google-research-as-a-student-researcher"
+    title: "Congratulations to Xinting Jiang, who is joining Google Research as a Student Researcher!"
     date: "Jun 15, 2026"
     category: "Internship"
     summary: >
       Congratulations to Xinting Jiang, who is joining Google as a Student
       Researcher this summer! 
     location: "Google"
-  - title: "Congratulations to Mingxin Chu, who has landed a summer internship at Analog Devices, where he will work on AI for analog design!"
+  - slug: "congratulations-to-mingxin-chu-who-has-landed-a-summer-internship-at-analog-devices-where-he-will-work-on-ai-for-analog-design"
+    title: "Congratulations to Mingxin Chu, who has landed a summer internship at Analog Devices, where he will work on AI for analog design!"
     date: "Jun 15, 2026"
     category: "Internship"
     summary: >
       Warm congratulations to Mingxin Chu on joining Analog Devices (ADI) for a
       summer internship! 
     location: "Analog Devices (ADI)"
-  - title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
+  - slug: "thanks-aws-for-the-360k-cloud-credit-supporting-the-build-on-trainium-research"
+    title: "Thanks AWS for the $360K cloud credit supporting the Build on Trainium research"
     date: "Jun 13, 2026"
     category: "Acknowledgement"
     summary: >
@@ -130,7 +150,8 @@ items:
       Build on Trainium research project "Onboarding and Optimizing Google
       Gemma on Trainium."
     location: "AWS Build on Trainium"
-  - title: 'Check out our work at ISCAS 2026: "Toward Generative Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."'
+  - slug: "check-out-our-work-at-iscas-2026-toward-generative-silicon-the-next-frontier-in-open-source-and-ai-driven-analog-design"
+    title: 'Check out our work at ISCAS 2026: "Toward Generative Silicon: The Next Frontier in Open-Source and AI-Driven Analog Design."'
     date: "May 25, 2026"
     category: "Conference"
     summary: >
@@ -139,14 +160,16 @@ items:
       Great discussions with the community on where generative analog design
       is heading next!
     location: "ISCAS 2026, Shanghai, China"
-  - title: "Very interactive session at CEA LETI"
+  - slug: "very-interactive-session-at-cea-leti"
+    title: "Very interactive session at CEA LETI"
     date: "May 23, 2026"
     category: "Invited Talk"
     summary: >
       Very interactive session and presentation at CEA LETI. Thanks Youcef
       for hosting me!
     location: "CEA LETI, Grenoble, France"
-  - title: "Honored to speak at the XIII Front-End Electronics Workshop in Paris"
+  - slug: "honored-to-speak-at-the-xiii-front-end-electronics-workshop-in-paris"
+    title: "Honored to speak at the XIII Front-End Electronics Workshop in Paris"
     date: "May 20, 2026"
     category: "Invited Talk"
     summary: >
@@ -154,7 +177,8 @@ items:
       Paris, France, on AI-driven chip design. Many thanks to the organizers
       for the kind invitation and host!
     location: "Paris, France"
-  - title: "Excited to give a webinar at Apple"
+  - slug: "excited-to-give-a-webinar-at-apple"
+    title: "Excited to give a webinar at Apple"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
@@ -162,13 +186,16 @@ items:
       AI-driven chip design.
       Huge thanks to Bharan Giridhar for the kind invitation and warm hosting!
     location: "Apple"
-  - title: "Thrilled to give a webinar at Analog Devices"
+  - slug: "thrilled-to-give-a-webinar-at-analog-devices"
+    title: "Thrilled to give a webinar at Analog Devices"
     date: "May 15, 2026"
     category: "Invited Talk"
     summary: >
       Thrilled to give a webinar at Analog Devices (ADI) on AI-driven chip design. Big thanks to Ash Aldujaili for hosting!
     location: "Analog Devices (ADI)"
-  - title: "SSCS PICO Open-Source Chipathon 2026 Announced"
+  - slug: "sscs-pico-open-source-chipathon-2026-announced"
+    body: "sscs-pico-open-source-chipathon-2026-announced.md"
+    title: "SSCS PICO Open-Source Chipathon 2026 Announced"
     date: "May 1, 2026"
     category: "Announcement"
     summary: >
@@ -183,7 +210,9 @@ items:
     link:
       label: "Announcement"
       href: "https://sscs.ieee.org/technical-committees/tc-ose/sscs-pico-design-contest/"
-  - title: "Invited Talk at Latch-Up 2026"
+  - slug: "invited-talk-at-latch-up-2026"
+    body: "invited-talk-at-latch-up-2026.md"
+    title: "Invited Talk at Latch-Up 2026"
     date: "May 1, 2026"
     category: "Invited Talk"
     summary: >
@@ -197,7 +226,9 @@ items:
     link:
       label: "Event page"
       href: "https://fossi-foundation.org/latch-up/2026"
-  - title: "IEEE SSCS Distinguished Lecture at University of Waterloo: Rethinking Chip Design in the Age of AI"
+  - slug: "ieee-sscs-distinguished-lecture-at-university-of-waterloo-rethinking-chip-design-in-the-age-of-ai"
+    body: "ieee-sscs-distinguished-lecture-at-university-of-waterloo-rethinking-chip-design-in-the-age-of-ai.md"
+    title: "IEEE SSCS Distinguished Lecture at University of Waterloo: Rethinking Chip Design in the Age of AI"
     date: "Apr 30, 2026"
     category: "Distinguished Lecture"
     summary: >
@@ -211,7 +242,9 @@ items:
     link:
       label: "Event page"
       href: "https://uwaterloo.ca/electrical-computer-engineering/events/ieee-solid-state-circuits-society-k-w-section-and-uwaterloo-0"
-  - title: "IEEE SSCS Directions Series Workshop: Think & Impact with ICs"
+  - slug: "ieee-sscs-directions-series-workshop-think-and-impact-with-ics"
+    body: "ieee-sscs-directions-series-workshop-think-and-impact-with-ics.md"
+    title: "IEEE SSCS Directions Series Workshop: Think & Impact with ICs"
     date: "Sep 22, 2025"
     category: "Workshop"
     summary: >
@@ -223,7 +256,9 @@ items:
     link:
       label: "Event page"
       href: "https://sscs.ieee.org/event/ieee-solid-state-circuits-directions-series-think-impact-with-ics-from-words-to-circuits-agentic-ai-foundation-models-and-open-eda-workshop/"
-  - title: "Prof. Mehdi Saligane - Okada Laboratory Talk"
+  - slug: "prof-mehdi-saligane-okada-laboratory-talk"
+    body: "prof-mehdi-saligane-okada-laboratory-talk.md"
+    title: "Prof. Mehdi Saligane - Okada Laboratory Talk"
     date: "Dec 16, 2025"
     category: "Talk"
     summary: >
@@ -236,7 +271,9 @@ items:
     link:
       label: "Event page"
       href: "https://www.ssc.p.isct.ac.jp/en/news/2025-12-16-05-48-51/"
-  - title: "AI for Chips and Chips for AI Talk at KAUST Future of Semiconductors Forum"
+  - slug: "ai-for-chips-and-chips-for-ai-talk-at-kaust-future-of-semiconductors-forum"
+    body: "ai-for-chips-and-chips-for-ai-cemse-graduate-seminar.md"
+    title: "AI for Chips and Chips for AI Talk at KAUST Future of Semiconductors Forum"
     date: "May 4, 2025"
     category: "Seminar"
     summary: >
@@ -250,7 +287,9 @@ items:
     link:
       label: "Event page"
       href: "https://cemse.kaust.edu.sa/events/by-type/graduate-seminar/2025/05/04/ai-chips-and-chips-ai"
-  - title: "Seminar by Dr. Mehdi Saligane - Integrated Systems Engineering Laboratory"
+  - slug: "seminar-by-dr-mehdi-saligane-integrated-systems-engineering-laboratory"
+    body: "seminar-by-dr-mehdi-saligane-integrated-systems-engineering-laboratory.md"
+    title: "Seminar by Dr. Mehdi Saligane - Integrated Systems Engineering Laboratory"
     date: "Jan 6, 2025"
     category: "Seminar"
     summary: >
