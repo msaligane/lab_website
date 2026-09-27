@@ -1,6 +1,5 @@
 import Link from "next/link"
 import type { NewsContent, SectionContent } from "@/lib/content"
-import { slugify } from "@/lib/utils"
 import { ArrowRight } from "lucide-react"
 
 type InTheNewsSectionProps = {
@@ -35,7 +34,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
                 {item.date}
               </time>
               <Link
-                href={`/news/${slugify(item.title)}`}
+                href={`/news/${item.slug}`}
                 className="text-sm font-medium text-foreground transition-colors hover:text-primary"
               >
                 {item.title}

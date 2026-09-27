@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Markdown } from "@/components/markdown"
 import type { NewsContent, SectionContent } from "@/lib/content"
-import { slugify } from "@/lib/utils"
 import { ExternalLink, MapPin, Mic } from "lucide-react"
 
 type NewsSectionProps = {
@@ -41,7 +40,7 @@ export function NewsSection({ content }: NewsSectionProps) {
               </div>
               <h3 className="mt-3 text-xl font-semibold text-foreground sm:text-2xl">
                 <Link
-                  href={`/news/${slugify(item.title)}`}
+                  href={`/news/${item.slug}`}
                   className="transition-colors hover:text-primary"
                 >
                   {item.title}
@@ -75,10 +74,10 @@ export function NewsSection({ content }: NewsSectionProps) {
                   </a>
                 )}
                 <Link
-                  href={`/news/${slugify(item.title)}`}
+                  href={`/news/${item.slug}`}
                   className="inline-flex items-center gap-2 font-semibold text-primary hover:text-primary/80"
                 >
-                  Read full story
+                  {item.body ? "Read full story" : "View announcement"}
                   <ExternalLink className="h-4 w-4" />
                 </Link>
               </div>
