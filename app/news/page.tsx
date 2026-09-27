@@ -7,12 +7,12 @@ import { getPageContent } from "@/lib/content"
 export const metadata: Metadata = {
   title: "News & Talks — Prof. Mehdi Saligane",
   description:
-    "Latest talks, invited lectures, and milestones from Prof. Mehdi Saligane and the ReaLLMASIC Lab at Brown University.",
+    "My latest talks and invited lectures, alongside milestones from our ReaLLMASIC Lab at Brown University.",
   alternates: { canonical: "/news" },
   openGraph: {
     title: "News & Talks — Prof. Mehdi Saligane",
     description:
-      "Latest talks and milestones from Prof. Mehdi Saligane and the ReaLLMASIC Lab.",
+      "My latest talks and milestones from our ReaLLMASIC Lab.",
     url: "/news",
   },
 }

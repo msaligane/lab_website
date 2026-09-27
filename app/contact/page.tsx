@@ -7,12 +7,12 @@ import { getPageContent } from "@/lib/content"
 export const metadata: Metadata = {
   title: "Contact — Prof. Mehdi Saligane & ReaLLMASIC Lab",
   description:
-    "Get in touch with Prof. Mehdi Saligane and the ReaLLMASIC Lab at Brown University for collaborations, talks, and student inquiries.",
+    "Get in touch with me and our team at the ReaLLMASIC Lab at Brown University for collaborations, talks, and student inquiries.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact — Prof. Mehdi Saligane & ReaLLMASIC Lab",
     description:
-      "Contact Prof. Mehdi Saligane and the ReaLLMASIC Lab.",
+      "Contact me and our team at the ReaLLMASIC Lab.",
     url: "/contact",
   },
 }
