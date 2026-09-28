@@ -27,7 +27,8 @@ export function responsiveMarkdown(html: string) {
     if (!source || !images[source] || /\bsrcset=/i.test(tag)) return tag
     const percent = Number(tag.match(/\bwidth:\s*([\d.]+)%/)?.[1] ?? 100) / 100
     const max = Number(tag.match(/\bmax-width:\s*([\d.]+)px/)?.[1] ?? 960)
-    const sizes = `(max-width: 1024px) ${Math.round(percent * 100)}vw, ${Math.min(max, Math.round(960 * percent))}px`
+    const scientific = source.startsWith("/images/research/")
+    const sizes = `${scientific ? "(max-width: 640px) calc(100vw - 48px), " : ""}(max-width: 1024px) ${Math.round(percent * 100)}vw, ${Math.min(max, Math.round(960 * percent))}px`
     const props = responsiveImage(source, sizes)
     let updated = tag.replace(/\bsrc=["'][^"']+["']/, `src="${props.src}"`)
     for (const [key, value] of Object.entries(props)) {
@@ -37,6 +38,8 @@ export function responsiveMarkdown(html: string) {
         updated = updated.replace(/\s*\/?>$/, ` ${attribute}="${String(value).replaceAll('"', "&quot;")}" />`)
       }
     }
-    return updated
+    return scientific
+      ? `${updated}<a class="figure-original-link" href="${source}" target="_blank" rel="noreferrer">Open full-resolution image <span class="sr-only">(new tab)</span></a>`
+      : updated
   })
 }

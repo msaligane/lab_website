@@ -49,14 +49,16 @@ export default async function TeamPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
       <Header content={content.header.data} />
-      <TeamSection content={content.team} />
+      <main id="main-content" tabIndex={-1}>
+        <TeamSection content={content.team} />
+      </main>
       <Footer content={content.footer.data} />
-    </main>
+    </div>
   )
 }
