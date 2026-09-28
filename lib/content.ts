@@ -147,7 +147,7 @@ export type FooterContent = {
   fundingTitle?: string
   fundingNote?: string
   fundingImage?: string
-  fundingLogos?: { name: string; image: string; href: string; caption: string }[]
+  fundingLogos?: { name: string; image: string; viewBox?: string; href?: string; caption?: string }[]
 }
 
 export type SectionContent<T> = {
