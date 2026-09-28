@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { contentSocialImage, pageMetadata } from "@/lib/metadata"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { Button } from "@/components/ui/button"
@@ -27,17 +28,13 @@ export async function generateMetadata({
   const description =
     item.summary?.replace(/\s+/g, " ").trim().slice(0, 200) ??
     `${item.title} — Prof. Mehdi Saligane, ReaLLMASIC Lab.`
-  return {
+  return pageMetadata({
     title: item.title,
     description,
-    alternates: { canonical: `/news/${slug}` },
-    openGraph: {
-      type: "article",
-      title: item.title,
-      description,
-      url: `/news/${slug}`,
-    },
-  }
+    path: `/news/${slug}`,
+    image: await contentSocialImage(detail.html, detail.images),
+    article: true,
+  })
 }
 
 export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
