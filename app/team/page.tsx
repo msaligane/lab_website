@@ -1,22 +1,15 @@
-import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/metadata"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { TeamSection } from "@/components/team-section"
 import { getPageContent } from "@/lib/content"
 import { siteUrl } from "@/app/layout"
 
-export const metadata: Metadata = {
-  title: "Team — Prof. Mehdi Saligane & ReaLLMASIC Lab",
-  description:
-    "Meet our team at the ReaLLMASIC Lab at Brown University, where we work on open-source and AI-driven chip design, analog layout automation (GLayout), and efficient AI accelerators.",
-  alternates: { canonical: "/team" },
-  openGraph: {
-    title: "Team — Prof. Mehdi Saligane & ReaLLMASIC Lab",
-    description:
-      "Meet our team at the ReaLLMASIC Lab at Brown University.",
-    url: "/team",
-  },
-}
+export const metadata = pageMetadata({
+  title: "Team",
+  description: "Meet our team at the ReaLLMASIC Lab at Brown University, where we work on open-source and AI-driven chip design, analog layout automation (GLayout), and efficient AI accelerators.",
+  path: "/team",
+})
 
 export default async function TeamPage() {
   const content = await getPageContent()

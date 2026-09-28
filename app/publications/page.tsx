@@ -1,21 +1,14 @@
-import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/metadata"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { PublicationsSection } from "@/components/publications-section"
 import { getPageContent } from "@/lib/content"
 
-export const metadata: Metadata = {
-  title: "Publications — Prof. Mehdi Saligane",
-  description:
-    "Our publications at the ReaLLMASIC Lab at Brown University: open-source silicon, agentic analog layout (GLayout), edge AI accelerators, and cryogenic circuits.",
-  alternates: { canonical: "/publications" },
-  openGraph: {
-    title: "Publications — Prof. Mehdi Saligane",
-    description:
-      "Selected papers from our ReaLLMASIC Lab.",
-    url: "/publications",
-  },
-}
+export const metadata = pageMetadata({
+  title: "Publications",
+  description: "Our publications at the ReaLLMASIC Lab at Brown University: open-source silicon, agentic analog layout (GLayout), edge AI accelerators, and cryogenic circuits.",
+  path: "/publications",
+})
 
 export default async function PublicationsPage() {
   const content = await getPageContent()

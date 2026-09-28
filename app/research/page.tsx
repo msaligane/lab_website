@@ -1,22 +1,15 @@
-import type { Metadata } from "next"
+import { pageMetadata } from "@/lib/metadata"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { ResearchSection } from "@/components/research-section"
 import { TapeoutsSection } from "@/components/tapeouts-section"
 import { getPageContent } from "@/lib/content"
 
-export const metadata: Metadata = {
-  title: "Research — Prof. Mehdi Saligane & ReaLLMASIC Lab",
-  description:
-    "Our research at the ReaLLMASIC Lab: open-source EDA flows, agentic analog layout automation, edge AI accelerators, and hardware-software co-design.",
-  alternates: { canonical: "/research" },
-  openGraph: {
-    title: "Research — Prof. Mehdi Saligane & ReaLLMASIC Lab",
-    description:
-      "Our research on open-source and AI-driven chip design at the ReaLLMASIC Lab.",
-    url: "/research",
-  },
-}
+export const metadata = pageMetadata({
+  title: "Research",
+  description: "Our research at the ReaLLMASIC Lab: open-source EDA flows, agentic analog layout automation, edge AI accelerators, and hardware-software co-design.",
+  path: "/research",
+})
 
 export default async function ResearchPage() {
   const content = await getPageContent()
