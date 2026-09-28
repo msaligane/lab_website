@@ -9,4 +9,4 @@
 <img src="/images/research/quantum/pre_decoding.png" alt="Cryogenic CMOS pre-decoding flow for quantum error correction" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
 <a id="ref-1"></a>
-[1] G. Tao et al., "CryoZip: An Efficient Cryogenic Compressor for Quantum Error Correction Syndromes", in Proceedings of the 62nd Annual ACM/IEEE Design Automation Conference (DAC) 2026.
+[1] G. Tao et al., "CryoZip: An Efficient Cryogenic Compressor for Quantum Error Correction Syndromes", in Proceedings of the 63rd Annual ACM/IEEE Design Automation Conference (DAC), 2026. [Paper (arXiv)](https://arxiv.org/abs/2606.30805).
