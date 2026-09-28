@@ -48,22 +48,39 @@ export function Footer({ content }: FooterProps) {
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               {content.fundingNote}
             </p>
-            {content.fundingImage ? (
+            {content.fundingImage && !content.fundingLogos?.length ? (
               <img
                 {...responsiveImage(content.fundingImage, "(max-width: 816px) calc(100vw - 48px), 768px")}
                 alt="Funding partners"
                 className="mt-6 w-full max-w-3xl mx-auto object-contain opacity-100"
               />
             ) : null}
-            {content.fundingLogos?.map((funder) => (
-              <Link key={funder.name} href={funder.href}
-                className="mx-auto mt-6 flex w-fit flex-col items-center gap-2 rounded text-sm text-muted-foreground hover:text-primary-text">
-                <span className="rounded bg-[#002b49] px-5 py-3">
-                  <img src={funder.image} alt={funder.name} width={152} height={84}
-                    loading="lazy" decoding="async" className="h-auto w-28" />
-                </span>
-                <span>{funder.caption}</span>
-              </Link>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
+              {content.fundingLogos?.map((funder) => {
+                const logo = (
+                  <span className={`flex h-20 w-32 items-center justify-center rounded p-3 ${funder.name === "DARPA" ? "bg-[#002b49]" : "bg-white"}`}>
+                    {funder.viewBox ? (
+                      <svg role="img" aria-label={funder.name} viewBox={funder.viewBox}
+                        className="h-12 w-26" preserveAspectRatio="xMidYMid meet">
+                        <image href={responsiveImage(funder.image, "104px", 1993).src} width="1993" height="135" />
+                      </svg>
+                    ) : (
+                      <img src={funder.image} alt={funder.name} width={152} height={84}
+                        loading="lazy" decoding="async" className="h-12 w-26 object-contain" />
+                    )}
+                  </span>
+                )
+                return funder.href ? (
+                  <Link key={funder.name} href={funder.href} className="rounded" title={funder.caption}>
+                    {logo}
+                  </Link>
+                ) : <span key={funder.name}>{logo}</span>
+              })}
+            </div>
+            {content.fundingLogos?.filter(funder => funder.caption && funder.href).map(funder => (
+              <p key={funder.name} className="mt-3 text-center text-sm text-muted-foreground">
+                <Link href={funder.href!} className="hover:text-primary-text">{funder.name}: {funder.caption}</Link>
+              </p>
             ))}
           </div>
         ) : null}
