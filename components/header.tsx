@@ -1,9 +1,10 @@
 "use client"
 
 import Link from "next/link"
+import { NavigationDropdown } from "@/components/navigation-dropdown"
 import { responsiveImage } from "@/lib/responsive-images"
-import { useState } from "react"
-import { ChevronDown, Menu, Moon, Sun, X } from "lucide-react"
+import { useRef, useState } from "react"
+import { Menu, Moon, Sun, X } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import type { HeaderContent } from "@/lib/content"
@@ -13,6 +14,7 @@ type HeaderProps = {
 }
 
 export function Header({ content }: HeaderProps) {
+  const mobileTrigger = useRef<HTMLButtonElement>(null)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
   const showAccent = content.brand.includes(content.brandAccent)
@@ -26,8 +28,15 @@ export function Header({ content }: HeaderProps) {
   }
 
   return (
-    <header className="sticky top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+    <>
+    <a href="#main-content" className="skip-link">Skip to content</a>
+    <header onKeyDown={event => {
+      if (event.key === "Escape" && mobileMenuOpen) {
+        setMobileMenuOpen(false)
+        mobileTrigger.current?.focus()
+      }
+    }} className="sticky top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      <nav aria-label="Main navigation" className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <img
@@ -52,11 +61,12 @@ export function Header({ content }: HeaderProps) {
           <Button
             variant="ghost"
             size="icon"
+            ref={mobileTrigger}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-expanded={mobileMenuOpen}
             aria-controls="mobile-navigation"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">{mobileMenuOpen ? "Close main menu" : "Open main menu"}</span>
             {mobileMenuOpen ? (
               <X className="h-6 w-6" />
             ) : (
@@ -67,29 +77,7 @@ export function Header({ content }: HeaderProps) {
         <div className="hidden lg:flex lg:gap-x-8">
           {content.links.map((link) =>
             link.children && link.children.length > 0 ? (
-              <div key={link.name} className="relative group">
-                <Link
-                  href={link.href}
-                  className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-primary-text"
-                  aria-haspopup="true"
-                >
-                  {link.name}
-                  <ChevronDown className="h-4 w-4" />
-                </Link>
-                <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition-all duration-200 absolute left-0 top-full mt-3 min-w-[16rem] rounded-lg border border-border bg-background/95 shadow-lg backdrop-blur">
-                  <div className="py-2">
-                    {link.children.map((child) => (
-                      <Link
-                        key={child.name}
-                        href={child.href}
-                        className="block px-4 py-2 text-sm text-muted-foreground transition-colors hover:text-primary-text hover:bg-accent/60"
-                      >
-                        {child.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
+              <NavigationDropdown key={link.name} link={link} />
             ) : (
               <Link
                 key={link.name}
@@ -118,8 +106,7 @@ export function Header({ content }: HeaderProps) {
       </nav>
 
       {/* Mobile menu */}
-      {mobileMenuOpen && (
-        <div id="mobile-navigation" className="lg:hidden">
+        <div id="mobile-navigation" hidden={!mobileMenuOpen} className="lg:hidden">
           <div className="space-y-1 px-6 pb-4">
             {content.links.map((link) => (
               <div key={link.name}>
@@ -161,7 +148,7 @@ export function Header({ content }: HeaderProps) {
             </Button>
           </div>
         </div>
-      )}
     </header>
+    </>
   )
 }

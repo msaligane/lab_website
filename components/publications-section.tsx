@@ -23,12 +23,12 @@ export function PublicationsSection({ content }: PublicationsSectionProps) {
     <section id="publications" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
-            {data.title}
           </p>
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+            {data.title}
+          </h1>
           <Markdown
             html={html}
             className="mt-4 text-lg text-muted-foreground text-pretty"
@@ -39,7 +39,7 @@ export function PublicationsSection({ content }: PublicationsSectionProps) {
           {years.map((year) => (
             <div key={year} className="space-y-6">
               <div className="flex items-center gap-4">
-                <h3 className="text-2xl font-semibold text-foreground">{year}</h3>
+                <h2 className="text-2xl font-semibold text-foreground">{year}</h2>
                 <div className="h-px flex-1 bg-border" />
               </div>
               <ul className="space-y-6">

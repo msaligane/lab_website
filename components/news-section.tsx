@@ -20,9 +20,9 @@ export function NewsSection({ content }: NewsSectionProps) {
           <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
           </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
             {data.title}
-          </h2>
+          </h1>
           <Markdown
             html={html}
             className="mt-4 text-lg text-muted-foreground text-pretty"
@@ -38,14 +38,14 @@ export function NewsSection({ content }: NewsSectionProps) {
                   {item.category}
                 </span>
               </div>
-              <h3 className="mt-3 text-xl font-semibold text-foreground sm:text-2xl">
+              <h2 className="mt-3 text-xl font-semibold text-foreground sm:text-2xl">
                 <Link
                   href={`/news/${item.slug}`}
                   className="transition-colors hover:text-primary-text"
                 >
                   {item.title}
                 </Link>
-              </h3>
+              </h2>
               <p className="mt-3 text-base text-muted-foreground leading-relaxed">
                 {item.summary}
               </p>

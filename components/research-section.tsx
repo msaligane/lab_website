@@ -14,9 +14,11 @@ const iconMap = { Activity, BrainCircuit, CircuitBoard, Cpu, Database, Dna, Shie
 
 type ResearchSectionProps = {
   content: SectionContent<ResearchContent>
+  pageTitle?: boolean
 }
 
-export function ResearchSection({ content }: ResearchSectionProps) {
+export function ResearchSection({ content, pageTitle = false }: ResearchSectionProps) {
+  const Heading = pageTitle ? "h1" : "h2"
   const { data, html } = content
   const router = useRouter()
   const areas = data.areas.map((area) => ({
@@ -55,12 +57,12 @@ export function ResearchSection({ content }: ResearchSectionProps) {
     <section id="research" className="py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
-            {data.title}
           </p>
+          <Heading className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+            {data.title}
+          </Heading>
           <Markdown
             html={html}
             className="mt-4 text-lg text-muted-foreground text-pretty"

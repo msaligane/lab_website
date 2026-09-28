@@ -22,11 +22,13 @@ export default async function ResearchPage() {
   const content = await getPageContent()
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background">
       <Header content={content.header.data} />
-      <ResearchSection content={content.research} />
-      <TapeoutsSection />
+      <main id="main-content" tabIndex={-1}>
+        <ResearchSection content={content.research} pageTitle />
+        <TapeoutsSection />
+      </main>
       <Footer content={content.footer.data} />
-    </main>
+    </div>
   )
 }

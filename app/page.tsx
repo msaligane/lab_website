@@ -10,13 +10,15 @@ export default async function Home() {
   const content = await getPageContent()
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background">
       <Header content={content.header.data} />
-      <HeroSection content={content.hero} />
-      <InTheNewsSection content={content.news} />
-      <ResearchSection content={content.research} />
-      <TapeoutsSection />
+      <main id="main-content" tabIndex={-1}>
+        <HeroSection content={content.hero} />
+        <InTheNewsSection content={content.news} />
+        <ResearchSection content={content.research} />
+        <TapeoutsSection />
+      </main>
       <Footer content={content.footer.data} />
-    </main>
+    </div>
   )
 }

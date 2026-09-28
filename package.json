@@ -6,6 +6,7 @@
     "build": "next build",
     "images:generate": "node scripts/optimize-images.mjs",
     "check:images": "node scripts/check-images.mjs",
+    "check:accessibility": "node scripts/check-accessibility.mjs",
     "check:news": "node scripts/check-news.mjs",
     "dev": "next dev",
     "lint": "eslint .",

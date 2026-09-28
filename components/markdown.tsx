@@ -6,5 +6,5 @@ type MarkdownProps = {
 }
 
 export function Markdown({ html, className }: MarkdownProps) {
-  return <div className={className} dangerouslySetInnerHTML={{ __html: responsiveMarkdown(html) }} />
+  return <div className={`markdown-content ${className ?? ""}`} dangerouslySetInnerHTML={{ __html: responsiveMarkdown(html) }} />
 }

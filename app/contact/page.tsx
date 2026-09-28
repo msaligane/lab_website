@@ -21,10 +21,12 @@ export default async function ContactPage() {
   const content = await getPageContent()
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background">
       <Header content={content.header.data} />
-      <ContactSection content={content.contact} />
+      <main id="main-content" tabIndex={-1}>
+        <ContactSection content={content.contact} />
+      </main>
       <Footer content={content.footer.data} />
-    </main>
+    </div>
   )
 }

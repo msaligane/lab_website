@@ -21,10 +21,12 @@ export default async function PublicationsPage() {
   const content = await getPageContent()
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background">
       <Header content={content.header.data} />
-      <PublicationsSection content={content.publications} />
+      <main id="main-content" tabIndex={-1}>
+        <PublicationsSection content={content.publications} />
+      </main>
       <Footer content={content.footer.data} />
-    </main>
+    </div>
   )
 }

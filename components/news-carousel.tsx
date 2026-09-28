@@ -28,7 +28,7 @@ export function NewsCarousel({ images, altPrefix = "Event photo" }: NewsCarousel
   }
 
   return (
-    <div className="relative mx-auto mt-10 w-full max-w-2xl overflow-hidden rounded-2xl border border-border bg-white">
+    <div role="region" aria-roledescription="carousel" aria-label={`${altPrefix} gallery`} className="relative mx-auto mt-10 w-full max-w-2xl overflow-hidden rounded-2xl border border-border bg-white">
       <div className="relative aspect-[16/9]">
         {sanitized.map((src, idx) => idx === index ? (
           <img
@@ -45,7 +45,7 @@ export function NewsCarousel({ images, altPrefix = "Event photo" }: NewsCarousel
         <button
           type="button"
           onClick={goPrev}
-          className="rounded-full border border-border bg-white/80 px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition hover:bg-white"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-border bg-background text-sm font-semibold text-foreground shadow-sm hover:bg-secondary"
           aria-label="Previous photo"
         >
           &lt;
@@ -55,23 +55,25 @@ export function NewsCarousel({ images, altPrefix = "Event photo" }: NewsCarousel
         <button
           type="button"
           onClick={goNext}
-          className="rounded-full border border-border bg-white/80 px-3 py-2 text-sm font-semibold text-foreground shadow-sm transition hover:bg-white"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-border bg-background text-sm font-semibold text-foreground shadow-sm hover:bg-secondary"
           aria-label="Next photo"
         >
           &gt;
         </button>
       </div>
-      <div className="flex items-center justify-center gap-2 px-4 py-3">
+      <p className="sr-only" aria-live="polite" aria-atomic="true">Photo {index + 1} of {sanitized.length}</p>
+      <div className="flex flex-wrap items-center justify-center gap-1 bg-background px-4 py-2">
         {sanitized.map((_, idx) => (
           <button
             key={`dot-${idx}`}
             type="button"
             onClick={() => setIndex(idx)}
-            className={`h-2.5 w-2.5 rounded-full transition ${
-              idx === index ? "bg-primary" : "bg-muted"
-            }`}
+            className="flex h-11 w-11 items-center justify-center rounded-full"
+            aria-current={idx === index ? "true" : undefined}
             aria-label={`Go to slide ${idx + 1}`}
-          />
+          >
+            <span aria-hidden="true" className={`h-2.5 w-2.5 rounded-full ${idx === index ? "bg-primary-text" : "border border-foreground bg-background"}`} />
+          </button>
         ))}
       </div>
     </div>

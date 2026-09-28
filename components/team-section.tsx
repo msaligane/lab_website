@@ -43,12 +43,12 @@ export function TeamSection({ content }: TeamSectionProps) {
     <section id="team" className="py-24 bg-secondary/30">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-primary-text">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
             {data.eyebrow}
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
-            {data.title}
           </p>
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl text-balance">
+            {data.title}
+          </h1>
           <Markdown
             html={html}
             className="mt-4 text-lg text-muted-foreground text-pretty"
@@ -129,9 +129,9 @@ export function TeamSection({ content }: TeamSectionProps) {
 
             return (
               <div key={group.title} className="space-y-6">
-                <h3 className="text-lg font-semibold text-foreground text-center">
+                <h2 className="text-lg font-semibold text-foreground text-center">
                   {group.title}
-                </h3>
+                </h2>
                 {isAlumni ? (
                   <div className="space-y-3">
                     {group.members.map((member) => (
