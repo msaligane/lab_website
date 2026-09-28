@@ -55,6 +55,16 @@ export function Footer({ content }: FooterProps) {
                 className="mt-6 w-full max-w-3xl mx-auto object-contain opacity-100"
               />
             ) : null}
+            {content.fundingLogos?.map((funder) => (
+              <Link key={funder.name} href={funder.href}
+                className="mx-auto mt-6 flex w-fit flex-col items-center gap-2 rounded text-sm text-muted-foreground hover:text-primary-text">
+                <span className="rounded bg-[#002b49] px-5 py-3">
+                  <img src={funder.image} alt={funder.name} width={152} height={84}
+                    loading="lazy" decoding="async" className="h-auto w-28" />
+                </span>
+                <span>{funder.caption}</span>
+              </Link>
+            ))}
           </div>
         ) : null}
 
