@@ -1,3 +1,5 @@
+import { responsiveImage } from "@/lib/responsive-images"
+
 export function TapeoutsSection() {
   return (
     <section id="tapeouts" className="py-16">
@@ -9,7 +11,7 @@ export function TapeoutsSection() {
           Our Tapeouts
         </p>
         <img
-          src="/images/research/tapeouts.png"
+          {...responsiveImage("/images/research/tapeouts.png", "(max-width: 960px) calc(100vw - 48px), 896px")}
           alt="Our Tapeouts"
           className="mt-6 w-full max-w-4xl mx-auto object-contain"
         />

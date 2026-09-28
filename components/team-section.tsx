@@ -7,6 +7,7 @@ import { Markdown } from "@/components/markdown"
 import type { SectionContent, TeamContent } from "@/lib/content"
 import { Linkedin, Mail, Minus, Plus } from "lucide-react"
 import Link from "next/link"
+import { responsiveImage } from "@/lib/responsive-images"
 import { useState } from "react"
 
 type TeamSectionProps = {
@@ -57,7 +58,7 @@ export function TeamSection({ content }: TeamSectionProps) {
         <div className="mt-16 grid grid-cols-1 gap-6">
           <div>
             <img
-              src="/images/team/group_photo.png"
+              {...responsiveImage("/images/team/group_photo.png", "(max-width: 1280px) 80vw, 960px")}
               alt="Lab group photo"
               className="w-[80%] mx-auto rounded-xl object-cover"
             />
@@ -67,7 +68,7 @@ export function TeamSection({ content }: TeamSectionProps) {
               <CardHeader className="text-center">
                 <Avatar className="h-24 w-24 mx-auto mb-4">
                   {data.pi.image ? (
-                    <AvatarImage src={data.pi.image} alt={data.pi.name} />
+                    <AvatarImage {...responsiveImage(data.pi.image, "96px", 192)} alt={data.pi.name} />
                   ) : null}
                   <AvatarFallback className="bg-primary/10 text-primary-text text-lg">
                     {data.pi.initials}
@@ -185,7 +186,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                         <CardHeader className="text-center">
                           <Avatar className="h-24 w-24 mx-auto mb-4">
                             {member.image ? (
-                              <AvatarImage src={member.image} alt={member.name} />
+                              <AvatarImage {...responsiveImage(member.image, "96px", 192)} alt={member.name} />
                             ) : null}
                             <AvatarFallback className="bg-primary/10 text-primary-text text-lg">
                               {member.initials}

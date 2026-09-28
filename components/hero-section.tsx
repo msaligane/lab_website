@@ -5,6 +5,7 @@ import { Markdown } from "@/components/markdown"
 import { ArrowRight, Github } from "lucide-react"
 import type { HeroContent, SectionContent } from "@/lib/content"
 import Link from "next/link"
+import { responsiveImage } from "@/lib/responsive-images"
 
 type HeroSectionProps = {
   content: SectionContent<HeroContent>
@@ -32,7 +33,8 @@ export function HeroSection({ content }: HeroSectionProps) {
         {gdsLayers.map((layer) => (
           <img
             key={layer.src}
-            src={layer.src}
+            {...responsiveImage(layer.src, "(max-width: 1800px) 44vw, 768px")}
+            loading="eager"
             alt=""
             className="gds-hero-layer absolute max-w-3xl rounded-3xl border border-border/40 shadow-2xl"
             style={{

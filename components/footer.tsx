@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { responsiveImage } from "@/lib/responsive-images"
 import type { FooterContent } from "@/lib/content"
 import { Github, Linkedin, Mail } from "lucide-react"
 
@@ -21,7 +22,7 @@ export function Footer({ content }: FooterProps) {
           <Link href="/" className="inline-flex items-center gap-3">
             {content.logoPath ? (
               <img
-                src={content.logoPath}
+                {...responsiveImage(content.logoPath, "144px", 192)}
                 alt="ReaLLMASIC Lab logo"
                 className="h-12 w-auto object-contain"
               />
@@ -49,7 +50,7 @@ export function Footer({ content }: FooterProps) {
             </p>
             {content.fundingImage ? (
               <img
-                src={content.fundingImage}
+                {...responsiveImage(content.fundingImage, "(max-width: 816px) calc(100vw - 48px), 768px")}
                 alt="Funding partners"
                 className="mt-6 w-full max-w-3xl mx-auto object-contain opacity-100"
               />

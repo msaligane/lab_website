@@ -3,6 +3,7 @@ import fs from "node:fs/promises"
 import path from "node:path"
 import YAML from "yaml"
 import { marked } from "marked"
+const withoutImages = (html) => html.replace(/<img\b[^>]*>/gi, "")
 
 // Run after a production build: verify what visitors receive, not just filenames.
 const root = process.cwd()
@@ -29,7 +30,10 @@ for (const item of items) {
     : item.summary
   assert(raw.trim(), `Empty article: ${item.slug}`)
   const html = await fs.readFile(path.join(output, "news", `${item.slug}.html`), "utf8")
-  assert(html.includes((await marked.parse(raw)).trim()), `Body not rendered: ${item.slug}`)
+  assert(withoutImages(html).includes(withoutImages(await marked.parse(raw)).trim()), `Body not rendered: ${item.slug}`)
+  for (const match of raw.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)) {
+    assert(html.includes(escapeHtml(match[1])), `Missing article image: ${item.slug}/${match[1]}`)
+  }
   assert(!html.includes("Detailed content will be added here soon."), `Placeholder: ${item.slug}`)
   assert(html.includes(`>${escapeHtml(item.title)}</h1>`), `Wrong heading: ${item.slug}`)
   assert(html.includes('href="/news"'), `Missing return link: ${item.slug}`)
@@ -41,7 +45,9 @@ for (const item of items) {
   if (item.imagesDir) {
     const images = await fs.readdir(path.join(root, "public/images/news", item.imagesDir))
     for (const image of images.filter((name) => /\.(png|jpe?g|webp|gif)$/i.test(name))) {
-      assert(html.includes(escapeHtml(`/images/news/${item.imagesDir}/${image}`)), `Missing gallery image: ${item.slug}/${image}`)
+      // Only the current slide is mounted; the remaining sources travel in the
+      // page's serialized component data and load when the visitor selects them.
+      assert(html.includes(`/images/news/${item.imagesDir}/${image}`), `Missing gallery image: ${item.slug}/${image}`)
     }
   }
 }
