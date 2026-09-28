@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { responsiveImage } from "@/lib/responsive-images"
 import { useState } from "react"
 import { ChevronDown, Menu, Moon, Sun, X } from "lucide-react"
 import { useTheme } from "next-themes"
@@ -30,7 +31,8 @@ export function Header({ content }: HeaderProps) {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <img
-              src="/images/lab_logo.png"
+              {...responsiveImage("/images/lab_logo.png", "120px", 192)}
+              loading="eager"
               alt="ReaLLMASIC Lab logo"
               className="h-10 w-auto"
             />

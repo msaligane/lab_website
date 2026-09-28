@@ -1,0 +1,1237 @@
+{
+  "/images/fundings/fundings.png": {
+    "width": 1993,
+    "height": 135,
+    "originalBytes": 48929,
+    "variants": [
+      {
+        "src": "/optimized/fundings/fundings.png-192.webp",
+        "width": 192,
+        "bytes": 1752
+      },
+      {
+        "src": "/optimized/fundings/fundings.png-480.webp",
+        "width": 480,
+        "bytes": 7008
+      },
+      {
+        "src": "/optimized/fundings/fundings.png-960.webp",
+        "width": 960,
+        "bytes": 14640
+      },
+      {
+        "src": "/optimized/fundings/fundings.png-1993.webp",
+        "width": 1993,
+        "bytes": 36224
+      }
+    ]
+  },
+  "/images/gds/bcc.png": {
+    "width": 914,
+    "height": 952,
+    "originalBytes": 364825,
+    "variants": [
+      {
+        "src": "/optimized/gds/bcc.png-192.webp",
+        "width": 192,
+        "bytes": 8890
+      },
+      {
+        "src": "/optimized/gds/bcc.png-384.webp",
+        "width": 384,
+        "bytes": 26514
+      },
+      {
+        "src": "/optimized/gds/bcc.png-768.webp",
+        "width": 768,
+        "bytes": 81494
+      }
+    ]
+  },
+  "/images/gds/edgellm.png": {
+    "width": 956,
+    "height": 930,
+    "originalBytes": 1409221,
+    "variants": [
+      {
+        "src": "/optimized/gds/edgellm.png-192.webp",
+        "width": 192,
+        "bytes": 9736
+      },
+      {
+        "src": "/optimized/gds/edgellm.png-384.webp",
+        "width": 384,
+        "bytes": 34440
+      },
+      {
+        "src": "/optimized/gds/edgellm.png-768.webp",
+        "width": 768,
+        "bytes": 120594
+      }
+    ]
+  },
+  "/images/gds/probe_attack_detector.png": {
+    "width": 820,
+    "height": 1064,
+    "originalBytes": 768852,
+    "variants": [
+      {
+        "src": "/optimized/gds/probe_attack_detector.png-192.webp",
+        "width": 192,
+        "bytes": 10562
+      },
+      {
+        "src": "/optimized/gds/probe_attack_detector.png-384.webp",
+        "width": 384,
+        "bytes": 32894
+      },
+      {
+        "src": "/optimized/gds/probe_attack_detector.png-768.webp",
+        "width": 768,
+        "bytes": 96666
+      }
+    ]
+  },
+  "/images/gds/sscl2024.png": {
+    "width": 898,
+    "height": 926,
+    "originalBytes": 1694787,
+    "variants": [
+      {
+        "src": "/optimized/gds/sscl2024.png-192.webp",
+        "width": 192,
+        "bytes": 4512
+      },
+      {
+        "src": "/optimized/gds/sscl2024.png-384.webp",
+        "width": 384,
+        "bytes": 45636
+      },
+      {
+        "src": "/optimized/gds/sscl2024.png-768.webp",
+        "width": 768,
+        "bytes": 147904
+      }
+    ]
+  },
+  "/images/gds/sscm2024.png": {
+    "width": 1026,
+    "height": 1060,
+    "originalBytes": 1397852,
+    "variants": [
+      {
+        "src": "/optimized/gds/sscm2024.png-192.webp",
+        "width": 192,
+        "bytes": 6612
+      },
+      {
+        "src": "/optimized/gds/sscm2024.png-384.webp",
+        "width": 384,
+        "bytes": 25284
+      },
+      {
+        "src": "/optimized/gds/sscm2024.png-768.webp",
+        "width": 768,
+        "bytes": 100134
+      }
+    ]
+  },
+  "/images/gds/sscm24.png": {
+    "width": 1018,
+    "height": 1032,
+    "originalBytes": 348054,
+    "variants": [
+      {
+        "src": "/optimized/gds/sscm24.png-192.webp",
+        "width": 192,
+        "bytes": 10502
+      },
+      {
+        "src": "/optimized/gds/sscm24.png-384.webp",
+        "width": 384,
+        "bytes": 30482
+      },
+      {
+        "src": "/optimized/gds/sscm24.png-768.webp",
+        "width": 768,
+        "bytes": 75366
+      }
+    ]
+  },
+  "/images/lab_logo.png": {
+    "width": 257,
+    "height": 75,
+    "originalBytes": 27156,
+    "variants": [
+      {
+        "src": "/optimized/lab_logo.png-192.webp",
+        "width": 192,
+        "bytes": 13376
+      },
+      {
+        "src": "/optimized/lab_logo.png-257.webp",
+        "width": 257,
+        "bytes": 19446
+      }
+    ]
+  },
+  "/images/news/0925_webinar.png": {
+    "width": 560,
+    "height": 560,
+    "originalBytes": 146546,
+    "variants": [
+      {
+        "src": "/optimized/news/0925_webinar.png-192.webp",
+        "width": 192,
+        "bytes": 46466
+      },
+      {
+        "src": "/optimized/news/0925_webinar.png-480.webp",
+        "width": 480,
+        "bytes": 224662
+      },
+      {
+        "src": "/optimized/news/0925_webinar.png-560.webp",
+        "width": 560,
+        "bytes": 118240
+      }
+    ]
+  },
+  "/images/news/dac-2026-cryozip/guanchen_dac.webp": {
+    "width": 1483,
+    "height": 1112,
+    "originalBytes": 174724,
+    "variants": [
+      {
+        "src": "/optimized/news/dac-2026-cryozip/guanchen_dac.webp-192.webp",
+        "width": 192,
+        "bytes": 5436
+      },
+      {
+        "src": "/optimized/news/dac-2026-cryozip/guanchen_dac.webp-480.webp",
+        "width": 480,
+        "bytes": 21618
+      },
+      {
+        "src": "/optimized/news/dac-2026-cryozip/guanchen_dac.webp-960.webp",
+        "width": 960,
+        "bytes": 55752
+      },
+      {
+        "src": "/optimized/news/dac-2026-cryozip/guanchen_dac.webp-1483.webp",
+        "width": 1483,
+        "bytes": 124652
+      }
+    ]
+  },
+  "/images/news/kaist-dl-2026/20260713_Seminar_02.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "originalBytes": 3486429,
+    "variants": [
+      {
+        "src": "/optimized/news/kaist-dl-2026/20260713_Seminar_02.jpg-192.webp",
+        "width": 192,
+        "bytes": 4416
+      },
+      {
+        "src": "/optimized/news/kaist-dl-2026/20260713_Seminar_02.jpg-480.webp",
+        "width": 480,
+        "bytes": 16616
+      },
+      {
+        "src": "/optimized/news/kaist-dl-2026/20260713_Seminar_02.jpg-960.webp",
+        "width": 960,
+        "bytes": 49514
+      },
+      {
+        "src": "/optimized/news/kaist-dl-2026/20260713_Seminar_02.jpg-1600.webp",
+        "width": 1600,
+        "bytes": 119628
+      }
+    ]
+  },
+  "/images/news/kaust-seminar/kaust25_0.webp": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 135298,
+    "variants": [
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_0.webp-192.webp",
+        "width": 192,
+        "bytes": 5136
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_0.webp-480.webp",
+        "width": 480,
+        "bytes": 19416
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_0.webp-960.webp",
+        "width": 960,
+        "bytes": 49040
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_0.webp-1600.webp",
+        "width": 1600,
+        "bytes": 102774
+      }
+    ]
+  },
+  "/images/news/kaust-seminar/kaust25_1.webp": {
+    "width": 1600,
+    "height": 1066,
+    "originalBytes": 90772,
+    "variants": [
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_1.webp-192.webp",
+        "width": 192,
+        "bytes": 4200
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_1.webp-480.webp",
+        "width": 480,
+        "bytes": 14864
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_1.webp-960.webp",
+        "width": 960,
+        "bytes": 34170
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_1.webp-1600.webp",
+        "width": 1600,
+        "bytes": 70764
+      }
+    ]
+  },
+  "/images/news/kaust-seminar/kaust25_2.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 151634,
+    "variants": [
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_2.webp-192.webp",
+        "width": 192,
+        "bytes": 5816
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_2.webp-480.webp",
+        "width": 480,
+        "bytes": 21648
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_2.webp-960.webp",
+        "width": 960,
+        "bytes": 54208
+      },
+      {
+        "src": "/optimized/news/kaust-seminar/kaust25_2.webp-1600.webp",
+        "width": 1600,
+        "bytes": 120072
+      }
+    ]
+  },
+  "/images/news/okada_talk.jpg": {
+    "width": 4080,
+    "height": 3072,
+    "originalBytes": 2439493,
+    "variants": [
+      {
+        "src": "/optimized/news/okada_talk.jpg-192.webp",
+        "width": 192,
+        "bytes": 6392
+      },
+      {
+        "src": "/optimized/news/okada_talk.jpg-480.webp",
+        "width": 480,
+        "bytes": 23494
+      },
+      {
+        "src": "/optimized/news/okada_talk.jpg-960.webp",
+        "width": 960,
+        "bytes": 65024
+      },
+      {
+        "src": "/optimized/news/okada_talk.jpg-1600.webp",
+        "width": 1600,
+        "bytes": 139308
+      }
+    ]
+  },
+  "/images/news/tmrc-2026-ruichen/ruichen_tmrc.png": {
+    "width": 512,
+    "height": 342,
+    "originalBytes": 266133,
+    "variants": [
+      {
+        "src": "/optimized/news/tmrc-2026-ruichen/ruichen_tmrc.png-192.webp",
+        "width": 192,
+        "bytes": 5760
+      },
+      {
+        "src": "/optimized/news/tmrc-2026-ruichen/ruichen_tmrc.png-480.webp",
+        "width": 480,
+        "bytes": 21478
+      },
+      {
+        "src": "/optimized/news/tmrc-2026-ruichen/ruichen_tmrc.png-512.webp",
+        "width": 512,
+        "bytes": 24602
+      }
+    ]
+  },
+  "/images/publications/bcc.png": {
+    "width": 1703,
+    "height": 558,
+    "originalBytes": 415008,
+    "variants": [
+      {
+        "src": "/optimized/publications/bcc.png-192.webp",
+        "width": 192,
+        "bytes": 11106
+      },
+      {
+        "src": "/optimized/publications/bcc.png-480.webp",
+        "width": 480,
+        "bytes": 40978
+      },
+      {
+        "src": "/optimized/publications/bcc.png-960.webp",
+        "width": 960,
+        "bytes": 113468
+      },
+      {
+        "src": "/optimized/publications/bcc.png-1703.webp",
+        "width": 1703,
+        "bytes": 234358
+      }
+    ]
+  },
+  "/images/publications/consmax.png": {
+    "width": 2366,
+    "height": 963,
+    "originalBytes": 195323,
+    "variants": [
+      {
+        "src": "/optimized/publications/consmax.png-192.webp",
+        "width": 192,
+        "bytes": 13522
+      },
+      {
+        "src": "/optimized/publications/consmax.png-480.webp",
+        "width": 480,
+        "bytes": 49904
+      },
+      {
+        "src": "/optimized/publications/consmax.png-960.webp",
+        "width": 960,
+        "bytes": 114456
+      },
+      {
+        "src": "/optimized/publications/consmax.png-2366.webp",
+        "width": 2366,
+        "bytes": 67802
+      }
+    ]
+  },
+  "/images/publications/cryozip.png": {
+    "width": 4813,
+    "height": 2250,
+    "originalBytes": 628692,
+    "variants": [
+      {
+        "src": "/optimized/publications/cryozip.png-192.webp",
+        "width": 192,
+        "bytes": 11844
+      },
+      {
+        "src": "/optimized/publications/cryozip.png-480.webp",
+        "width": 480,
+        "bytes": 41344
+      },
+      {
+        "src": "/optimized/publications/cryozip.png-960.webp",
+        "width": 960,
+        "bytes": 89162
+      },
+      {
+        "src": "/optimized/publications/cryozip.png-4813.webp",
+        "width": 4813,
+        "bytes": 192102
+      }
+    ]
+  },
+  "/images/publications/edgellmasic.png": {
+    "width": 512,
+    "height": 214,
+    "originalBytes": 175520,
+    "variants": [
+      {
+        "src": "/optimized/publications/edgellmasic.png-192.webp",
+        "width": 192,
+        "bytes": 25554
+      },
+      {
+        "src": "/optimized/publications/edgellmasic.png-480.webp",
+        "width": 480,
+        "bytes": 132328
+      },
+      {
+        "src": "/optimized/publications/edgellmasic.png-512.webp",
+        "width": 512,
+        "bytes": 145580
+      }
+    ]
+  },
+  "/images/publications/glayout-mlcad.png": {
+    "width": 903,
+    "height": 691,
+    "originalBytes": 214662,
+    "variants": [
+      {
+        "src": "/optimized/publications/glayout-mlcad.png-192.webp",
+        "width": 192,
+        "bytes": 16666
+      },
+      {
+        "src": "/optimized/publications/glayout-mlcad.png-480.webp",
+        "width": 480,
+        "bytes": 65840
+      },
+      {
+        "src": "/optimized/publications/glayout-mlcad.png-903.webp",
+        "width": 903,
+        "bytes": 130626
+      }
+    ]
+  },
+  "/images/publications/lig_article.png": {
+    "width": 600,
+    "height": 297,
+    "originalBytes": 325319,
+    "variants": [
+      {
+        "src": "/optimized/publications/lig_article.png-192.webp",
+        "width": 192,
+        "bytes": 26108
+      },
+      {
+        "src": "/optimized/publications/lig_article.png-480.webp",
+        "width": 480,
+        "bytes": 183180
+      },
+      {
+        "src": "/optimized/publications/lig_article.png-600.webp",
+        "width": 600,
+        "bytes": 127126
+      }
+    ]
+  },
+  "/images/publications/lig_conf.png": {
+    "width": 820,
+    "height": 805,
+    "originalBytes": 327407,
+    "variants": [
+      {
+        "src": "/optimized/publications/lig_conf.png-192.webp",
+        "width": 192,
+        "bytes": 32248
+      },
+      {
+        "src": "/optimized/publications/lig_conf.png-480.webp",
+        "width": 480,
+        "bytes": 164858
+      },
+      {
+        "src": "/optimized/publications/lig_conf.png-820.webp",
+        "width": 820,
+        "bytes": 112926
+      }
+    ]
+  },
+  "/images/publications/open-se-cura.png": {
+    "width": 1468,
+    "height": 1100,
+    "originalBytes": 2027608,
+    "variants": [
+      {
+        "src": "/optimized/publications/open-se-cura.png-192.webp",
+        "width": 192,
+        "bytes": 48874
+      },
+      {
+        "src": "/optimized/publications/open-se-cura.png-480.webp",
+        "width": 480,
+        "bytes": 253012
+      },
+      {
+        "src": "/optimized/publications/open-se-cura.png-960.webp",
+        "width": 960,
+        "bytes": 796810
+      },
+      {
+        "src": "/optimized/publications/open-se-cura.png-1468.webp",
+        "width": 1468,
+        "bytes": 1479180
+      }
+    ]
+  },
+  "/images/research/ai4circuit/Openfasoc.png": {
+    "width": 1227,
+    "height": 1027,
+    "originalBytes": 1390976,
+    "variants": [
+      {
+        "src": "/optimized/research/ai4circuit/Openfasoc.png-192.webp",
+        "width": 192,
+        "bytes": 46460
+      },
+      {
+        "src": "/optimized/research/ai4circuit/Openfasoc.png-480.webp",
+        "width": 480,
+        "bytes": 240446
+      },
+      {
+        "src": "/optimized/research/ai4circuit/Openfasoc.png-960.webp",
+        "width": 960,
+        "bytes": 800284
+      },
+      {
+        "src": "/optimized/research/ai4circuit/Openfasoc.png-1227.webp",
+        "width": 1227,
+        "bytes": 1208464
+      }
+    ]
+  },
+  "/images/research/ai4circuit/circuitDNA_diagram.png": {
+    "width": 611,
+    "height": 527,
+    "originalBytes": 88011,
+    "variants": [
+      {
+        "src": "/optimized/research/ai4circuit/circuitDNA_diagram.png-192.webp",
+        "width": 192,
+        "bytes": 15112
+      },
+      {
+        "src": "/optimized/research/ai4circuit/circuitDNA_diagram.png-480.webp",
+        "width": 480,
+        "bytes": 42794
+      },
+      {
+        "src": "/optimized/research/ai4circuit/circuitDNA_diagram.png-611.webp",
+        "width": 611,
+        "bytes": 42862
+      }
+    ]
+  },
+  "/images/research/ai4circuit/glayout.png": {
+    "width": 2169,
+    "height": 1036,
+    "originalBytes": 629709,
+    "variants": [
+      {
+        "src": "/optimized/research/ai4circuit/glayout.png-192.webp",
+        "width": 192,
+        "bytes": 10258
+      },
+      {
+        "src": "/optimized/research/ai4circuit/glayout.png-480.webp",
+        "width": 480,
+        "bytes": 44604
+      },
+      {
+        "src": "/optimized/research/ai4circuit/glayout.png-960.webp",
+        "width": 960,
+        "bytes": 132026
+      },
+      {
+        "src": "/optimized/research/ai4circuit/glayout.png-2169.webp",
+        "width": 2169,
+        "bytes": 406336
+      }
+    ]
+  },
+  "/images/research/biosensor/hbc_chip.png": {
+    "width": 943,
+    "height": 687,
+    "originalBytes": 412488,
+    "variants": [
+      {
+        "src": "/optimized/research/biosensor/hbc_chip.png-192.webp",
+        "width": 192,
+        "bytes": 23970
+      },
+      {
+        "src": "/optimized/research/biosensor/hbc_chip.png-480.webp",
+        "width": 480,
+        "bytes": 104632
+      },
+      {
+        "src": "/optimized/research/biosensor/hbc_chip.png-943.webp",
+        "width": 943,
+        "bytes": 255818
+      }
+    ]
+  },
+  "/images/research/biosensor/hbc_intro.png": {
+    "width": 1454,
+    "height": 627,
+    "originalBytes": 420072,
+    "variants": [
+      {
+        "src": "/optimized/research/biosensor/hbc_intro.png-192.webp",
+        "width": 192,
+        "bytes": 14102
+      },
+      {
+        "src": "/optimized/research/biosensor/hbc_intro.png-480.webp",
+        "width": 480,
+        "bytes": 55300
+      },
+      {
+        "src": "/optimized/research/biosensor/hbc_intro.png-960.webp",
+        "width": 960,
+        "bytes": 160614
+      },
+      {
+        "src": "/optimized/research/biosensor/hbc_intro.png-1454.webp",
+        "width": 1454,
+        "bytes": 243532
+      }
+    ]
+  },
+  "/images/research/biosensor/lig1.png": {
+    "width": 1722,
+    "height": 454,
+    "originalBytes": 720109,
+    "variants": [
+      {
+        "src": "/optimized/research/biosensor/lig1.png-192.webp",
+        "width": 192,
+        "bytes": 13144
+      },
+      {
+        "src": "/optimized/research/biosensor/lig1.png-480.webp",
+        "width": 480,
+        "bytes": 61206
+      },
+      {
+        "src": "/optimized/research/biosensor/lig1.png-960.webp",
+        "width": 960,
+        "bytes": 204610
+      },
+      {
+        "src": "/optimized/research/biosensor/lig1.png-1722.webp",
+        "width": 1722,
+        "bytes": 524456
+      }
+    ]
+  },
+  "/images/research/circuit4ai/edgellm_chip.png": {
+    "width": 1175,
+    "height": 501,
+    "originalBytes": 708815,
+    "variants": [
+      {
+        "src": "/optimized/research/circuit4ai/edgellm_chip.png-192.webp",
+        "width": 192,
+        "bytes": 26400
+      },
+      {
+        "src": "/optimized/research/circuit4ai/edgellm_chip.png-480.webp",
+        "width": 480,
+        "bytes": 133480
+      },
+      {
+        "src": "/optimized/research/circuit4ai/edgellm_chip.png-960.webp",
+        "width": 960,
+        "bytes": 413796
+      },
+      {
+        "src": "/optimized/research/circuit4ai/edgellm_chip.png-1175.webp",
+        "width": 1175,
+        "bytes": 534598
+      }
+    ]
+  },
+  "/images/research/circuit4ai/rDXE.png": {
+    "width": 1168,
+    "height": 755,
+    "originalBytes": 313605,
+    "variants": [
+      {
+        "src": "/optimized/research/circuit4ai/rDXE.png-192.webp",
+        "width": 192,
+        "bytes": 19418
+      },
+      {
+        "src": "/optimized/research/circuit4ai/rDXE.png-480.webp",
+        "width": 480,
+        "bytes": 68290
+      },
+      {
+        "src": "/optimized/research/circuit4ai/rDXE.png-960.webp",
+        "width": 960,
+        "bytes": 149256
+      },
+      {
+        "src": "/optimized/research/circuit4ai/rDXE.png-1168.webp",
+        "width": 1168,
+        "bytes": 129630
+      }
+    ]
+  },
+  "/images/research/circuit4ai/sw_hw_coop.png": {
+    "width": 1542,
+    "height": 791,
+    "originalBytes": 436949,
+    "variants": [
+      {
+        "src": "/optimized/research/circuit4ai/sw_hw_coop.png-192.webp",
+        "width": 192,
+        "bytes": 17470
+      },
+      {
+        "src": "/optimized/research/circuit4ai/sw_hw_coop.png-480.webp",
+        "width": 480,
+        "bytes": 72754
+      },
+      {
+        "src": "/optimized/research/circuit4ai/sw_hw_coop.png-960.webp",
+        "width": 960,
+        "bytes": 201804
+      },
+      {
+        "src": "/optimized/research/circuit4ai/sw_hw_coop.png-1542.webp",
+        "width": 1542,
+        "bytes": 295552
+      }
+    ]
+  },
+  "/images/research/dnasyn/dna_probe.png": {
+    "width": 1286,
+    "height": 533,
+    "originalBytes": 337075,
+    "variants": [
+      {
+        "src": "/optimized/research/dnasyn/dna_probe.png-192.webp",
+        "width": 192,
+        "bytes": 19210
+      },
+      {
+        "src": "/optimized/research/dnasyn/dna_probe.png-480.webp",
+        "width": 480,
+        "bytes": 71882
+      },
+      {
+        "src": "/optimized/research/dnasyn/dna_probe.png-960.webp",
+        "width": 960,
+        "bytes": 173042
+      },
+      {
+        "src": "/optimized/research/dnasyn/dna_probe.png-1286.webp",
+        "width": 1286,
+        "bytes": 168590
+      }
+    ]
+  },
+  "/images/research/hwsecurity/open_se_cura.png": {
+    "width": 1815,
+    "height": 680,
+    "originalBytes": 1206132,
+    "variants": [
+      {
+        "src": "/optimized/research/hwsecurity/open_se_cura.png-192.webp",
+        "width": 192,
+        "bytes": 23338
+      },
+      {
+        "src": "/optimized/research/hwsecurity/open_se_cura.png-480.webp",
+        "width": 480,
+        "bytes": 112616
+      },
+      {
+        "src": "/optimized/research/hwsecurity/open_se_cura.png-960.webp",
+        "width": 960,
+        "bytes": 356708
+      },
+      {
+        "src": "/optimized/research/hwsecurity/open_se_cura.png-1815.webp",
+        "width": 1815,
+        "bytes": 887860
+      }
+    ]
+  },
+  "/images/research/quantum/background.png": {
+    "width": 1411,
+    "height": 837,
+    "originalBytes": 236472,
+    "variants": [
+      {
+        "src": "/optimized/research/quantum/background.png-192.webp",
+        "width": 192,
+        "bytes": 17302
+      },
+      {
+        "src": "/optimized/research/quantum/background.png-480.webp",
+        "width": 480,
+        "bytes": 77770
+      },
+      {
+        "src": "/optimized/research/quantum/background.png-960.webp",
+        "width": 960,
+        "bytes": 190204
+      },
+      {
+        "src": "/optimized/research/quantum/background.png-1411.webp",
+        "width": 1411,
+        "bytes": 118030
+      }
+    ]
+  },
+  "/images/research/quantum/pre_decoding.png": {
+    "width": 1272,
+    "height": 666,
+    "originalBytes": 283545,
+    "variants": [
+      {
+        "src": "/optimized/research/quantum/pre_decoding.png-192.webp",
+        "width": 192,
+        "bytes": 21440
+      },
+      {
+        "src": "/optimized/research/quantum/pre_decoding.png-480.webp",
+        "width": 480,
+        "bytes": 91624
+      },
+      {
+        "src": "/optimized/research/quantum/pre_decoding.png-960.webp",
+        "width": 960,
+        "bytes": 230218
+      },
+      {
+        "src": "/optimized/research/quantum/pre_decoding.png-1272.webp",
+        "width": 1272,
+        "bytes": 203676
+      }
+    ]
+  },
+  "/images/research/tapeouts.png": {
+    "width": 1373,
+    "height": 686,
+    "originalBytes": 647408,
+    "variants": [
+      {
+        "src": "/optimized/research/tapeouts.png-192.webp",
+        "width": 192,
+        "bytes": 18002
+      },
+      {
+        "src": "/optimized/research/tapeouts.png-480.webp",
+        "width": 480,
+        "bytes": 81468
+      },
+      {
+        "src": "/optimized/research/tapeouts.png-960.webp",
+        "width": 960,
+        "bytes": 308898
+      },
+      {
+        "src": "/optimized/research/tapeouts.png-1373.webp",
+        "width": 1373,
+        "bytes": 423930
+      }
+    ]
+  },
+  "/images/team/anhang_photo.webp": {
+    "width": 997,
+    "height": 1304,
+    "originalBytes": 834458,
+    "variants": [
+      {
+        "src": "/optimized/team/anhang_photo.webp-192.webp",
+        "width": 192,
+        "bytes": 3820
+      },
+      {
+        "src": "/optimized/team/anhang_photo.webp-480.webp",
+        "width": 480,
+        "bytes": 14748
+      },
+      {
+        "src": "/optimized/team/anhang_photo.webp-960.webp",
+        "width": 960,
+        "bytes": 40720
+      },
+      {
+        "src": "/optimized/team/anhang_photo.webp-997.webp",
+        "width": 997,
+        "bytes": 49152
+      }
+    ]
+  },
+  "/images/team/atharv_photo.png": {
+    "width": 512,
+    "height": 535,
+    "originalBytes": 406517,
+    "variants": [
+      {
+        "src": "/optimized/team/atharv_photo.png-192.webp",
+        "width": 192,
+        "bytes": 7244
+      },
+      {
+        "src": "/optimized/team/atharv_photo.png-480.webp",
+        "width": 480,
+        "bytes": 35308
+      },
+      {
+        "src": "/optimized/team/atharv_photo.png-512.webp",
+        "width": 512,
+        "bytes": 40588
+      }
+    ]
+  },
+  "/images/team/ema_photo.jpg": {
+    "width": 1333,
+    "height": 1879,
+    "originalBytes": 416794,
+    "variants": [
+      {
+        "src": "/optimized/team/ema_photo.jpg-192.webp",
+        "width": 192,
+        "bytes": 14808
+      },
+      {
+        "src": "/optimized/team/ema_photo.jpg-480.webp",
+        "width": 480,
+        "bytes": 78062
+      },
+      {
+        "src": "/optimized/team/ema_photo.jpg-960.webp",
+        "width": 960,
+        "bytes": 205004
+      },
+      {
+        "src": "/optimized/team/ema_photo.jpg-1333.webp",
+        "width": 1333,
+        "bytes": 302424
+      }
+    ]
+  },
+  "/images/team/group_photo.png": {
+    "width": 2972,
+    "height": 1290,
+    "originalBytes": 4330785,
+    "variants": [
+      {
+        "src": "/optimized/team/group_photo.png-192.webp",
+        "width": 192,
+        "bytes": 6098
+      },
+      {
+        "src": "/optimized/team/group_photo.png-480.webp",
+        "width": 480,
+        "bytes": 27682
+      },
+      {
+        "src": "/optimized/team/group_photo.png-960.webp",
+        "width": 960,
+        "bytes": 83850
+      },
+      {
+        "src": "/optimized/team/group_photo.png-1600.webp",
+        "width": 1600,
+        "bytes": 168908
+      }
+    ]
+  },
+  "/images/team/guanchen_photo.webp": {
+    "width": 941,
+    "height": 929,
+    "originalBytes": 508330,
+    "variants": [
+      {
+        "src": "/optimized/team/guanchen_photo.webp-192.webp",
+        "width": 192,
+        "bytes": 5634
+      },
+      {
+        "src": "/optimized/team/guanchen_photo.webp-480.webp",
+        "width": 480,
+        "bytes": 16236
+      },
+      {
+        "src": "/optimized/team/guanchen_photo.webp-941.webp",
+        "width": 941,
+        "bytes": 35772
+      }
+    ]
+  },
+  "/images/team/hongyi_photo.jpg": {
+    "width": 512,
+    "height": 661,
+    "originalBytes": 44383,
+    "variants": [
+      {
+        "src": "/optimized/team/hongyi_photo.jpg-192.webp",
+        "width": 192,
+        "bytes": 4410
+      },
+      {
+        "src": "/optimized/team/hongyi_photo.jpg-480.webp",
+        "width": 480,
+        "bytes": 18046
+      },
+      {
+        "src": "/optimized/team/hongyi_photo.jpg-512.webp",
+        "width": 512,
+        "bytes": 21392
+      }
+    ]
+  },
+  "/images/team/junyi_photo.jpg": {
+    "width": 512,
+    "height": 512,
+    "originalBytes": 29129,
+    "variants": [
+      {
+        "src": "/optimized/team/junyi_photo.jpg-192.webp",
+        "width": 192,
+        "bytes": 3032
+      },
+      {
+        "src": "/optimized/team/junyi_photo.jpg-480.webp",
+        "width": 480,
+        "bytes": 12616
+      },
+      {
+        "src": "/optimized/team/junyi_photo.jpg-512.webp",
+        "width": 512,
+        "bytes": 15028
+      }
+    ]
+  },
+  "/images/team/mehdi_photo.webp": {
+    "width": 265,
+    "height": 265,
+    "originalBytes": 10398,
+    "variants": [
+      {
+        "src": "/optimized/team/mehdi_photo.webp-192.webp",
+        "width": 192,
+        "bytes": 5088
+      },
+      {
+        "src": "/optimized/team/mehdi_photo.webp-265.webp",
+        "width": 265,
+        "bytes": 9658
+      }
+    ]
+  },
+  "/images/team/mingxin_photo.png": {
+    "width": 1290,
+    "height": 1185,
+    "originalBytes": 1574951,
+    "variants": [
+      {
+        "src": "/optimized/team/mingxin_photo.png-192.webp",
+        "width": 192,
+        "bytes": 4366
+      },
+      {
+        "src": "/optimized/team/mingxin_photo.png-480.webp",
+        "width": 480,
+        "bytes": 15694
+      },
+      {
+        "src": "/optimized/team/mingxin_photo.png-960.webp",
+        "width": 960,
+        "bytes": 39734
+      },
+      {
+        "src": "/optimized/team/mingxin_photo.png-1290.webp",
+        "width": 1290,
+        "bytes": 60438
+      }
+    ]
+  },
+  "/images/team/quan_photo.jpg": {
+    "width": 707,
+    "height": 707,
+    "originalBytes": 47907,
+    "variants": [
+      {
+        "src": "/optimized/team/quan_photo.jpg-192.webp",
+        "width": 192,
+        "bytes": 5930
+      },
+      {
+        "src": "/optimized/team/quan_photo.jpg-480.webp",
+        "width": 480,
+        "bytes": 20394
+      },
+      {
+        "src": "/optimized/team/quan_photo.jpg-707.webp",
+        "width": 707,
+        "bytes": 34632
+      }
+    ]
+  },
+  "/images/team/ruichen_photo.jpg": {
+    "width": 981,
+    "height": 981,
+    "originalBytes": 147084,
+    "variants": [
+      {
+        "src": "/optimized/team/ruichen_photo.jpg-192.webp",
+        "width": 192,
+        "bytes": 9308
+      },
+      {
+        "src": "/optimized/team/ruichen_photo.jpg-480.webp",
+        "width": 480,
+        "bytes": 43936
+      },
+      {
+        "src": "/optimized/team/ruichen_photo.jpg-960.webp",
+        "width": 960,
+        "bytes": 146816
+      },
+      {
+        "src": "/optimized/team/ruichen_photo.jpg-981.webp",
+        "width": 981,
+        "bytes": 153502
+      }
+    ]
+  },
+  "/images/team/xinting_photo.png": {
+    "width": 1174,
+    "height": 1310,
+    "originalBytes": 977179,
+    "variants": [
+      {
+        "src": "/optimized/team/xinting_photo.png-192.webp",
+        "width": 192,
+        "bytes": 5340
+      },
+      {
+        "src": "/optimized/team/xinting_photo.png-480.webp",
+        "width": 480,
+        "bytes": 16800
+      },
+      {
+        "src": "/optimized/team/xinting_photo.png-960.webp",
+        "width": 960,
+        "bytes": 38400
+      },
+      {
+        "src": "/optimized/team/xinting_photo.png-1174.webp",
+        "width": 1174,
+        "bytes": 48038
+      }
+    ]
+  }
+}

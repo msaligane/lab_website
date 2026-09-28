@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import { responsiveImage } from "@/lib/responsive-images"
 
 type NewsCarouselProps = {
   images: string[]
@@ -29,16 +30,16 @@ export function NewsCarousel({ images, altPrefix = "Event photo" }: NewsCarousel
   return (
     <div className="relative mx-auto mt-10 w-full max-w-2xl overflow-hidden rounded-2xl border border-border bg-white">
       <div className="relative aspect-[16/9]">
-        {sanitized.map((src, idx) => (
+        {sanitized.map((src, idx) => idx === index ? (
           <img
             key={src}
-            src={src}
+            {...responsiveImage(src, "(max-width: 720px) calc(100vw - 48px), 672px")}
             alt={`${altPrefix} ${idx + 1}`}
             className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-500 ${
               idx === index ? "opacity-100" : "opacity-0"
             }`}
           />
-        ))}
+        ) : null)}
       </div>
       <div className="absolute inset-y-0 left-3 flex items-center">
         <button
