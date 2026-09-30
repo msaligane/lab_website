@@ -41,6 +41,8 @@ export type ResearchDetail = {
 }
 
 export type TeamContent = {
+  groupPhoto?: { image: string; alt: string }
+  gallery?: { title: string; photos: { image: string; alt: string }[] }
   eyebrow: string
   title: string
   description: string

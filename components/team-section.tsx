@@ -56,12 +56,20 @@ export function TeamSection({ content }: TeamSectionProps) {
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-6">
-          <div>
+          <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2">
             <img
-              {...responsiveImage("/images/team/group_photo.png", "(max-width: 1280px) 80vw, 960px")}
-              alt="Lab group photo"
-              className="w-[80%] mx-auto rounded-xl object-cover"
+              {...responsiveImage(data.groupPhoto?.image ?? "/images/team/group_photo.png", "(max-width: 767px) calc(100vw - 48px), (max-width: 1280px) calc(50vw - 44px), 596px")}
+              alt={data.groupPhoto?.alt ?? "Lab group photo"}
+              loading="eager"
+              className="h-auto w-full max-w-5xl mx-auto rounded-xl"
             />
+            {data.groupPhoto ? (
+              <img
+                {...responsiveImage("/images/team/group_photo.png", "(max-width: 767px) calc(100vw - 48px), (max-width: 1280px) calc(50vw - 44px), 596px")}
+                alt="Earlier ReaLLMASIC Lab group photo"
+                className="h-auto w-full mx-auto rounded-xl"
+              />
+            ) : null}
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card className="group transition-all hover:border-primary/50 bg-card">
@@ -240,6 +248,22 @@ export function TeamSection({ content }: TeamSectionProps) {
             )
           })}
         </div>
+        {data.gallery ? (
+          <section aria-labelledby="lab-gallery-title" className="mt-20">
+            <h2 id="lab-gallery-title" className="text-center text-3xl font-bold text-foreground">{data.gallery.title}</h2>
+            <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
+              {data.gallery.photos.map(photo => (
+                <figure key={photo.image}>
+                  <a href={photo.image} target="_blank" rel="noreferrer" className="block rounded-xl">
+                    <img {...responsiveImage(photo.image, "(max-width: 768px) calc(100vw - 48px), (max-width: 1280px) calc(50vw - 48px), 592px")}
+                      alt={photo.alt} className="h-auto w-full rounded-xl" />
+                    <span className="sr-only">Open larger photo (new tab)</span>
+                  </a>
+                </figure>
+              ))}
+            </div>
+          </section>
+        ) : null}
       </div>
     </section>
   )

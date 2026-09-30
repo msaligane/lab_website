@@ -1,5 +1,19 @@
 eyebrow: "Our Team"
 title: "Meet the Researchers"
+groupPhoto:
+  image: "/images/team/lab/group-slides.webp"
+  alt: "ReaLLMASIC Lab team gathered around a workbench in the laboratory"
+gallery:
+  title: "Life in the lab"
+  photos:
+    - image: "/images/team/lab/testing-lab.webp"
+      alt: "Two people working together at a laboratory bench beside a microscope"
+    - image: "/images/team/lab/students-i.webp"
+      alt: "Four people gathered around a microscope and circuit boards at a lab bench"
+    - image: "/images/team/lab/with-students.webp"
+      alt: "Three people reviewing a laptop together in the laboratory"
+    - image: "/images/team/lab/with-students-group.webp"
+      alt: "Four people collaborating at a laptop with circuit boards on the workbench"
 pi:
   name: "Mehdi Saligane"
   role: "Assistant Professor"
