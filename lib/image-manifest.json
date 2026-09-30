@@ -1233,5 +1233,115 @@
         "bytes": 48038
       }
     ]
+  },
+  "/images/team/lab/group-slides.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 157756,
+    "variants": [
+      {
+        "src": "/optimized/team/lab/group-slides-480.webp",
+        "width": 480,
+        "bytes": 25870
+      },
+      {
+        "src": "/optimized/team/lab/group-slides-960.webp",
+        "width": 960,
+        "bytes": 71926
+      },
+      {
+        "src": "/optimized/team/lab/group-slides-1600.webp",
+        "width": 1600,
+        "bytes": 157756
+      }
+    ]
+  },
+  "/images/team/lab/students-i.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 129754,
+    "variants": [
+      {
+        "src": "/optimized/team/lab/students-i-480.webp",
+        "width": 480,
+        "bytes": 24562
+      },
+      {
+        "src": "/optimized/team/lab/students-i-960.webp",
+        "width": 960,
+        "bytes": 62670
+      },
+      {
+        "src": "/optimized/team/lab/students-i-1600.webp",
+        "width": 1600,
+        "bytes": 129754
+      }
+    ]
+  },
+  "/images/team/lab/testing-lab.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 95156,
+    "variants": [
+      {
+        "src": "/optimized/team/lab/testing-lab-480.webp",
+        "width": 480,
+        "bytes": 19156
+      },
+      {
+        "src": "/optimized/team/lab/testing-lab-960.webp",
+        "width": 960,
+        "bytes": 47214
+      },
+      {
+        "src": "/optimized/team/lab/testing-lab-1600.webp",
+        "width": 1600,
+        "bytes": 95156
+      }
+    ]
+  },
+  "/images/team/lab/with-students-group.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 189638,
+    "variants": [
+      {
+        "src": "/optimized/team/lab/with-students-group-480.webp",
+        "width": 480,
+        "bytes": 28174
+      },
+      {
+        "src": "/optimized/team/lab/with-students-group-960.webp",
+        "width": 960,
+        "bytes": 84668
+      },
+      {
+        "src": "/optimized/team/lab/with-students-group-1600.webp",
+        "width": 1600,
+        "bytes": 189638
+      }
+    ]
+  },
+  "/images/team/lab/with-students.webp": {
+    "width": 1600,
+    "height": 1067,
+    "originalBytes": 155648,
+    "variants": [
+      {
+        "src": "/optimized/team/lab/with-students-480.webp",
+        "width": 480,
+        "bytes": 24366
+      },
+      {
+        "src": "/optimized/team/lab/with-students-960.webp",
+        "width": 960,
+        "bytes": 69326
+      },
+      {
+        "src": "/optimized/team/lab/with-students-1600.webp",
+        "width": 1600,
+        "bytes": 155648
+      }
+    ]
   }
 }
