@@ -1,4 +1,4 @@
-Thank you to CHIPS Alliance for featuring me in its Developer Spotlight series,
+CHIPS Alliance featured Prof. Mehdi Saligane in its Developer Spotlight series,
 highlighting our work to rethink both how chips are designed and who gets to
 design them.
 

@@ -7,6 +7,6 @@ Teams worldwide — from pre-college students through industry professionals —
 - **Track C** — MOSbius learning chips
 - **Track D** — AI / LLM-assisted Circuits
 
-I’m leading Track D (AI/LLM-assisted Circuits) and serving on the program's Tooling and Reference Flow Committee. If you have questions about the chipathon, I’m the primary contact—please get in touch.
+Prof. Mehdi Saligane leads Track D (AI/LLM-assisted Circuits), serves on the program’s Tooling and Reference Flow Committee, and is the primary contact for questions about the Chipathon.
 
 The program is sponsored by the IEEE SSCS with support from the OpenROAD Initiative.

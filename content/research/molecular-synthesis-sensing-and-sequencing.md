@@ -6,6 +6,6 @@ We present a CMOS chip with an integrated microelectrode array (MEA) designed to
 
 ## CMOS-Addressable DNA Random Access Memory
 
-Supported by my 2026 DARPA Young Faculty Award, we are exploring how to combine DNA-based information storage with silicon circuits that control access to that information. Our goal is to move beyond archival storage toward a memory system in which data can be written, retrieved, modified, and erased on demand.
+Supported by Prof. Mehdi Saligane’s 2026 DARPA Young Faculty Award, we are exploring how to combine DNA-based information storage with silicon circuits that control access to that information. Our goal is to move beyond archival storage toward a memory system in which data can be written, retrieved, modified, and erased on demand.
 
 [Read our award announcement](/news/mehdi-saligane-receives-2026-darpa-young-faculty-award) or [learn more from Brown Engineering](https://engineering.brown.edu/news/2026-09-23/mehdi-saligane-darpa-young-faculty-award).

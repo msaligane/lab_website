@@ -10,17 +10,14 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
   const { data } = content
   const recentItems = [...data.items]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 10)
+    .slice(0, 4)
 
   return (
     <section id="in-the-news" className="pt-16 pb-16">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-primary-text">
-            Latest
-          </p>
-          <h2 className="mt-2 text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
-            In the News
+          <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
+            Latest from the Lab
           </h2>
         </div>
 
@@ -48,7 +45,7 @@ export function InTheNewsSection({ content }: InTheNewsSectionProps) {
             href="/news"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary-text hover:text-primary-text-hover"
           >
-            See all news
+            All news
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>

@@ -1,8 +1,6 @@
-Happy to share that our paper, **"SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference,"** was presented at the 52nd IEEE European Solid-State Electronics Research Conference ([ESSERC 2026](https://www.esserc2026.org/)) in Palma de Mallorca, Spain.
+The lab’s paper, **"SIMFONY: Multiplexed Single-Inductor Multi-Function 1.2 µW Standby Health Monitoring Node with HBC, SIMO, PPG, and Inference,"** was presented at the 52nd IEEE European Solid-State Electronics Research Conference ([ESSERC 2026](https://www.esserc2026.org/)) in Palma de Mallorca, Spain.
 
 The paper was presented on September 9 in the **IC Systems for Biosensing** session.
-
-Thank you to all my coauthors for their contributions.
 
 **Authors:** Anhang Li, Junyi Luo, Ruichen Qi, Hongyi Wu, Dennis Sylvester, and Mehdi Saligane.
 
