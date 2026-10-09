@@ -52,8 +52,11 @@ export function HeroSection({ content }: HeroSectionProps) {
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl text-balance">
           <span className="text-primary-text">{data.titleHighlight}</span> {data.titleLineOne}
-          <br />
-          {data.titleLineTwo}
+          {data.titleLineTwo && (
+            <span className="mt-5 block text-2xl font-semibold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
+              {data.titleLineTwo}
+            </span>
+          )}
         </h1>
 
         <Markdown
@@ -75,12 +78,12 @@ export function HeroSection({ content }: HeroSectionProps) {
         <div className="mt-4 flex items-center justify-center">
           <Button
             size="lg"
-            className="gap-2 bg-[#24292f] text-white hover:bg-[#1f2328]"
+            className="h-auto min-h-10 max-w-full gap-2 whitespace-normal bg-[#24292f] py-2 text-white hover:bg-[#1f2328]"
             asChild
           >
             <Link href="https://github.com/ReaLLMASIC" target="_blank" rel="noreferrer">
               <Github className="h-4 w-4" />
-              Check Our Group Repo
+              Explore Our Open-Source Tools
             </Link>
           </Button>
         </div>
