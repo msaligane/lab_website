@@ -56,7 +56,12 @@ const markdownFiles = (await fs.readdir(path.join(root, "content/news"))).filter
 for (const file of markdownFiles) {
   assert(mappedBodies.has(file), `Unmapped news article: ${file}`)
 }
-for (const item of [...items].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 10)) {
-  assert(home.includes(`href="/news/${item.slug}"`), `Missing homepage link: ${item.slug}`)
-}
+const homeNews = home.match(/<section\b[^>]*id="in-the-news"[^>]*>([\s\S]*?)<\/section>/)?.[1]
+assert(homeNews, "Missing homepage news section")
+assert(homeNews.includes("Latest from the Lab"), "Missing homepage news heading")
+assert(homeNews.includes('href="/news"'), "Missing full news archive link")
+const homeNewsLinks = [...homeNews.matchAll(/href="(\/news\/[^"#?]+)"/g)].map(match => match[1])
+const latestNewsLinks = [...items].sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 4).map(item => `/news/${item.slug}`)
+assert.deepEqual(homeNewsLinks, latestNewsLinks, "Homepage must show exactly the four latest news items in order")
 console.log(`Verified ${items.length} news pages: ${mappedBodies.size} articles, ${items.filter((item) => !item.body).length} short announcements; bodies, links, galleries, homepage, sitemap, and no orphan articles.`)
