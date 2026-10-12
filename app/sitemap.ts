@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getNewsSlugs, getResearchSlugs } from '@/lib/content'
 import { siteUrl } from '@/app/layout'
+import { publishedTapeouts } from '@/content/tapeouts'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [newsSlugs, researchSlugs] = await Promise.all([
@@ -18,6 +19,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   return [
+    ...publishedTapeouts.map((project) => ({
+      url: `${siteUrl}/tapeouts/${project.id}`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    })),
     ...staticRoutes.map(({ path, priority }) => ({
       url: `${siteUrl}${path}`,
       changeFrequency: 'monthly' as const,

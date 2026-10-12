@@ -16,7 +16,7 @@ export default async function Home() {
         <HeroSection content={content.hero} />
         <InTheNewsSection content={content.news} />
         <ResearchSection content={content.research} />
-        <TapeoutsSection />
+        <TapeoutsSection featured />
       </main>
       <Footer content={content.footer.data} />
     </div>
