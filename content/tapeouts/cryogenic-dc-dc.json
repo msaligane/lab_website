@@ -1,0 +1,42 @@
+{
+  "category": "Power management",
+  "title": "Automatically generated cryogenic DC–DC converter",
+  "tagline": "Automatically generated cryogenic power delivery.",
+  "description": "A fully integrated, automatically generated DC–DC converter maintaining more than 75% efficiency from 398 K down to 23 K across wide load ranges.",
+  "featured": true,
+  "authors": [
+    {
+      "credit": "First author",
+      "name": "Anhang Li"
+    }
+  ],
+  "publications": [
+    {
+      "title": "A Fully Integrated, Automatically Generated DC–DC Converter Maintaining >75% Efficiency From 398 K Down to 23 K Across Wide Load Ranges in 12-nm FinFET",
+      "venue": "IEEE Solid-State Circuits Letters (SSCL)",
+      "year": 2024,
+      "authors": "Anhang Li",
+      "credit": "First author",
+      "href": "https://doi.org/10.1109/LSSC.2023.3349129"
+    }
+  ],
+  "resources": [
+    {
+      "label": "OpenFASoC code",
+      "href": "https://github.com/idea-fasoc/OpenFASOC"
+    },
+    {
+      "label": "Research overview",
+      "href": "/research/quantum-and-cryogenic-circuits"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/sscl2024.png",
+      "node": "12nm FinFET",
+      "date": "2021-10",
+      "bitmap": 12,
+      "figure": 12
+    }
+  ]
+}

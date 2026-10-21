@@ -1,0 +1,17 @@
+{
+  "page": false,
+  "category": "Unlabeled design",
+  "title": "Unlabeled 12/16nm design 1",
+  "tagline": "No documented project record yet.",
+  "description": "",
+  "authors": [],
+  "publications": [],
+  "resources": [],
+  "chips": [
+    {
+      "image": "/images/gds/raw/bitmap-02.png",
+      "node": "12/16nm",
+      "date": "2023-06"
+    }
+  ]
+}

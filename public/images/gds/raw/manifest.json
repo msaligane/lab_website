@@ -1,0 +1,519 @@
+{
+  "source": "public/images/research/tapeouts.svg",
+  "extracted": 27,
+  "records": [
+    {
+      "index": 1,
+      "file": "bitmap-01.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "611.0",
+        "height": "193.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.1)"
+      },
+      "pixel": {
+        "width": 611,
+        "height": 193,
+        "format": "png"
+      },
+      "bytes": 199584,
+      "sha256": "81aa539885e6e75c4980cd57338b44067d72d2825ec9652f33211012eb96d795"
+    },
+    {
+      "index": 2,
+      "file": "bitmap-02.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "463.0",
+        "height": "472.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.7)"
+      },
+      "pixel": {
+        "width": 463,
+        "height": 472,
+        "format": "png"
+      },
+      "bytes": 216536,
+      "sha256": "5e2002d7fb23157d188398e6ee13146de9c7d7b44ef54031f1e0d7dbd004cb02"
+    },
+    {
+      "index": 3,
+      "file": "bitmap-03.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "499.0",
+        "height": "611.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.9)"
+      },
+      "pixel": {
+        "width": 499,
+        "height": 611,
+        "format": "png"
+      },
+      "bytes": 701505,
+      "sha256": "c11078d0bcbf0dd210bbd9e38ada57bd0b28ee014afb1ef3356f3271d71cab9f"
+    },
+    {
+      "index": 4,
+      "file": "bitmap-04.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "828.0",
+        "height": "831.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.11)"
+      },
+      "pixel": {
+        "width": 828,
+        "height": 831,
+        "format": "png"
+      },
+      "bytes": 99902,
+      "sha256": "b158f01fa464588adc75603d349635879f65eaa4213e5e87f730e4366f6ea530"
+    },
+    {
+      "index": 5,
+      "file": "bitmap-05.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1457.0",
+        "height": "2048.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.13)"
+      },
+      "pixel": {
+        "width": 1457,
+        "height": 2048,
+        "format": "png"
+      },
+      "bytes": 3369572,
+      "sha256": "e80a6aef707ed02d583b1af14737b22bf700e0c997974c61de0b8fa9a1b3631e"
+    },
+    {
+      "index": 6,
+      "file": "bitmap-06.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1543.0",
+        "height": "1707.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.15)"
+      },
+      "pixel": {
+        "width": 1543,
+        "height": 1707,
+        "format": "png"
+      },
+      "bytes": 624740,
+      "sha256": "85dd2f2a0e5e4a652ce2cd7da17667c5b58786ffe8a4e4031798dc1ce8c451bc"
+    },
+    {
+      "index": 7,
+      "file": "bitmap-07.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1298.0",
+        "height": "1478.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.17)"
+      },
+      "pixel": {
+        "width": 1298,
+        "height": 1478,
+        "format": "png"
+      },
+      "bytes": 424351,
+      "sha256": "b191241e232bd15abbc88bf4e033e0e2d89d65bc88739d4b6041457b8b9e810e"
+    },
+    {
+      "index": 8,
+      "file": "bitmap-08.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "312.0",
+        "height": "453.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.19)"
+      },
+      "pixel": {
+        "width": 312,
+        "height": 453,
+        "format": "png"
+      },
+      "bytes": 218828,
+      "sha256": "e670a9bb4ecb5c57cebe2c3c9b2440c964614c23bfe9d91341f91aa3c56aa462"
+    },
+    {
+      "index": 9,
+      "file": "bitmap-09.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "641.0",
+        "height": "881.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.21)"
+      },
+      "pixel": {
+        "width": 641,
+        "height": 881,
+        "format": "png"
+      },
+      "bytes": 94645,
+      "sha256": "1c65b8c016d90907a2d1ba644cab51000f998ef10a45ba013c7f7af1979442a7"
+    },
+    {
+      "index": 10,
+      "file": "bitmap-10.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "971.0",
+        "height": "1149.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.23)"
+      },
+      "pixel": {
+        "width": 971,
+        "height": 1149,
+        "format": "png"
+      },
+      "bytes": 447442,
+      "sha256": "31106ba201054101f73ffd0d7d5890aaab1ebb4dbc3d852371c7997259fc7f4e"
+    },
+    {
+      "index": 11,
+      "file": "bitmap-11.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "742.0",
+        "height": "873.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.25)"
+      },
+      "pixel": {
+        "width": 742,
+        "height": 873,
+        "format": "png"
+      },
+      "bytes": 35475,
+      "sha256": "d19277a3e7fec953d3c444a38daf56764ae7462ea38afdf3b5ec6ed3ab2d8520"
+    },
+    {
+      "index": 12,
+      "file": "bitmap-12.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "782.0",
+        "height": "433.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.27)"
+      },
+      "pixel": {
+        "width": 782,
+        "height": 433,
+        "format": "png"
+      },
+      "bytes": 862068,
+      "sha256": "c4eafe9c2cfa179cbf440a000c87b13ead4c65d883ffa9116d16967acd08f6e6"
+    },
+    {
+      "index": 13,
+      "file": "bitmap-13.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "629.0",
+        "height": "652.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.29)"
+      },
+      "pixel": {
+        "width": 629,
+        "height": 652,
+        "format": "png"
+      },
+      "bytes": 55914,
+      "sha256": "30a27e361c4f89941a616236d424d176619b677610e3b23de522981679aac30f"
+    },
+    {
+      "index": 14,
+      "file": "bitmap-14.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "437.0",
+        "height": "461.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.31)"
+      },
+      "pixel": {
+        "width": 437,
+        "height": 461,
+        "format": "png"
+      },
+      "bytes": 80707,
+      "sha256": "429d0fe10201833dd23cb96b5b91c9c01ea347135799c2a3b49cb7b5594d6775"
+    },
+    {
+      "index": 15,
+      "file": "bitmap-15.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "780.0",
+        "height": "792.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.33)"
+      },
+      "pixel": {
+        "width": 780,
+        "height": 792,
+        "format": "png"
+      },
+      "bytes": 549387,
+      "sha256": "7ed9ba77c583ed769a890a872b41d338c3c6e507b8ee7c11f8959c3ab4d62a45"
+    },
+    {
+      "index": 16,
+      "file": "bitmap-16.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "672.0",
+        "height": "680.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.35)"
+      },
+      "pixel": {
+        "width": 672,
+        "height": 680,
+        "format": "png"
+      },
+      "bytes": 71801,
+      "sha256": "51e2a0ff422060af1a161dd43f6ebbeb684272f52cc08b6e9fa79682c60f82c4"
+    },
+    {
+      "index": 17,
+      "file": "bitmap-17.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1921.0",
+        "height": "1256.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.40)"
+      },
+      "pixel": {
+        "width": 1921,
+        "height": 1256,
+        "format": "png"
+      },
+      "bytes": 284522,
+      "sha256": "d628c9aaafd48ac5e1c4387dc9b789c5598443b5b73ef015d739b3520c8a928a"
+    },
+    {
+      "index": 18,
+      "file": "bitmap-18.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1921.0",
+        "height": "1256.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.42)"
+      },
+      "pixel": {
+        "width": 1921,
+        "height": 1256,
+        "format": "png"
+      },
+      "bytes": 436393,
+      "sha256": "8dc97c094deb0567455900b8909d5b33dc1f7dc4e799373b5d8fef86fe1558fc"
+    },
+    {
+      "index": 19,
+      "file": "bitmap-19.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1921.0",
+        "height": "1256.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.44)"
+      },
+      "pixel": {
+        "width": 1921,
+        "height": 1256,
+        "format": "png"
+      },
+      "bytes": 320470,
+      "sha256": "fe84b5ede59e7d70fb585be80e9c0a186be5e8cc9dca8de8debf51e5d65285b3"
+    },
+    {
+      "index": 20,
+      "file": "bitmap-20.jpg",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1535.0",
+        "height": "1078.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.45)"
+      },
+      "pixel": {
+        "width": 1535,
+        "height": 1078,
+        "format": "jpeg"
+      },
+      "bytes": 288763,
+      "sha256": "fa653737eb6c22202a2ea242439427065c30346b42a8653f859655f32b29003f"
+    },
+    {
+      "index": 21,
+      "file": "bitmap-21.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "907.0",
+        "height": "858.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.47)"
+      },
+      "pixel": {
+        "width": 907,
+        "height": 858,
+        "format": "png"
+      },
+      "bytes": 896069,
+      "sha256": "4f6223eb8d0eac49baa288145613ee409cfe4a3eba4a72aa2d7403ca2ef917e3"
+    },
+    {
+      "index": 22,
+      "file": "bitmap-22.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1162.0",
+        "height": "513.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.49)"
+      },
+      "pixel": {
+        "width": 1162,
+        "height": 513,
+        "format": "png"
+      },
+      "bytes": 1045981,
+      "sha256": "00d0d07e3e591a331ce0314031526bc4f57033c0ac352ce2a6c01e28e530f749"
+    },
+    {
+      "index": 23,
+      "file": "bitmap-23.jpg",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "2048.0",
+        "height": "1536.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.52)"
+      },
+      "pixel": {
+        "width": 2048,
+        "height": 1536,
+        "format": "jpeg"
+      },
+      "bytes": 477476,
+      "sha256": "f44fdda0f2f10473ac181f5586f2339c4e7cd4ff10ab00432328eb2560f16aa5"
+    },
+    {
+      "index": 24,
+      "file": "bitmap-24.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1122.0",
+        "height": "1418.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.54)"
+      },
+      "pixel": {
+        "width": 1122,
+        "height": 1418,
+        "format": "png"
+      },
+      "bytes": 392067,
+      "sha256": "3ac628762835efc4c44bc99e4694f6e195ed1825a034a49f7af20b0c38c0c5b7"
+    },
+    {
+      "index": 25,
+      "file": "bitmap-25.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "717.0",
+        "height": "930.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.59)"
+      },
+      "pixel": {
+        "width": 717,
+        "height": 930,
+        "format": "png"
+      },
+      "bytes": 77919,
+      "sha256": "001db900f0b970f4ec861da3aeeb5c2456668deef639a6ac96e789c7cc706a2b"
+    },
+    {
+      "index": 26,
+      "file": "bitmap-26.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "1172.0",
+        "height": "1270.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.60)"
+      },
+      "pixel": {
+        "width": 1172,
+        "height": 1270,
+        "format": "png"
+      },
+      "bytes": 1393955,
+      "sha256": "7e8478a4f654cc04680fcc1164d5a2be7c17eabc994be74f1522422ccb00fcd2"
+    },
+    {
+      "index": 27,
+      "file": "bitmap-27.png",
+      "declared": {
+        "x": "0.0",
+        "y": "0.0",
+        "width": "860.0",
+        "height": "898.0",
+        "preserveAspectRatio": "none",
+        "clipPath": "url(#g3ca88da29fb_0_151.62)"
+      },
+      "pixel": {
+        "width": 860,
+        "height": 898,
+        "format": "png"
+      },
+      "bytes": 27992,
+      "sha256": "c7c200b6da1367d0065b5345e9ed68ca89ef11d59a8adb2f66453795877dc3ad"
+    }
+  ]
+}

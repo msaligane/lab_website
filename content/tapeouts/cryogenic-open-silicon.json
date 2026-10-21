@@ -1,0 +1,80 @@
+{
+  "category": "Quantum & cryogenic circuits",
+  "title": "Open-source silicon at cryogenic temperatures",
+  "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+  "description": "Open-source silicon test structures support device characterization and modeling at cryogenic temperatures, including measurements at 4 K.",
+  "cover": "/images/gds/cryogenic-open-silicon.png",
+  "authors": [
+    {
+      "credit": "First author",
+      "name": "Akin Akturk"
+    },
+    {
+      "credit": "First author",
+      "name": "Anhang Li"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Cryogenic Modeling for Open-Source Process Design Kit Technology",
+      "venue": "IEEE BiCMOS and Compound Semiconductor Integrated Circuits and Technology Symposium (BCICTS)",
+      "year": 2023,
+      "authors": "Akin Akturk",
+      "credit": "First author",
+      "href": "https://doi.org/10.1109/BCICTS54660.2023.10310944",
+      "related": true
+    },
+    {
+      "title": "Unlocking Circuits for Quantum With Open Source Silicon: A First Look at Measured Open Source Silicon Results at 4 K",
+      "venue": "IEEE Solid-State Circuits Magazine (SSCM)",
+      "year": 2024,
+      "authors": "Anhang Li",
+      "credit": "First author",
+      "href": "https://doi.org/10.1109/MSSC.2024.3385734",
+      "related": true
+    }
+  ],
+  "resources": [
+    {
+      "label": "Research overview",
+      "href": "/research/quantum-and-cryogenic-circuits"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/raw/bitmap-03.png",
+      "node": "180/130nm",
+      "date": "2022-03",
+      "bitmap": 3,
+      "figure": 3
+    },
+    {
+      "image": "/images/gds/raw/bitmap-05.png",
+      "node": "180/130nm",
+      "date": "2022-05",
+      "bitmap": 5,
+      "figure": 5
+    },
+    {
+      "image": "/images/gds/raw/bitmap-06.png",
+      "node": "180/130nm",
+      "date": "2022-07",
+      "bitmap": 6,
+      "figure": 6
+    },
+    {
+      "image": "/images/gds/raw/bitmap-07.png",
+      "node": "180/130nm",
+      "date": "2022-09",
+      "bitmap": 7,
+      "figure": 7
+    },
+    {
+      "image": "/images/gds/raw/bitmap-10.png",
+      "node": "180/130nm",
+      "date": "2022-11",
+      "bitmap": 10,
+      "figure": 10
+    }
+  ]
+}

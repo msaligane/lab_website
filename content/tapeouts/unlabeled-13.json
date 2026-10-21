@@ -1,0 +1,17 @@
+{
+  "page": false,
+  "category": "Unlabeled design",
+  "title": "Unlabeled 180/130nm design 3",
+  "tagline": "No documented project record yet.",
+  "description": "",
+  "authors": [],
+  "publications": [],
+  "resources": [],
+  "chips": [
+    {
+      "image": "/images/gds/raw/bitmap-13.png",
+      "node": "180/130nm",
+      "date": "2023-06"
+    }
+  ]
+}

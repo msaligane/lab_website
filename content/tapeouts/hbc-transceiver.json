@@ -1,0 +1,52 @@
+{
+  "category": "Biomedical sensing",
+  "title": "Human-body communication transceiver",
+  "tagline": "Connecting wearable sensors through the body.",
+  "description": "A pulse-position-modulated resonance transceiver for multi-source body-area sensor networks, supporting 15 Mb/s communication through the human body.",
+  "featured": true,
+  "authors": [
+    {
+      "credit": "First author",
+      "name": "Anhang Li"
+    }
+  ],
+  "publications": [
+    {
+      "title": "A 16nm 2.2pJ/b High Efficiency Pulse-Position Modulated Resonance Transceiver for 15Mbps Multi-Source High-Speed Body-Area Sensor Network",
+      "venue": "IEEE Custom Integrated Circuits Conference (CICC)",
+      "year": 2026,
+      "authors": "Anhang Li",
+      "credit": "First author",
+      "href": "/images/publications/papers/BCC-CICC-2026.pdf"
+    }
+  ],
+  "resources": [
+    {
+      "label": "Presentation slides (PDF)",
+      "href": "/images/publications/papers/BCC-slides.pdf"
+    },
+    {
+      "label": "Research overview",
+      "href": "/research/biomedical-sensing"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/bcc.png",
+      "node": "16nm",
+      "date": "2024-04",
+      "figure": 16
+    },
+    {
+      "image": "/images/gds/hbc-65gp.png",
+      "node": "65nm GP",
+      "date": "2025-06",
+      "figure": 22
+    },
+    {
+      "image": "/images/gds/hbc_3.png",
+      "node": "65nm LP",
+      "date": "2026-04"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "category": "Hardware security",
+  "title": "Open Se Cura",
+  "tagline": "An auditable, open-source hardware root of trust.",
+  "description": "An auditable and transparent hardware root-of-trust system built on OpenTitan, using open electronic design automation. The publication reports first silicon results.",
+  "authors": [
+    {
+      "credit": "First author",
+      "name": "Guanchen Tao"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Open Se Cura: First Silicon Results of an Auditable and Transparent Hardware Root-of-Trust System Using Open Electronic Design Automation in 16 nm",
+      "venue": "IEEE Solid-State Circuits Magazine (SSCM)",
+      "year": 2024,
+      "authors": "Guanchen Tao",
+      "credit": "First author",
+      "href": "https://doi.org/10.1109/MSSC.2024.3382071"
+    }
+  ],
+  "resources": [
+    {
+      "label": "Research overview",
+      "href": "/research/hardware-security"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/sscm2024.png",
+      "node": "16nm",
+      "date": "2023-08",
+      "bitmap": 15,
+      "figure": 15
+    }
+  ]
+}

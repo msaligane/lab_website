@@ -1,0 +1,39 @@
+{
+  "category": "Quantum & cryogenic circuits",
+  "title": "Cryogenic quantum error correction",
+  "tagline": "Cryogenic circuitry for quantum error correction.",
+  "description": "Cryogenic circuitry for quantum error correction. The related CryoZip work studies syndrome compression in 22 nm FDSOI characterized at 4 K; its reported power, performance, and area results are analysis results, not measurements of this chip.",
+  "authors": [
+    {
+      "credit": "First author",
+      "name": "Guanchen Tao"
+    }
+  ],
+  "publications": [
+    {
+      "title": "CryoZip: An Efficient Cryogenic Compressor for Quantum Error Correction Syndromes",
+      "venue": "ACM/IEEE Design Automation Conference (DAC)",
+      "year": 2026,
+      "authors": "Guanchen Tao",
+      "credit": "First author",
+      "href": "https://arxiv.org/abs/2606.30805",
+      "related": true
+    }
+  ],
+  "resources": [
+    {
+      "label": "Research overview",
+      "href": "/research/quantum-and-cryogenic-circuits"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/cryogenic-error-correction.png",
+      "node": "22nm FDSOI",
+      "date": "2025-11",
+      "bitmap": 26,
+      "part": "left",
+      "figure": 26
+    }
+  ]
+}
