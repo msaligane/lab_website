@@ -1207,6 +1207,28 @@
       }
     ]
   },
+  "/images/team/shine_photo.webp": {
+    "width": 855,
+    "height": 1270,
+    "originalBytes": 56004,
+    "variants": [
+      {
+        "src": "/optimized/team/shine_photo.webp-192.webp",
+        "width": 192,
+        "bytes": 6632
+      },
+      {
+        "src": "/optimized/team/shine_photo.webp-480.webp",
+        "width": 480,
+        "bytes": 21202
+      },
+      {
+        "src": "/optimized/team/shine_photo.webp-855.webp",
+        "width": 855,
+        "bytes": 41984
+      }
+    ]
+  },
   "/images/team/xinting_photo.png": {
     "width": 1174,
     "height": 1310,

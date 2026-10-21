@@ -3,6 +3,17 @@ title: "Updates from the Lab"
 description: >-
   Research, awards, talks, and updates from the ReaLLMASIC Lab.
 items:
+  - slug: "shine-gerkariah-named-obama-chesky-voyager-scholar"
+    body: "shine-gerkariah-named-obama-chesky-voyager-scholar.md"
+    title: "Congratulations to Shine Gerkariah on being named a Voyager Scholar!"
+    date: "Oct 15, 2026"
+    category: "Award"
+    summary: >-
+      Shine Gerkariah, an undergraduate researcher in our lab, received the Obama-Chesky Voyager Scholarship for Public Service. Shine is one of four Brown juniors selected for the 2026–28 cohort.
+    location: "Brown University"
+    link:
+      label: "Read the Brown University announcement"
+      href: "https://www.brown.edu/news/2026-10-15/obama-chesky-voyager-scholars"
   - slug: "seminar-at-the-university-of-rhode-island"
     body: "seminar-at-the-university-of-rhode-island.md"
     title: "A visit to URI to share our research"

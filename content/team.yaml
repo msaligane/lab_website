@@ -104,6 +104,13 @@ groups:
         initials: "ED"
         email: "#"
         linkedin: "#"
+      - name: "Shine Gerkariah"
+        role: "Undergraduate Student"
+        specialty: "Biomedical signal processing and machine learning for multimodal sensor fusion."
+        image: "/images/team/shine_photo.webp"
+        initials: "SG"
+        email: "gerkariah_shine@brown.edu"
+        linkedin: "#"
   - title: "Postdoctoral Researchers"
     members:
       - name: "Quan Cheng"
