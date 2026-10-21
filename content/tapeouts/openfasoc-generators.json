@@ -1,0 +1,61 @@
+{
+  "category": "Automated analog design",
+  "title": "OpenFASoC temperature sensor & digital LDO",
+  "tagline": "Turning circuit specifications into open-source silicon.",
+  "description": "Open-source generators turn circuit specifications into physical designs. The temperature-sensor study explores 64 fabricated instances in SkyWater 130 nm; the LDO work extends autonomous generation to power regulation.",
+  "cover": "/images/gds/openfasoc-generators.png",
+  "authors": [
+    {
+      "credit": "Equal-contribution authors",
+      "name": "Qirui Zhang & Wenbo Duan"
+    },
+    {
+      "credit": "First author",
+      "name": "Yaswanth Kumar Cherivirala"
+    }
+  ],
+  "publications": [
+    {
+      "title": "An Open-Source and Autonomous Temperature Sensor Generator Verified With 64 Instances in SkyWater 130 nm for Comprehensive Design Space Exploration",
+      "venue": "IEEE Solid-State Circuits Letters (SSCL)",
+      "year": 2022,
+      "authors": "Qirui Zhang & Wenbo Duan",
+      "credit": "Equal-contribution authors",
+      "href": "https://doi.org/10.1109/LSSC.2022.3188925"
+    },
+    {
+      "title": "An Open Source Compatible Framework to Fully Autonomous Digital LDO Generation",
+      "venue": "IEEE International Symposium on Circuits and Systems (ISCAS)",
+      "year": 2023,
+      "authors": "Yaswanth Kumar Cherivirala",
+      "credit": "First author",
+      "href": "https://doi.org/10.1109/ISCAS46773.2023.10181884"
+    }
+  ],
+  "resources": [
+    {
+      "label": "OpenFASoC code",
+      "href": "https://github.com/idea-fasoc/OpenFASOC"
+    },
+    {
+      "label": "Research overview",
+      "href": "/research/ai-powered-eda-and-circuit-exploration"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/raw/bitmap-08.png",
+      "node": "130nm",
+      "date": "2021-04",
+      "bitmap": 8,
+      "figure": 8
+    },
+    {
+      "image": "/images/gds/raw/bitmap-09.png",
+      "node": "130nm",
+      "date": "2021-08",
+      "bitmap": 9,
+      "figure": 9
+    }
+  ]
+}

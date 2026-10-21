@@ -1,13 +1,14 @@
 import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
-import { featuredTapeoutIds, publishedTapeouts, tapeoutPresentation } from "@/content/tapeouts"
-import { TapeoutImage } from "@/components/tapeout-image"
+import { ChipGallery } from "@/components/chip-gallery"
+import { TimelineFigure } from "@/components/timeline-figure"
 import { responsiveImage } from "@/lib/responsive-images"
+import { chipLabel, getPublishedTapeouts, getTimelineLayout } from "@/lib/tapeouts"
 
-export function TapeoutsSection({ featured = false }: { featured?: boolean }) {
-  const projects = featured
-    ? featuredTapeoutIds.map((id) => publishedTapeouts.find((project) => project.id === id)!)
-    : publishedTapeouts
+export async function TapeoutsSection({ featured = false }: { featured?: boolean }) {
+  const entries = await getPublishedTapeouts()
+  const projects = featured ? entries.filter((project) => project.featured) : entries
+  const timeline = await getTimelineLayout()
 
   return (
     <section id="tapeouts" aria-labelledby="tapeouts-heading" className="scroll-mt-28 py-16">
@@ -27,21 +28,36 @@ export function TapeoutsSection({ featured = false }: { featured?: boolean }) {
           {projects.map((project) => {
             const publication = [...project.publications].sort((a, b) => b.year - a.year)[0]
             const venue = publication.venue.match(/\(([^()]+)\)$/)?.[1] ?? publication.venue
+            const slides = project.chips.map((chip) => ({
+              src: chip.image,
+              label: chipLabel(chip),
+              alt: `${project.title} — ${chipLabel(chip)} chip layout`,
+            }))
             return (
-              <article key={project.id} className="min-w-0">
+              <article key={project.slug} className="min-w-0">
                 <Link
-                  href={`/tapeouts/${project.id}`}
-                  aria-labelledby={`chip-title-${project.id}`}
+                  href={`/tapeouts/${project.slug}`}
+                  aria-labelledby={`chip-title-${project.slug}`}
                   className="group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-background transition-colors hover:border-primary-text motion-reduce:transition-none"
                 >
                   <div className="relative flex h-56 items-center justify-center bg-secondary/50 px-6 pt-5 pb-12">
-                    <TapeoutImage project={project} />
-                    <span className="absolute bottom-4 left-5 text-xs text-muted-foreground">{project.process}</span>
+                    {slides.length > 1 ? (
+                      <ChipGallery compact slides={slides} />
+                    ) : (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        {...responsiveImage(project.cover, "152px", 192)}
+                        alt={`${project.title} chip layout`}
+                        className="mx-auto h-full max-w-full object-contain"
+                        style={{ maxHeight: 152 }}
+                      />
+                    )}
+                    <span className="absolute bottom-4 left-5 text-xs text-muted-foreground">{slides.length > 1 ? `${slides.length} chips` : chipLabel(project.chips[0])}</span>
                   </div>
                   <div className="flex flex-1 flex-col p-5 pb-2">
-                    <p className="text-xs font-medium text-primary-text">{project.area}</p>
-                    <h3 id={`chip-title-${project.id}`} className="mt-2 text-xl font-semibold leading-snug tracking-tight text-balance">{project.name}</h3>
-                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{tapeoutPresentation[project.id].purpose}</p>
+                    <p className="text-xs font-medium text-primary-text">{project.category}</p>
+                    <h3 id={`chip-title-${project.slug}`} className="mt-2 text-xl font-semibold leading-snug tracking-tight text-balance">{project.title}</h3>
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{project.tagline}</p>
                     <div className="mt-auto pt-6">
                       <p className="flex flex-wrap justify-between gap-x-3 gap-y-1 border-t border-border pt-3 text-sm">
                         <span className="font-medium">{venue} {publication.year}</span>
@@ -58,17 +74,17 @@ export function TapeoutsSection({ featured = false }: { featured?: boolean }) {
           })}
         </div>
 
-        {!featured && <details className="mt-10 rounded-xl border border-border">
-          <summary className="cursor-pointer px-5 py-4 text-sm font-medium">View the original tapeout timeline</summary>
-          <figure className="border-t border-border p-4">
-            {/* Pre-generated WebP sources retain the original scientific figure. */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img {...responsiveImage("/images/research/tapeouts.png", "(max-width: 1152px) calc(100vw - 80px), 1056px")} alt="Full lab tapeout timeline from 2021 to 2026, organized by technology node." className="h-auto w-full rounded bg-white" />
-            <figcaption className="mt-3 text-xs leading-relaxed text-muted-foreground">
-              The original figure includes additional designs whose detailed records are being confirmed. Timeline positions and publication years are distinct. <a href="/images/research/tapeouts.png" className="underline underline-offset-4">Open full-resolution timeline</a>.
-            </figcaption>
-          </figure>
-        </details>}
+        {!featured && (
+          <div className="mt-12 border-t border-border pt-8">
+            <h2 id="timeline-heading" className="text-2xl font-semibold">Timeline of tape outs</h2>
+            <div className="mt-6">
+              <TimelineFigure
+                layout={timeline}
+                alt="Lab tapeout timeline from 2021 to 2026: rows are technology nodes, horizontal position is the tapeout date."
+              />
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )

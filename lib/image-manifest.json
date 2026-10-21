@@ -48,6 +48,50 @@
       }
     ]
   },
+  "/images/gds/cryogenic-error-correction.png": {
+    "width": 1044,
+    "height": 478,
+    "originalBytes": 617203,
+    "variants": [
+      {
+        "src": "/optimized/gds/cryogenic-error-correction.png-192.webp",
+        "width": 192,
+        "bytes": 4716
+      },
+      {
+        "src": "/optimized/gds/cryogenic-error-correction.png-384.webp",
+        "width": 384,
+        "bytes": 18692
+      },
+      {
+        "src": "/optimized/gds/cryogenic-error-correction.png-768.webp",
+        "width": 768,
+        "bytes": 89756
+      }
+    ]
+  },
+  "/images/gds/cryogenic-open-silicon.png": {
+    "width": 1200,
+    "height": 632,
+    "originalBytes": 1224658,
+    "variants": [
+      {
+        "src": "/optimized/gds/cryogenic-open-silicon.png-192.webp",
+        "width": 192,
+        "bytes": 4036
+      },
+      {
+        "src": "/optimized/gds/cryogenic-open-silicon.png-384.webp",
+        "width": 384,
+        "bytes": 14722
+      },
+      {
+        "src": "/optimized/gds/cryogenic-open-silicon.png-768.webp",
+        "width": 768,
+        "bytes": 55442
+      }
+    ]
+  },
   "/images/gds/edgellm.png": {
     "width": 956,
     "height": 930,
@@ -70,6 +114,72 @@
       }
     ]
   },
+  "/images/gds/hbc-65gp.png": {
+    "width": 785,
+    "height": 413,
+    "originalBytes": 763591,
+    "variants": [
+      {
+        "src": "/optimized/gds/hbc-65gp.png-192.webp",
+        "width": 192,
+        "bytes": 4060
+      },
+      {
+        "src": "/optimized/gds/hbc-65gp.png-384.webp",
+        "width": 384,
+        "bytes": 13790
+      },
+      {
+        "src": "/optimized/gds/hbc-65gp.png-768.webp",
+        "width": 768,
+        "bytes": 36434
+      }
+    ]
+  },
+  "/images/gds/hbc_3.png": {
+    "width": 1020,
+    "height": 958,
+    "originalBytes": 268091,
+    "variants": [
+      {
+        "src": "/optimized/gds/hbc_3.png-192.webp",
+        "width": 192,
+        "bytes": 10936
+      },
+      {
+        "src": "/optimized/gds/hbc_3.png-384.webp",
+        "width": 384,
+        "bytes": 39370
+      },
+      {
+        "src": "/optimized/gds/hbc_3.png-768.webp",
+        "width": 768,
+        "bytes": 126762
+      }
+    ]
+  },
+  "/images/gds/openfasoc-generators.png": {
+    "width": 741,
+    "height": 507,
+    "originalBytes": 475070,
+    "variants": [
+      {
+        "src": "/optimized/gds/openfasoc-generators.png-192.webp",
+        "width": 192,
+        "bytes": 4928
+      },
+      {
+        "src": "/optimized/gds/openfasoc-generators.png-384.webp",
+        "width": 384,
+        "bytes": 18470
+      },
+      {
+        "src": "/optimized/gds/openfasoc-generators.png-741.webp",
+        "width": 741,
+        "bytes": 66834
+      }
+    ]
+  },
   "/images/gds/probe_attack_detector.png": {
     "width": 820,
     "height": 1064,
@@ -89,6 +199,419 @@
         "src": "/optimized/gds/probe_attack_detector.png-768.webp",
         "width": 768,
         "bytes": 96666
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-02.png": {
+    "width": 463,
+    "height": 472,
+    "originalBytes": 216536,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-02.png-192.webp",
+        "width": 192,
+        "bytes": 7124
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-02.png-384.webp",
+        "width": 384,
+        "bytes": 20478
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-02.png-463.webp",
+        "width": 463,
+        "bytes": 26088
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-03.png": {
+    "width": 499,
+    "height": 611,
+    "originalBytes": 701505,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-03.png-192.webp",
+        "width": 192,
+        "bytes": 6278
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-03.png-384.webp",
+        "width": 384,
+        "bytes": 20090
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-03.png-499.webp",
+        "width": 499,
+        "bytes": 31868
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-04.png": {
+    "width": 828,
+    "height": 831,
+    "originalBytes": 99902,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-04.png-192.webp",
+        "width": 192,
+        "bytes": 4458
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-04.png-384.webp",
+        "width": 384,
+        "bytes": 12478
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-04.png-768.webp",
+        "width": 768,
+        "bytes": 60566
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-05.png": {
+    "width": 1457,
+    "height": 2048,
+    "originalBytes": 3369572,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-05.png-192.webp",
+        "width": 192,
+        "bytes": 14540
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-05.png-384.webp",
+        "width": 384,
+        "bytes": 63138
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-05.png-768.webp",
+        "width": 768,
+        "bytes": 226564
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-06.png": {
+    "width": 1543,
+    "height": 1707,
+    "originalBytes": 624740,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-06.png-192.webp",
+        "width": 192,
+        "bytes": 12460
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-06.png-384.webp",
+        "width": 384,
+        "bytes": 51720
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-06.png-768.webp",
+        "width": 768,
+        "bytes": 234614
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-07.png": {
+    "width": 1298,
+    "height": 1478,
+    "originalBytes": 424351,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-07.png-192.webp",
+        "width": 192,
+        "bytes": 13200
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-07.png-384.webp",
+        "width": 384,
+        "bytes": 49972
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-07.png-768.webp",
+        "width": 768,
+        "bytes": 283162
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-08.png": {
+    "width": 312,
+    "height": 453,
+    "originalBytes": 218828,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-08.png-192.webp",
+        "width": 192,
+        "bytes": 15494
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-08.png-312.webp",
+        "width": 312,
+        "bytes": 43980
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-09.png": {
+    "width": 641,
+    "height": 881,
+    "originalBytes": 94645,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-09.png-192.webp",
+        "width": 192,
+        "bytes": 10260
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-09.png-384.webp",
+        "width": 384,
+        "bytes": 37814
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-09.png-641.webp",
+        "width": 641,
+        "bytes": 100098
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-10.png": {
+    "width": 971,
+    "height": 1149,
+    "originalBytes": 447442,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-10.png-192.webp",
+        "width": 192,
+        "bytes": 16736
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-10.png-384.webp",
+        "width": 384,
+        "bytes": 54832
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-10.png-768.webp",
+        "width": 768,
+        "bytes": 182270
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-11.png": {
+    "width": 742,
+    "height": 873,
+    "originalBytes": 35475,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-11.png-192.webp",
+        "width": 192,
+        "bytes": 2960
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-11.png-384.webp",
+        "width": 384,
+        "bytes": 7048
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-11.png-742.webp",
+        "width": 742,
+        "bytes": 23878
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-13.png": {
+    "width": 629,
+    "height": 652,
+    "originalBytes": 55914,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-13.png-192.webp",
+        "width": 192,
+        "bytes": 8392
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-13.png-384.webp",
+        "width": 384,
+        "bytes": 26968
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-13.png-629.webp",
+        "width": 629,
+        "bytes": 60746
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-14.png": {
+    "width": 437,
+    "height": 461,
+    "originalBytes": 80707,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-14.png-192.webp",
+        "width": 192,
+        "bytes": 5762
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-14.png-384.webp",
+        "width": 384,
+        "bytes": 22332
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-14.png-437.webp",
+        "width": 437,
+        "bytes": 30258
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-18.png": {
+    "width": 1921,
+    "height": 1256,
+    "originalBytes": 436393,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-18.png-192.webp",
+        "width": 192,
+        "bytes": 7566
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-18.png-384.webp",
+        "width": 384,
+        "bytes": 30016
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-18.png-768.webp",
+        "width": 768,
+        "bytes": 99258
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-19.png": {
+    "width": 1921,
+    "height": 1256,
+    "originalBytes": 320470,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-19.png-192.webp",
+        "width": 192,
+        "bytes": 8774
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-19.png-384.webp",
+        "width": 384,
+        "bytes": 27178
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-19.png-768.webp",
+        "width": 768,
+        "bytes": 91976
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-20.jpg": {
+    "width": 1535,
+    "height": 1078,
+    "originalBytes": 288763,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-20.jpg-192.webp",
+        "width": 192,
+        "bytes": 4196
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-20.jpg-384.webp",
+        "width": 384,
+        "bytes": 15128
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-20.jpg-768.webp",
+        "width": 768,
+        "bytes": 52144
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-23.jpg": {
+    "width": 2048,
+    "height": 1536,
+    "originalBytes": 477476,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-23.jpg-192.webp",
+        "width": 192,
+        "bytes": 3988
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-23.jpg-384.webp",
+        "width": 384,
+        "bytes": 16224
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-23.jpg-768.webp",
+        "width": 768,
+        "bytes": 59090
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-24.png": {
+    "width": 1122,
+    "height": 1418,
+    "originalBytes": 392067,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-24.png-192.webp",
+        "width": 192,
+        "bytes": 10016
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-24.png-384.webp",
+        "width": 384,
+        "bytes": 31354
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-24.png-768.webp",
+        "width": 768,
+        "bytes": 103000
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-25.png": {
+    "width": 717,
+    "height": 930,
+    "originalBytes": 77919,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-25.png-192.webp",
+        "width": 192,
+        "bytes": 7522
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-25.png-384.webp",
+        "width": 384,
+        "bytes": 16336
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-25.png-717.webp",
+        "width": 717,
+        "bytes": 34212
+      }
+    ]
+  },
+  "/images/gds/raw/bitmap-27.png": {
+    "width": 860,
+    "height": 898,
+    "originalBytes": 27992,
+    "variants": [
+      {
+        "src": "/optimized/gds/raw/bitmap-27.png-192.webp",
+        "width": 192,
+        "bytes": 3090
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-27.png-384.webp",
+        "width": 384,
+        "bytes": 7516
+      },
+      {
+        "src": "/optimized/gds/raw/bitmap-27.png-768.webp",
+        "width": 768,
+        "bytes": 18688
       }
     ]
   },
@@ -915,33 +1438,6 @@
         "src": "/optimized/research/quantum/pre_decoding.png-1272.webp",
         "width": 1272,
         "bytes": 203676
-      }
-    ]
-  },
-  "/images/research/tapeouts.png": {
-    "width": 1373,
-    "height": 686,
-    "originalBytes": 647408,
-    "variants": [
-      {
-        "src": "/optimized/research/tapeouts.png-192.webp",
-        "width": 192,
-        "bytes": 18002
-      },
-      {
-        "src": "/optimized/research/tapeouts.png-480.webp",
-        "width": 480,
-        "bytes": 81468
-      },
-      {
-        "src": "/optimized/research/tapeouts.png-960.webp",
-        "width": 960,
-        "bytes": 308898
-      },
-      {
-        "src": "/optimized/research/tapeouts.png-1373.webp",
-        "width": 1373,
-        "bytes": 423930
       }
     ]
   },

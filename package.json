@@ -12,7 +12,8 @@
     "check:tapeouts": "node scripts/check-tapeouts.mjs",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "timeline:build": "node scripts/build-timeline.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

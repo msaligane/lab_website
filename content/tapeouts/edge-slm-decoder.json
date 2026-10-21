@@ -1,0 +1,42 @@
+{
+  "category": "Edge AI",
+  "title": "rDXE · Edge language-model accelerator",
+  "tagline": "Efficient language-model decoding at the edge.",
+  "description": "A small-language-model decoder accelerator with scalable ring-based configuration for token-level pipelining. The paper reports measured energy efficiency of 5.26 TOPS/W.",
+  "featured": true,
+  "authors": [
+    {
+      "credit": "Equal-contribution authors",
+      "name": "Guanchen Tao & Junyi Luo"
+    }
+  ],
+  "publications": [
+    {
+      "title": "An 11.16 μJ/token Edge SLM Decoder Accelerator with Scalable Ring-based Configuration for Token-level Pipelining in 16nm FinFET",
+      "venue": "IEEE Custom Integrated Circuits Conference (CICC)",
+      "year": 2026,
+      "authors": "Guanchen Tao & Junyi Luo",
+      "credit": "Equal-contribution authors",
+      "href": "/images/publications/papers/DXE16nm-CICC-2026.pdf"
+    }
+  ],
+  "resources": [
+    {
+      "label": "Presentation slides (PDF)",
+      "href": "/images/publications/papers/DXE16nm-slides.pdf"
+    },
+    {
+      "label": "Research overview",
+      "href": "/research/edge-ai-llm-systems-co-design"
+    }
+  ],
+  "chips": [
+    {
+      "image": "/images/gds/edgellm.png",
+      "node": "16nm FinFET",
+      "date": "2024-07",
+      "bitmap": 21,
+      "figure": 21
+    }
+  ]
+}

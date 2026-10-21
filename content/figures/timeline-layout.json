@@ -1,0 +1,896 @@
+{
+  "viewBox": {
+    "width": 855,
+    "height": 540
+  },
+  "axis": {
+    "y": 505
+  },
+  "lanes": [
+    {
+      "id": "180-130",
+      "labels": [
+        "180 nm",
+        "130 nm"
+      ],
+      "color": "#f8e3c8",
+      "glow": "#f49925",
+      "y": 36,
+      "height": 100
+    },
+    {
+      "id": "65",
+      "labels": [
+        "65 nm"
+      ],
+      "color": "#ece6f5",
+      "glow": "#7825f4",
+      "y": 144,
+      "height": 100
+    },
+    {
+      "id": "22",
+      "labels": [
+        "22 nm",
+        "FDSOI"
+      ],
+      "color": "#e4f0e6",
+      "glow": "#25f447",
+      "y": 252,
+      "height": 100
+    },
+    {
+      "id": "12-16",
+      "labels": [
+        "12 nm",
+        "16 nm"
+      ],
+      "color": "#f2f5e4",
+      "glow": "#cff425",
+      "y": 360,
+      "height": 100
+    }
+  ],
+  "years": [
+    {
+      "year": 2021,
+      "x": 70
+    },
+    {
+      "year": 2022,
+      "x": 213.3
+    },
+    {
+      "year": 2023,
+      "x": 356.7
+    },
+    {
+      "year": 2024,
+      "x": 500
+    },
+    {
+      "year": 2025,
+      "x": 643.7
+    },
+    {
+      "year": 2026,
+      "x": 787.1
+    }
+  ],
+  "chips": [
+    {
+      "slug": "openfasoc-generators",
+      "page": true,
+      "title": "OpenFASoC temperature sensor & digital LDO",
+      "category": "Automated analog design",
+      "tagline": "Turning circuit specifications into open-source silicon.",
+      "entryChips": [
+        {
+          "node": "130nm",
+          "date": "2021-04"
+        },
+        {
+          "node": "130nm",
+          "date": "2021-08"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-08.png-312.webp",
+      "imageWidth": 312,
+      "imageHeight": 453,
+      "crop": {
+        "x": 3,
+        "y": 2,
+        "width": 309,
+        "height": 451
+      },
+      "x": 76.6,
+      "y": 40,
+      "width": 28.8,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-04",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 1",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2023-02"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-04.png-384.webp",
+      "imageWidth": 828,
+      "imageHeight": 831,
+      "crop": {
+        "x": 0,
+        "y": 2,
+        "width": 824,
+        "height": 828
+      },
+      "x": 347.9,
+      "y": 44,
+      "width": 41.8,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-13",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 3",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2023-06"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-13.png-384.webp",
+      "imageWidth": 629,
+      "imageHeight": 652,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 629,
+        "height": 652
+      },
+      "x": 397.7,
+      "y": 44,
+      "width": 40.5,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-19",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 5",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2023-12"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-19.png-384.webp",
+      "imageWidth": 1921,
+      "imageHeight": 1256,
+      "crop": {
+        "x": 2,
+        "y": 2,
+        "width": 1918,
+        "height": 1254
+      },
+      "x": 455.7,
+      "y": 44,
+      "width": 64.2,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-23",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 7",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2024-08"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-23.jpg-384.webp",
+      "imageWidth": 2048,
+      "imageHeight": 1536,
+      "crop": {
+        "x": 61,
+        "y": 0,
+        "width": 1987,
+        "height": 1536
+      },
+      "x": 556.5,
+      "y": 44,
+      "width": 54.3,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "openfasoc-generators",
+      "page": true,
+      "title": "OpenFASoC temperature sensor & digital LDO",
+      "category": "Automated analog design",
+      "tagline": "Turning circuit specifications into open-source silicon.",
+      "entryChips": [
+        {
+          "node": "130nm",
+          "date": "2021-04"
+        },
+        {
+          "node": "130nm",
+          "date": "2021-08"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-09.png-384.webp",
+      "imageWidth": 641,
+      "imageHeight": 881,
+      "crop": {
+        "x": 2,
+        "y": 2,
+        "width": 639,
+        "height": 878
+      },
+      "x": 112.2,
+      "y": 49.9,
+      "width": 30.6,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "cryogenic-open-silicon",
+      "page": true,
+      "title": "Open-source silicon at cryogenic temperatures",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2022-03"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-05"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-07"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-09"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-05.png-384.webp",
+      "imageWidth": 1457,
+      "imageHeight": 2048,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1455,
+        "height": 2047
+      },
+      "x": 220.2,
+      "y": 77.8,
+      "width": 29.9,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "cryogenic-open-silicon",
+      "page": true,
+      "title": "Open-source silicon at cryogenic temperatures",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2022-03"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-05"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-07"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-09"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-07.png-384.webp",
+      "imageWidth": 1298,
+      "imageHeight": 1478,
+      "crop": {
+        "x": 2,
+        "y": 3,
+        "width": 1295,
+        "height": 1475
+      },
+      "x": 257.7,
+      "y": 77.8,
+      "width": 36.9,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "cryogenic-open-silicon",
+      "page": true,
+      "title": "Open-source silicon at cryogenic temperatures",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2022-03"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-05"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-07"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-09"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-03.png-384.webp",
+      "imageWidth": 499,
+      "imageHeight": 611,
+      "crop": {
+        "x": 0,
+        "y": 4,
+        "width": 488,
+        "height": 605
+      },
+      "x": 202.6,
+      "y": 84.8,
+      "width": 33.9,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-11",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 2",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2023-04"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-11.png-384.webp",
+      "imageWidth": 742,
+      "imageHeight": 873,
+      "crop": {
+        "x": 34,
+        "y": 19,
+        "width": 693,
+        "height": 834
+      },
+      "x": 374.6,
+      "y": 86,
+      "width": 34.9,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-18",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 4",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2023-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-18.png-384.webp",
+      "imageWidth": 1921,
+      "imageHeight": 1256,
+      "crop": {
+        "x": 2,
+        "y": 2,
+        "width": 1919,
+        "height": 1253
+      },
+      "x": 443.9,
+      "y": 86,
+      "width": 64.3,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-20",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 6",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2024-03"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-20.jpg-384.webp",
+      "imageWidth": 1535,
+      "imageHeight": 1078,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1535,
+        "height": 1078
+      },
+      "x": 516.2,
+      "y": 86,
+      "width": 59.8,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "unlabeled-25",
+      "page": false,
+      "title": "Unlabeled 180/130nm design 8",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2026-01"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-25.png-384.webp",
+      "imageWidth": 717,
+      "imageHeight": 930,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 717,
+        "height": 930
+      },
+      "x": 770.9,
+      "y": 86,
+      "width": 32.4,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "cryogenic-open-silicon",
+      "page": true,
+      "title": "Open-source silicon at cryogenic temperatures",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2022-03"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-05"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-07"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-09"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-06.png-384.webp",
+      "imageWidth": 1543,
+      "imageHeight": 1707,
+      "crop": {
+        "x": 3,
+        "y": 2,
+        "width": 1539,
+        "height": 1703
+      },
+      "x": 234.5,
+      "y": 90,
+      "width": 38,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "cryogenic-open-silicon",
+      "page": true,
+      "title": "Open-source silicon at cryogenic temperatures",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Characterizing open-source silicon at cryogenic temperatures.",
+      "entryChips": [
+        {
+          "node": "180/130nm",
+          "date": "2022-03"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-05"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-07"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-09"
+        },
+        {
+          "node": "180/130nm",
+          "date": "2022-11"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-10.png-384.webp",
+      "imageWidth": 971,
+      "imageHeight": 1149,
+      "crop": {
+        "x": 2,
+        "y": 2,
+        "width": 969,
+        "height": 1146
+      },
+      "x": 280.5,
+      "y": 90,
+      "width": 35.5,
+      "height": 42,
+      "lane": "180-130"
+    },
+    {
+      "slug": "hbc-transceiver",
+      "page": true,
+      "title": "Human-body communication transceiver",
+      "category": "Biomedical sensing",
+      "tagline": "Connecting wearable sensors through the body.",
+      "entryChips": [
+        {
+          "node": "16nm",
+          "date": "2024-04"
+        },
+        {
+          "node": "65nm GP",
+          "date": "2025-06"
+        },
+        {
+          "node": "65nm LP",
+          "date": "2026-04"
+        }
+      ],
+      "image": "/optimized/gds/hbc-65gp.png-384.webp",
+      "imageWidth": 785,
+      "imageHeight": 413,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 785,
+        "height": 413
+      },
+      "x": 663.1,
+      "y": 152,
+      "width": 79.8,
+      "height": 42,
+      "lane": "65"
+    },
+    {
+      "slug": "hbc-transceiver",
+      "page": true,
+      "title": "Human-body communication transceiver",
+      "category": "Biomedical sensing",
+      "tagline": "Connecting wearable sensors through the body.",
+      "entryChips": [
+        {
+          "node": "16nm",
+          "date": "2024-04"
+        },
+        {
+          "node": "65nm GP",
+          "date": "2025-06"
+        },
+        {
+          "node": "65nm LP",
+          "date": "2026-04"
+        }
+      ],
+      "image": "/optimized/gds/hbc_3.png-384.webp",
+      "imageWidth": 1020,
+      "imageHeight": 958,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1020,
+        "height": 958
+      },
+      "x": 742.9,
+      "y": 152,
+      "width": 44.7,
+      "height": 42,
+      "lane": "65"
+    },
+    {
+      "slug": "cryogenic-error-correction",
+      "page": true,
+      "title": "Cryogenic quantum error correction",
+      "category": "Quantum & cryogenic circuits",
+      "tagline": "Cryogenic circuitry for quantum error correction.",
+      "entryChips": [
+        {
+          "node": "22nm FDSOI",
+          "date": "2025-11"
+        }
+      ],
+      "image": "/optimized/gds/cryogenic-error-correction.png-384.webp",
+      "imageWidth": 1044,
+      "imageHeight": 478,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1044,
+        "height": 478
+      },
+      "x": 717.2,
+      "y": 260,
+      "width": 91.7,
+      "height": 42,
+      "lane": "22"
+    },
+    {
+      "slug": "cryogenic-dc-dc",
+      "page": true,
+      "title": "Automatically generated cryogenic DC–DC converter",
+      "category": "Power management",
+      "tagline": "Automatically generated cryogenic power delivery.",
+      "entryChips": [
+        {
+          "node": "12nm FinFET",
+          "date": "2021-10"
+        }
+      ],
+      "image": "/optimized/gds/sscl2024.png-384.webp",
+      "imageWidth": 898,
+      "imageHeight": 926,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 898,
+        "height": 926
+      },
+      "x": 156.8,
+      "y": 368,
+      "width": 40.7,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "unlabeled-14",
+      "page": false,
+      "title": "Unlabeled 12/16nm design 2",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "12/16nm",
+          "date": "2023-07"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-14.png-384.webp",
+      "imageWidth": 437,
+      "imageHeight": 461,
+      "crop": {
+        "x": 3,
+        "y": 1,
+        "width": 432,
+        "height": 460
+      },
+      "x": 408,
+      "y": 368,
+      "width": 39.4,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "hbc-transceiver",
+      "page": true,
+      "title": "Human-body communication transceiver",
+      "category": "Biomedical sensing",
+      "tagline": "Connecting wearable sensors through the body.",
+      "entryChips": [
+        {
+          "node": "16nm",
+          "date": "2024-04"
+        },
+        {
+          "node": "65nm GP",
+          "date": "2025-06"
+        },
+        {
+          "node": "65nm LP",
+          "date": "2026-04"
+        }
+      ],
+      "image": "/optimized/gds/bcc.png-384.webp",
+      "imageWidth": 914,
+      "imageHeight": 952,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 914,
+        "height": 952
+      },
+      "x": 515.6,
+      "y": 368,
+      "width": 40.3,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "unlabeled-27",
+      "page": false,
+      "title": "Unlabeled 12/16nm design 3",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "12/16nm",
+          "date": "2025-05"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-27.png-384.webp",
+      "imageWidth": 860,
+      "imageHeight": 898,
+      "crop": {
+        "x": 6,
+        "y": 8,
+        "width": 848,
+        "height": 886
+      },
+      "x": 670.7,
+      "y": 368,
+      "width": 40.2,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "unlabeled-02",
+      "page": false,
+      "title": "Unlabeled 12/16nm design 1",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "12/16nm",
+          "date": "2023-06"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-02.png-384.webp",
+      "imageWidth": 463,
+      "imageHeight": 472,
+      "crop": {
+        "x": 4,
+        "y": 6,
+        "width": 450,
+        "height": 462
+      },
+      "x": 395.5,
+      "y": 410,
+      "width": 40.9,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "open-se-cura",
+      "page": true,
+      "title": "Open Se Cura",
+      "category": "Hardware security",
+      "tagline": "An auditable, open-source hardware root of trust.",
+      "entryChips": [
+        {
+          "node": "16nm",
+          "date": "2023-08"
+        }
+      ],
+      "image": "/optimized/gds/sscm2024.png-384.webp",
+      "imageWidth": 1026,
+      "imageHeight": 1060,
+      "crop": {
+        "x": 4,
+        "y": 10,
+        "width": 1014,
+        "height": 1050
+      },
+      "x": 444.4,
+      "y": 410,
+      "width": 40.6,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "edge-slm-decoder",
+      "page": true,
+      "title": "rDXE · Edge language-model accelerator",
+      "category": "Edge AI",
+      "tagline": "Efficient language-model decoding at the edge.",
+      "entryChips": [
+        {
+          "node": "16nm FinFET",
+          "date": "2024-07"
+        }
+      ],
+      "image": "/optimized/gds/edgellm.png-384.webp",
+      "imageWidth": 956,
+      "imageHeight": 930,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 954,
+        "height": 930
+      },
+      "x": 549.9,
+      "y": 410,
+      "width": 43.1,
+      "height": 42,
+      "lane": "12-16"
+    },
+    {
+      "slug": "unlabeled-24",
+      "page": false,
+      "title": "Unlabeled 12/16nm design 4",
+      "category": "Unlabeled design",
+      "tagline": "No documented project record yet.",
+      "entryChips": [
+        {
+          "node": "12/16nm",
+          "date": "2026-01"
+        }
+      ],
+      "image": "/optimized/gds/raw/bitmap-24.png-384.webp",
+      "imageWidth": 1122,
+      "imageHeight": 1418,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 1418
+      },
+      "x": 770.4,
+      "y": 410,
+      "width": 33.2,
+      "height": 42,
+      "lane": "12-16"
+    }
+  ]
+}
