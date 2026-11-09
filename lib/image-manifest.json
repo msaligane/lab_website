@@ -1365,5 +1365,27 @@
         "bytes": 155648
       }
     ]
+  },
+  "/images/team/alex_photo.webp": {
+    "width": 600,
+    "height": 600,
+    "originalBytes": 20594,
+    "variants": [
+      {
+        "src": "/optimized/team/alex_photo.webp-192.webp",
+        "width": 192,
+        "bytes": 3422
+      },
+      {
+        "src": "/optimized/team/alex_photo.webp-480.webp",
+        "width": 480,
+        "bytes": 11650
+      },
+      {
+        "src": "/optimized/team/alex_photo.webp-600.webp",
+        "width": 600,
+        "bytes": 18714
+      }
+    ]
   }
 }
