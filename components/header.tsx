@@ -37,7 +37,7 @@ export function Header({ content }: HeaderProps) {
       }
     }} className="sticky top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav aria-label="Main navigation" className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-        <div className="flex lg:flex-1">
+        <div className="flex xl:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <img
               {...responsiveImage("/images/lab_logo.png", "120px", 192)}
@@ -57,7 +57,7 @@ export function Header({ content }: HeaderProps) {
             </span>
           </Link>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex xl:hidden">
           <Button
             variant="ghost"
             size="icon"
@@ -74,7 +74,7 @@ export function Header({ content }: HeaderProps) {
             )}
           </Button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-8">
+        <div className="hidden xl:flex xl:gap-x-8">
           {content.links.map((link) =>
             link.children && link.children.length > 0 ? (
               <NavigationDropdown key={link.name} link={link} />
@@ -89,7 +89,7 @@ export function Header({ content }: HeaderProps) {
             ),
           )}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden xl:flex xl:flex-1 xl:justify-end">
           <Button
             variant="ghost"
             size="icon"
@@ -106,7 +106,7 @@ export function Header({ content }: HeaderProps) {
       </nav>
 
       {/* Mobile menu */}
-        <div id="mobile-navigation" hidden={!mobileMenuOpen} className="lg:hidden">
+        <div id="mobile-navigation" hidden={!mobileMenuOpen} className="xl:hidden">
           <div className="space-y-1 px-6 pb-4">
             {content.links.map((link) => (
               <div key={link.name}>
