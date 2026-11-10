@@ -74,7 +74,7 @@ export function Header({ content }: HeaderProps) {
             )}
           </Button>
         </div>
-        <div className="hidden xl:flex xl:gap-x-8">
+        <div className="hidden xl:flex xl:items-center xl:gap-x-8">
           {content.links.map((link) =>
             link.children && link.children.length > 0 ? (
               <NavigationDropdown key={link.name} link={link} />
