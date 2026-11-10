@@ -24,6 +24,14 @@ pi:
   linkedin: "https://www.linkedin.com/in/mehdi-saligane/"
   moreInfoUrl: "https://vivo.brown.edu/display/msaligan"
 groups:
+  - title: "Postdoctoral Researchers"
+    members:
+      - name: "Quan Cheng"
+        role: "Postdoctoral Researcher"
+        specialty: "Trustworthy intelligent chip design, AI accelerator, SoCs for space computing, radiation-hardened systems, and CMOS sensor-based architectures"
+        image: "/images/team/quan_photo.jpg"
+        initials: "QC"
+        email: "quan_cheng1@brown.edu"
   - title: "PhD Students"
     members:
       - name: "Anhang Li"
@@ -118,14 +126,6 @@ groups:
         initials: "MA"
         email: "#"
         linkedin: "#"
-  - title: "Postdoctoral Researchers"
-    members:
-      - name: "Quan Cheng"
-        role: "Postdoctoral Researcher"
-        specialty: "Trustworthy intelligent chip design, AI accelerator, SoCs for space computing, radiation-hardened systems, and CMOS sensor-based architectures"
-        image: "/images/team/quan_photo.jpg"
-        initials: "QC"
-        email: "quan_cheng1@brown.edu"
   - title: "Alumni"
     members:
       - name: "Hua Xu"
