@@ -17,9 +17,10 @@ fundingLogos:
   - name: "CHIPS Alliance"
     image: "/images/fundings/fundings.png"
     viewBox: "913 41 178 64"
-  - name: "OpenROAD"
-    image: "/images/fundings/fundings.png"
-    viewBox: "1366 47 172 54"
+  # Official logo: https://openroadinitiative.org/
+  - name: "OpenROAD Initiative"
+    image: "/images/fundings/openroad-initiative.webp"
+    href: "https://openroadinitiative.org/"
   - name: "Google"
     image: "/images/fundings/fundings.png"
     viewBox: "1818 16 120 115"
