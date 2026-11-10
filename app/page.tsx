@@ -1,3 +1,5 @@
+import { RecruitmentAnnouncement } from "@/components/recruitment-announcement"
+import "./recruitment.css"
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { ResearchSection } from "@/components/research-section"
@@ -14,6 +16,7 @@ export default async function Home() {
       <Header content={content.header.data} />
       <main id="main-content" tabIndex={-1}>
         <HeroSection content={content.hero} />
+        <RecruitmentAnnouncement />
         <InTheNewsSection content={content.news} />
         <ResearchSection content={content.research} />
         <TapeoutsSection />

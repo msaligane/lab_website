@@ -19,7 +19,7 @@ export function Footer({ content }: FooterProps) {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="grid grid-cols-1 gap-6 items-start">
-          <Link href="/" className="inline-flex items-center gap-3">
+          <Link href="/" className="inline-flex flex-wrap items-center gap-3">
             {content.logoPath ? (
               <img
                 {...responsiveImage(content.logoPath, "144px", 192)}
