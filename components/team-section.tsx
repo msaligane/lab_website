@@ -55,8 +55,8 @@ export function TeamSection({ content }: TeamSectionProps) {
           />
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-6">
-          <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-2">
+        <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6">
+          <div className="col-span-full grid grid-cols-1 items-center gap-6 md:grid-cols-2">
             <img
               {...responsiveImage(data.groupPhoto?.image ?? "/images/team/group_photo.png", "(max-width: 767px) calc(100vw - 48px), (max-width: 1280px) calc(50vw - 44px), 596px")}
               alt={data.groupPhoto?.alt ?? "Lab group photo"}
@@ -71,7 +71,10 @@ export function TeamSection({ content }: TeamSectionProps) {
               />
             ) : null}
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-rows-[auto_1fr] gap-6 lg:col-span-2 lg:col-start-2">
+            <h2 className="text-lg font-semibold text-foreground text-center">
+              Principal Investigator
+            </h2>
             <Card className="group transition-all hover:border-primary/50 bg-card">
               <CardHeader className="text-center">
                 <Avatar className="h-24 w-24 mx-auto mb-4">
@@ -87,7 +90,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                   {data.pi.role}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="text-center">
+              <CardContent className="mt-auto text-center">
                 {piMoreInfoHref ? (
                   <Link
                     href={piMoreInfoHref}
@@ -134,12 +137,15 @@ export function TeamSection({ content }: TeamSectionProps) {
             }
 
             const isAlumni = group.title.toLowerCase().includes("alumni")
+            const isPostdoc = group.title === "Postdoctoral Researchers"
 
             return (
-              <div key={group.title} className="space-y-6">
-                <h2 className="text-lg font-semibold text-foreground text-center">
-                  {group.title}
-                </h2>
+              <div key={group.title} className={isPostdoc ? "grid grid-rows-[auto_1fr] gap-6 lg:col-span-2" : "col-span-full space-y-6"}>
+                <div>
+                  <h2 className="text-lg font-semibold text-foreground text-center">
+                    {group.title}
+                  </h2>
+                </div>
                 {isAlumni ? (
                   <div className="space-y-3">
                     {group.members.map((member) => (
@@ -181,7 +187,7 @@ export function TeamSection({ content }: TeamSectionProps) {
                     ))}
                   </div>
                 ) : (
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  <div className={isPostdoc ? "grid grid-cols-1 gap-6" : "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"}>
                     {group.members.map((member) => {
                       const emailHref = normalizeEmailLink(member.email)
                       const linkedInHref = normalizeExternalLink(member.linkedin)
