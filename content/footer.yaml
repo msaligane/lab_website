@@ -23,6 +23,10 @@ fundingLogos:
   - name: "Google"
     image: "/images/fundings/fundings.png"
     viewBox: "1818 16 120 115"
+  # Official asset: https://press.aboutamazon.com/logos?p=3
+  - name: "Amazon Web Services (AWS)"
+    image: "/images/fundings/aws-logo.png"
+    href: "https://aws.amazon.com/"
   - name: "DARPA"
     image: "/images/fundings/darpa-logo.svg"
     href: "/news/mehdi-saligane-receives-2026-darpa-young-faculty-award"
