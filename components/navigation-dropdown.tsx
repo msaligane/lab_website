@@ -20,7 +20,7 @@ export function NavigationDropdown({ link }: { link: HeaderContent["links"][numb
   }, [open])
 
   return (
-    <div ref={root} className="relative flex items-center gap-1"
+    <div ref={root} className="relative flex items-center"
       onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false) }}
       onKeyDown={event => {
         if (event.key === "Escape" && open) {
@@ -32,7 +32,7 @@ export function NavigationDropdown({ link }: { link: HeaderContent["links"][numb
       }}>
       <Link href={link.href} className="text-sm font-medium text-muted-foreground hover:text-primary-text">{link.name}</Link>
       <button ref={trigger} type="button" aria-label={`${link.name} topics`} aria-expanded={open} aria-controls={id}
-        onClick={() => setOpen(value => !value)} className="flex h-8 w-8 items-center justify-center rounded text-foreground">
+        onClick={() => setOpen(value => !value)} className="-ml-1 -mr-2 flex h-8 w-8 items-center justify-center rounded text-foreground">
         <ChevronDown aria-hidden="true" className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       <div id={id} hidden={!open} className="absolute left-0 top-full z-50 min-w-[18rem] pt-3">
