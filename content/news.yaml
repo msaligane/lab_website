@@ -3,6 +3,15 @@ title: "Updates from the Lab"
 description: >-
   Research, awards, talks, and updates from the ReaLLMASIC Lab.
 items:
+  - slug: "adamx-accepted-at-hpca-2027"
+    title: "AdaMX accepted at HPCA 2027"
+    date: "Nov 16, 2026"
+    category: "Publication"
+    summary: >-
+      Congratulations to my student Junyi Luo and all coauthors on AdaMX's acceptance at HPCA 2027! AdaMX explores adaptive heterogeneity-aware microscaling for efficient low-bit LLM inference.
+    link:
+      label: "Read the preprint"
+      href: "https://arxiv.org/abs/2608.03867"
   - slug: "shine-gerkariah-named-obama-chesky-voyager-scholar"
     body: "shine-gerkariah-named-obama-chesky-voyager-scholar.md"
     title: "Congratulations to Shine Gerkariah on being named a Voyager Scholar!"
