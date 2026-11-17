@@ -3,6 +3,12 @@ title: "Updates from the Lab"
 description: >-
   Research, awards, talks, and updates from the ReaLLMASIC Lab.
 items:
+  - slug: "qldpc-predecoder-collaboration-accepted-at-hpca-2027"
+    title: "qLDPC predecoder collaboration accepted at HPCA 2027"
+    date: "Nov 16, 2026"
+    category: "Publication"
+    summary: >-
+      Our collaboration with Prof. Gokul Ravi's group at the University of Michigan, "Automated Predecoder Construction for General qLDPC Codes to Reduce QCI Resource Costs," has been accepted at HPCA 2027. Congratulations to all coauthors!
   - slug: "adamx-accepted-at-hpca-2027"
     title: "AdaMX accepted at HPCA 2027"
     date: "Nov 16, 2026"
