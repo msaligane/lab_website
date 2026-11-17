@@ -14,7 +14,7 @@ items:
     date: "Nov 16, 2026"
     category: "Publication"
     summary: >-
-      Congratulations to my student Junyi Luo and all coauthors on AdaMX's acceptance at HPCA 2027! AdaMX explores adaptive heterogeneity-aware microscaling for efficient low-bit LLM inference.
+      Congratulations to my student Junyi Luo on his excellent work on AdaMX, accepted at HPCA 2027, and to all coauthors! AdaMX explores adaptive heterogeneity-aware microscaling for efficient low-bit LLM inference.
     link:
       label: "Read the preprint"
       href: "https://arxiv.org/abs/2608.03867"
