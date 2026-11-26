@@ -29,6 +29,27 @@ items:
     link:
       label: "Read the Brown University announcement"
       href: "https://www.brown.edu/news/2026-10-15/obama-chesky-voyager-scholars"
+  - slug: "bcicts-2026-ai-in-engineering-design-panel"
+    body: "bcicts-2026-ai-in-engineering-design-panel.md"
+    title: "How AI is changing chip design: a panel at BCICTS 2026"
+    date: "Oct 12, 2026"
+    category: "Panel"
+    summary: >-
+      Mehdi Saligane joined the IEEE Women in Engineering and Young Professionals panel, "AI in Engineering Design: Opportunities, Challenges, and the Road Ahead." The panel brought together researchers and engineers from academia, industry, and startups to discuss where AI can help chip designers, what it takes to trust AI tools in practice, and what skills the next generation of engineers will need.
+    location: "IEEE BCICTS 2026, Boston, MA"
+    link:
+      label: "View the conference schedule"
+      href: "https://bcicts.org/schedule-at-a-glance/"
+  - slug: "bcicts-2026-ai-assisted-analog-design-tutorial"
+    title: "A tutorial on AI-assisted analog design at BCICTS 2026"
+    date: "Oct 11, 2026"
+    category: "Tutorial"
+    summary: >-
+      Mehdi Saligane presented "Rethinking Chip Design in the Age of A.I." as part of the BCICTS short course on AI-driven circuit design. The tutorial focused on how AI can assist analog circuit design and how designers can incorporate these tools into their workflows.
+    location: "IEEE BCICTS 2026, Boston, MA"
+    link:
+      label: "View the short course program"
+      href: "https://bcicts.org/short-course/"
   - slug: "seminar-at-the-university-of-rhode-island"
     body: "seminar-at-the-university-of-rhode-island.md"
     title: "A visit to URI to share our research"
