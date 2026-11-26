@@ -3,6 +3,15 @@ title: "Updates from the Lab"
 description: >-
   Research, awards, talks, and updates from the ReaLLMASIC Lab.
 items:
+  - slug: "anhang-li-body-area-transceiver-accepted-at-tbiocas"
+    title: "Anhang Li’s body-area transceiver paper accepted at IEEE TBioCAS"
+    date: "Nov 18, 2026"
+    category: "Publication"
+    summary: >-
+      Congratulations to Anhang Li and his coauthors on the acceptance of their invited article in IEEE Transactions on Biomedical Circuits and Systems! The article extends their CICC 2026 paper on a low-power transceiver that sends data between wearable sensors through the body at 15 Mb/s.
+    link:
+      label: "Explore our human-body communication research"
+      href: "/research/biomedical-sensing#human-body-communication"
   - slug: "qldpc-predecoder-collaboration-accepted-at-hpca-2027"
     title: "qLDPC predecoder collaboration accepted at HPCA 2027"
     date: "Nov 16, 2026"
