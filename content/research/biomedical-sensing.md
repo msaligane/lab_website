@@ -10,6 +10,7 @@ We present the integration of the Laser-Induced-Graphene (LIG) sensors and the A
 <a id="ref-2"></a>
 [2] A. Li et al., "Rapid Prototyping of Laser-Induced Graphene Sensors With Open-Source Silicon: Paving the Way for Low-Cost and Robust Flexible Wearable Sensing," in IEEE Solid-State Circuits Magazine, vol. 16, no. 2, pp. 49-57, Spring 2024, doi: 10.1109/MSSC.2024.3380586.
 
+<a id="human-body-communication"></a>
 ## Human-Body Communication (HBC) [[3]](#ref-3)
 
 HBC systems use the human body as a conductive medium to transmit data between wearable or implantable devices, reducing radiated energy and improving privacy. A typical HBC link includes body-coupled transmitters and receivers that modulate signals through electrodes and measure the resulting potential differences across the body.
@@ -17,6 +18,8 @@ HBC systems use the human body as a conductive medium to transmit data between w
 <img src="/images/research/biosensor/hbc_intro.png" alt="Human-body communication system overview" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
 We developed an inductive-resonance transceiver using pulse-position modulation and taped it out in 16 nm technology. The associated 2026 CICC paper reports 2.2 pJ/b operation for 15 Mb/s multi-source body-area communication.
+
+An invited extension accepted by IEEE Transactions on Biomedical Circuits and Systems analyzes trade-offs between encoding density and timing error and characterizes how quickly the resonance calibration converges. [Read the lab announcement](/news/anhang-li-body-area-transceiver-accepted-at-tbiocas).
 
 <img src="/images/research/biosensor/hbc_chip.png" alt="Die photograph of the 16 nm human-body communication transceiver" style="display:block; margin: 0 auto; width:60%; max-width:720px;" />
 
